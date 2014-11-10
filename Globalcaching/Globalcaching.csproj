@@ -116,6 +116,7 @@
     <Content Include="forum\YafWebService.asmx" />
     <Content Include="Global.asax" />
     <Content Include="GlobalcachingPage.aspx" />
+    <Content Include="Layar\ccc.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -143,6 +144,13 @@
     </Compile>
     <Compile Include="GlobalcachingPage.aspx.designer.cs">
       <DependentUpon>GlobalcachingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Layar\ccc.aspx.cs">
+      <DependentUpon>ccc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layar\ccc.aspx.designer.cs">
+      <DependentUpon>ccc.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Default.aspx.cs">
