@@ -1,66 +1,75 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Globalcaching.forum.Default" %>
 <%@ Register TagPrefix="YAF" Assembly="YAF" Namespace="YAF" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-<link href="/Themes/InvisibleDog1/styles/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-<link href="/Themes/InvisibleDog1/Styles/site.css" rel="stylesheet" type="text/css" />
-<link href="/Themes/InvisibleDog1/Content/Images/Imfuscator.ashx?i=39b24245-e3ea-496d-9e3e-16201c922f90-a7bfb579-7675-47f4-b32d-e25ddff93d12" rel="stylesheet" type="text/css" />
-<link href="/Modules/Globalcaching/Styles/usersonline.css" rel="stylesheet" type="text/css" />
-
-</head>
+<!DOCTYPE html> 
+<html lang="nl-NL" class="static detail-page contents"> 
+<head runat="server"> 
+    <meta charset="utf-8" />
+    <title>Globalcaching - Welkom op globalcaching!</title> 
+    <link href="/Modules/Globalcaching/Styles/usersonline.css" rel="stylesheet" type="text/css" />
+<link href="/Themes/wepro1/styles/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="/Themes/wepro1/Styles/site.css" rel="stylesheet" type="text/css" />
+<link href="/Themes/wepro1/Content/Images/Imfuscator.ashx?i=4101edcc-6de5-4f40-b863-43776f0f2264-a322bb28-eca8-417f-a97f-2be54b66e85e" rel="stylesheet" type="text/css" />
+<link href="/gcicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head> 
 <body>
+
+	<!-- BindTuning head elements-->
+	
 	<script type="text/javascript">
-	    if (typeof jQuery == 'undefined') { document.write('<script type="text/javascript" src="/Themes/InvisibleDog1/js/jquery.min.js"><' + '/script>'); }
+	    if (typeof jQuery == 'undefined') { document.write('<script type="text/javascript" src="/Themes/wepro1/js/jquery.min.js"><' + '/script>'); }
+	    var style_mobile_path = '/Themes/wepro1/styles/css/'; // path for mobile nav css files, ORX-specific
 	</script>
 	<script type="text/javascript">
 	    $('head').append('<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">');
 	</script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="/Themes/InvisibleDog1/js/html5shiv.js"></script>
-      <script src="/Themes/InvisibleDog1/js/respond.min.js"></script>
+      <script src="/Themes/wepro1/js/html5shiv.js"></script>
+      <script src="/Themes/wepro1/js/respond.min.js"></script>
     <![endif]-->
-	<script type="text/javascript" src="/Themes/InvisibleDog1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/Themes/InvisibleDog1/js/BindMENU.js"></script>
-<script type="text/javascript" src="/Themes/InvisibleDog1/js/fix-responsive-WP8.js"></script>
-<script type="text/javascript" src="/Themes/InvisibleDog1/js/populateSelectNav.js"></script>
+	<script type="text/javascript" src="/Themes/wepro1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/Themes/wepro1/js/BindMENU.js"></script>
+<script type="text/javascript" src="/Themes/wepro1/js/fix-responsive-WP8.js"></script>
 
 
 	<!--Apply class to body with browser version-->
 	<script type="text/javascript">
 	    var nVer = navigator.appVersion; var nAgt = navigator.userAgent; var bN = navigator.appName; var fullV = "" + parseFloat(navigator.appVersion); var majorV = parseInt(navigator.appVersion, 10); var nameOffset, verOffset, ix; if ((verOffset = nAgt.indexOf("Opera")) !== -1) { bN = "Opera"; fullV = nAgt.substring(verOffset + 6); if ((verOffset = nAgt.indexOf("Version")) !== -1) { fullV = nAgt.substring(verOffset + 8) } } else { if ((verOffset = nAgt.indexOf("MSIE")) !== -1) { bN = "IE"; fullV = nAgt.substring(verOffset + 5) } else { if ((verOffset = nAgt.indexOf("Chrome")) !== -1) { bN = "Chrome"; fullV = nAgt.substring(verOffset + 7) } else { if ((verOffset = nAgt.indexOf("Safari")) !== -1) { bN = "Safari"; fullV = nAgt.substring(verOffset + 7); if ((verOffset = nAgt.indexOf("Version")) !== -1) { fullV = nAgt.substring(verOffset + 8) } } else { if ((verOffset = nAgt.indexOf("Firefox")) !== -1) { bN = "Firefox"; fullV = nAgt.substring(verOffset + 8) } else { if ((nameOffset = nAgt.lastIndexOf(" ") + 1) < (verOffset = nAgt.lastIndexOf("/"))) { bN = nAgt.substring(nameOffset, verOffset); fullV = nAgt.substring(verOffset + 1); if (bN.toLowerCase() == bN.toUpperCase()) { bN = navigator.appName } } } } } } } if ((ix = fullV.indexOf(";")) !== -1) { fullV = fullV.substring(0, ix) } if ((ix = fullV.indexOf(" ")) !== -1) { fullV = fullV.substring(0, ix) } majorV = parseInt("" + fullV, 10); if (isNaN(majorV)) { fullV = "" + parseFloat(navigator.appVersion); majorV = parseInt(navigator.appVersion, 10) }
-	    document.getElementsByTagName("body")[0].className += " " + bN + " " + bN + majorV + " cmsORX cmsORX1";
+	    document.getElementsByTagName("body")[0].className += " " + bN + " " + bN + majorV + " cmsORX cmsORX1 BT-pk";
 	</script>
-<!--[if lte IE 7]>
-<link rel="stylesheet" href="css/ie7.css" type="text/css"/>
-<![endif]-->
 
 <script type="text/javascript">
     (function ($) {
-        $('head').append('<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700">');
+        $('head').append('<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">');
     })(jQuery);
 </script>
 
-<div id="Wrapper">
+<div class="container">
 	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-5" id="Logo"><h1><a href="/" title="Go to Home">Globalcaching</a></h1>Het geocaching portaal!</div>
+        <div id="Logo"><table><tr><td><img src="/Themes/wepro1/content/images/globalcaching.png" width="48" height="48" /></td><td width="10"></td><td><h1><a href="/" title="Go to Home">Globalcaching</a></h1>Het geocaching portaal!</td><td width="10"><td><a href="http://www.geocaching.com/live/" target="_blank"><img src="/Themes/wepro1/content/images/Geocaching_LIVE_poweredby_48.png" width="48" height="48" /></a>&nbsp;<a href="http://www.geocaching.com/" target="_blank"><img src="/Themes/wepro1/content/images/geocaching.gif" width="48" height="48" /></a></td></tr></table></div>
+		<div class="navbar-collapse collapse-user collapse">
+			<div class="header-aux">
+				<span id="Language"></span>
+				<span id="Login">		<span class="user-actions">
+		</span>
+</span>
+				<span id="User">
+</span>
 			</div>
 		</div>
+		<div class="BannerZone1"></div>
 	</header>
 
-	<section id="ColorHeader">
-		<nav>
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-10">
-						<div id="MenuH"><div class="zone zone-navigation">    <div class="widget-control">
-        <div class="manage-actions"></div>
+	<nav>
+		<button data-target=".collapse-nav" data-toggle="collapse" class="navbar-toggle btn-navbar-menuh" type="button"><i class="fa fa-bars"></i></button>
+		<button data-target=".collapse-search" data-toggle="collapse" class="navbar-toggle" type="button"><i class="fa fa-search"></i></button>
+		<button data-target=".collapse-user" data-toggle="collapse" class="navbar-toggle" type="button"><i class="fa fa-user"></i></button>
+		<div class="clearfix visible-xs visible-sm"></div>
+		<div class="row">
+			<div class="col-sm-9">
+				<div class="navbar-collapse collapse-nav collapse">
+					<div id="MenuH"><div class="zone zone-navigation">    <div class="widget-control">
     
 <article class="widget-navigation widget-menu-widget widget">
 	<div>
@@ -71,7 +80,7 @@
         
 <li class="dropdown first"><a href="/Persoonlijk">Persoonlijk</a>
                 <ul>
-                    
+                   
 <li>
 
     <a href="/GlobalcachingPage.aspx?p=Instellingen">Instellingen</a> 
@@ -104,7 +113,7 @@
 <li class="dropdown"><a href="/Geocaches">Geocaches</a>
                 <ul>
                     
-<li><a href="/GlobalcachingPage.aspx?p=GlobalcachingPage.aspx?p=GeocacheKaart">Kaart</a>
+<li><a href="/GlobalcachingPage.aspx?p=GeocacheKaart">Kaart</a>
 </li>
 <li>
 
@@ -134,18 +143,9 @@
 
     <a href="/GlobalcachingPage.aspx?p=Events">Events</a> 
 </li>
-<li class="dropdown">
-
-    <a href="/Parelgalerij">Parels</a> 
-                <ul>
-                    
-<li>
-
-    <a href="/GlobalcachingPage.aspx?p=Parelgalerij">Nederland</a> 
+<li><a href="/GlobalcachingPage.aspx?p=Parels">Parels</a>
 </li>
-                </ul>
-</li>
-<li class="dropdown"><a href="/Geocaches">Land</a>
+<li class="dropdown"><a href="/GlobalcachingPage.aspx?p=Geocaches">Land</a>
                 <ul>
                     
 <li><a href="/GlobalcachingPage.aspx?p=RecenteCachesLand/141">Nederland</a>
@@ -198,7 +198,7 @@
 </li>
                 </ul>
 </li>
-<li class="dropdown"><a href="/Hulpmiddelen">Hulpmiddelen</a>
+<li class="dropdown"><a href="/GlobalcachingPage.aspx?p=Hulpmiddelen">Hulpmiddelen</a>
                 <ul>
                     
 <li>
@@ -207,7 +207,7 @@
 </li>
 <li>
 
-    <a href="/onlinetools">Online tools</a> 
+    <a href="/GlobalcachingPage.aspx?p=onlinetools">Online tools</a> 
 </li>
 <li>
 
@@ -224,6 +224,10 @@
 
     <a href="/GlobalcachingPage.aspx?p=Gebiedsinformatie">Gebiedsinformatie</a> 
 </li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=financiele-status-en-donaties">Financi&#235;le status</a> 
+</li>
                 </ul>
 </li>
     </ul>
@@ -233,72 +237,101 @@
 
     </div>
 </div></div>
-					</div>
 				</div>
 			</div>
-		</nav>
-		<div id="HomeSlider"></div>
-	</section>
-
-
-
-	<div role="main" id="Main">
-		<div class="container">
-			<div id="ContentArea">
-				<div hidden-xs">
-					<div id="MenuV"><script type="text/javascript">					                    $("#MenuV").html($("#MenuH nav").parent().html());</script></div>
-					
+			<div class="col-sm-3">
+				<div class="navbar-collapse collapse-search collapse">
+					<div id="Search"></div>
 				</div>
-				<div>
-					<div class="row">
-    <div></div>					
-</div>
-<div class="row">
-	</div>
-<div class="row">
+			</div>
+		</div>
+	</nav>
 	
-	
-</div>
-<div class="row">
-	
-	
-</div>
-<div class="row">
-<div class="col-md-12" runat="server" id="Content"><div class="zone zone-content">    <div class="content-control">
-        <div class="manage-actions"></div>
-    
-<article class="page content-item">
+	<div class="bt-slider"></div>
 
-    <form id="form1" runat="server" enctype="multipart/form-data">
-    <YAF:Forum runat="server" ID="forum" BoardID="1">
+
+
+	<div id="Main" role="main">
+		<div class="row">
+            <div id="bt-content" class="col-md-12">
+                <div class="row">
+                    <div></div>
+                </div>
+                <div class="row">
+<div class="col-md-12" runat="server" id="BeforeContent"><div class="zone zone-before-content">    <div class="widget-control">
+    
+<article class="widget-before-content widget-globalcaching-messages-widget widget">
+	<div>
+		
+
+
+	</div>
+</article>
+
+    </div>
+</div></div>                </div>
+                <div class="row">
+                </div>
+                <div class="row">
+
+
+                </div>
+                <div class="row">
+
+
+                </div>
+                <div class="row">
+<div class="col-md-12" runat="server" id="Content"><div class="zone zone-content"> 
+    <div class="widget-control">
+    
+<article class="widget-content widget-featured-item-slider-widget widget">
+	<div>
+		
+
+
+
+    <div id="slideNav"></div>
+
+	</div>
+</article>
+
+    </div>
+    <div class="widget-control">
+    
+<article class="widget-content widget-html-widget widget">
+    <form id="form2" runat="server" enctype="multipart/form-data">
+    <YAF:Forum runat="server" ID="forum1" BoardID="1">
     </YAF:Forum>
     </form>
-
 </article>
+
     </div>
-</div></div></div>
-<div class="row">
-	
-	
-</div>
-<div class="row">
-	</div>
-<div class="row">
-	
-	
-	
-</div>
-<div class="row">
-</div>
-				</div>
-			</div>
-		</div>	
+</div></div>                </div>
+                <div class="row">
+
+
+                </div>
+                <div class="row">
+                                    </div>
+                <div class="row">
+
+
+
+                </div>
+                <div class="row">
+                </div>
+                <div class="row">
+                                                        </div>
+            </div>
+		</div>
 	</div>
 
 
+
+	<div id="Breadcrumb"></div>
 
 	<footer>
-		<div id="FooterWidgets" class="container">
+		<div id="FooterWidgets">
 			<div class="row">
 				<div class="col-md-3"></div>
 				<div class="col-md-3"></div>
@@ -316,48 +349,43 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12"><div id="Footer"><div class="zone zone-footer">    <div class="widget-control">
-        <div class="manage-actions"></div>
     
 <article class="widget-footer widget-users-online-widget widget">
 	<div>
+		<center>
+
 <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+</center>
 	</div>
 </article>
 
     </div>
     <div class="widget-control">
-        <div class="manage-actions"></div>
     
 <article class="widget-footer widget-html-widget widget">
 	<div>
-		<center><small><span style="color: #000000;">Official partner of Groundspeak and Geocaching Cache Icons Copyright 2012, Groundspeak Inc. Used with Permission</span><br /><span style="color: #000000;"> <a href="/forum/Default.aspx?g=register"><span style="color: #000000;">Registreer</span></a> en profiteer van een speciale aanbieding op <a href="http://www.geocachingshop.nl/actions.php" target="_blank"><span style="color: #000000;">geocachingshop.nl</span></a>,&nbsp;<a href="http://www.geocachingunited.nl/geocaching-info/globalcaching-eu.html" target="_blank"><span style="color: #000000;">geocachingunited</span></a> en op <a href="http://www.csillagos-hely.nl/geocaching.html" target="_blank"><span style="color: #000000;">Csillagos Hely</span></a></span></small></center>
+		<center><small><span style="color: #000000;">Official partner of Groundspeak and Geocaching Cache Icons Copyright 2015, Groundspeak Inc. Used with Permission</span><br /><span style="color: #000000;"> <a href="/forum/Default.aspx?g=register"><span style="color: #000000;">Registreer</span></a> en profiteer van een speciale aanbieding op <a href="http://www.geocachingshop.nl/actions.php" target="_blank"><span style="color: #000000;">geocachingshop.nl</span></a>,&nbsp;<a href="http://www.geocachingunited.nl/geocaching-info/globalcaching-eu.html" target="_blank"><span style="color: #000000;">geocachingunited</span></a> en op <a href="http://www.csillagos-hely.nl/geocaching.html" target="_blank"><span style="color: #000000;">Csillagos Hely</span></a></span></small></center>
 	</div>
 </article>
 
     </div>
 </div></div></div>
 			</div>
-			<div class="row" id="FooterCopyright">
-				<div class="col-md-7">
-					<span id="Copyright"><span class="Copyright">&copy; 2014 Globalcaching. All rights reserved.</span></span>
-					<span id="Sitemap"></span>
-					<span id="Privacy"></span>
-					<span id="Terms"></span>
-				</div>
-				<div class="col-md-5">
-					<div class="pull-right"></div>
-				</div>
-			</div>
+		</div><!-- End Footer Widgets-->
+		<div id="FooterCopyright">
+			<span id="Copyright"><span class="Copyright">&copy; 2015 Globalcaching. All rights reserved.</span></span>
+			<span id="Sitemap"></span>
+			<span id="Privacy"></span>
+			<span id="Terms"></span>
+			<span id="Cart"></span>
 		</div>
-</div></footer>
+	</footer>
 </div>
+<div id="BgLayer1"></div>
 
 <script type="text/javascript">
     (function ($) {
         $(document).ready(function () {
-            //Always on bottom footer
-            $('#Main').css('padding-bottom', $('footer').outerHeight(true));
-
             //Tooltips
             $('*[data-toggle=tooltip]').tooltip();
 
@@ -369,16 +397,21 @@
     })(jQuery);
 </script>
 
+<!--[if lte IE 8]>
+	<script type="text/javascript" src="/Themes/wepro1/js/fix-search-ie8.js"></script>
+<![endif]-->
+
 	<script type="text/javascript" >
 	    (function ($) {
 	        $("#MenuH .menu").BindMENU({ MenuStyle: "DefaultMenu", Orientation: "Horizontal" });
-	        $("#MenuV .menu").BindMENU({ MenuStyle: "DefaultMenu", Orientation: "Vertical" });
+	        //$("#MenuV .menu").BindMENU({ MenuStyle: "DefaultMenu", Orientation: "Vertical" });
 	    })(jQuery);
 	</script>
-	<!-- powered by BIND TUNING 2013 // http://www.bindtuning.com -->
+	<!-- powered by BIND TUNING 2014 // http://www.bindtuning.com -->
 
 
-<script type="text/javascript" src="/Themes/InvisibleDog1/js/script.js"></script>
+<script type="text/javascript" src="/Themes/wepro1/js/script.js"></script>
+
 
 </body>
 </html>

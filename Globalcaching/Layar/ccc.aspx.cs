@@ -7,6 +7,7 @@ using System.Text;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Web.Security;
+using Globalcaching.Core;
 
 namespace Globalcaching
 {
@@ -27,7 +28,18 @@ namespace Globalcaching
                     MembershipUser objUsr = Membership.GetUser(username);
                     if (Membership.ValidateUser(username, password))
                     {
-                        result.Append("OK");
+                        using (DBCon dbcon = new DBCon(DBCon.dbForumConnString))
+                        {
+                            SqlDataReader dr = dbcon.ExecuteReader(string.Format("select UserID from yaf_user where Name='{0}' and Suspended>GETDATE()", username.Replace("'","''")));
+                            if (dr.Read())
+                            {
+                                result.Append("2");
+                            }
+                            else
+                            {
+                                result.Append("OK");
+                            }
+                        }
                     }
                     else
                     {

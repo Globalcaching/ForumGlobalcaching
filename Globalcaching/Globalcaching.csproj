@@ -175,7 +175,9 @@
   <ItemGroup>
     <Content Include="forum\resource.ashx" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Themes\wepro1\Content\Images\Imfuscator.ashx" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Themes\InvisibleDog1\Content\Images\Imfuscator.ashx" />
   </ItemGroup>
