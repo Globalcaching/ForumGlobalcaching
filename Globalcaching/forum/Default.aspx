@@ -11,11 +11,20 @@
 <link href="/Themes/wepro1/Styles/site.css" rel="stylesheet" type="text/css" />
 <link href="/Themes/wepro1/Content/Images/Imfuscator.ashx?i=4101edcc-6de5-4f40-b863-43776f0f2264-a322bb28-eca8-417f-a97f-2be54b66e85e" rel="stylesheet" type="text/css" />
 <link href="/gcicon.ico" rel="shortcut icon" type="image/x-icon" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-19422045-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head> 
 <body>
 
-	<!-- BindTuning head elements-->
-	
+
 	<script type="text/javascript">
 	    if (typeof jQuery == 'undefined') { document.write('<script type="text/javascript" src="/Themes/wepro1/js/jquery.min.js"><' + '/script>'); }
 	    var style_mobile_path = '/Themes/wepro1/styles/css/'; // path for mobile nav css files, ORX-specific
@@ -67,7 +76,7 @@
 		<button data-target=".collapse-user" data-toggle="collapse" class="navbar-toggle" type="button"><i class="fa fa-user"></i></button>
 		<div class="clearfix visible-xs visible-sm"></div>
 		<div class="row">
-			<div class="col-sm-9">
+			<div class="col-sm-12">
 				<div class="navbar-collapse collapse-nav collapse">
 					<div id="MenuH"><div class="zone zone-navigation">    <div class="widget-control">
     
@@ -78,9 +87,53 @@
     <ul class="menu menu-main-menu">
         
         
-<li class="dropdown first"><a href="/Persoonlijk">Persoonlijk</a>
+<li class="dropdown first"><a href="/GlobalcachingPage.aspx?p=">Home</a>
                 <ul>
-                   
+                    
+<li><a href="/GlobalcachingPage.aspx?p=AfstandToekenning">Afstand Admin</a>
+</li>
+<li><a href="/GlobalcachingPage.aspx?p=IngediendeContactFormulieren">Contactform.</a>
+</li>
+<li><a href="/GlobalcachingPage.aspx?p=Admin">Dashboard</a>
+</li>
+<li><a href="/GlobalcachingPage.aspx?p=FTFToekenning">FTF Admin</a>
+</li>
+<li><a href="/GlobalcachingPage.aspx?p=globalcaching/admin">Site Admin</a>
+</li>
+<li><a href="/GlobalcachingPage.aspx?p=">Home</a>
+</li>
+                </ul>
+</li>
+<li class="dropdown"><a href="/GlobalcachingPage.aspx?p=Persoonlijk">Persoonlijk</a>
+                <ul>
+                    
+<li class="dropdown">
+
+    <a href="/GlobalcachingPage.aspx?p=Banners">Banners</a> 
+                <ul>
+                    
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=FTFBanner">FTF Banner</a> 
+</li>
+                </ul>
+</li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=BewerkCodeChecker">Bewerk Code Checker</a> 
+</li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=BewerkCoordinatenChecker">Bewerk Co&#246;rdinaten Checker</a> 
+</li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=CCCInstellingen">CCC Instellingen</a> 
+</li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=LiveAPIDownload">Geocache downloads</a> 
+</li>
 <li>
 
     <a href="/GlobalcachingPage.aspx?p=Instellingen">Instellingen</a> 
@@ -91,37 +144,27 @@
 </li>
 <li>
 
-    <a href="/GlobalcachingPage.aspx?p=CCCInstellingen">CCC Instellingen</a> 
-</li>
-<li>
-
-    <a href="/GlobalcachingPage.aspx?p=LiveAPIDownload">Geocache downloads</a> 
+    <a href="/GlobalcachingPage.aspx?p=Logcorrectie">Logcorrectie</a> 
 </li>
                 </ul>
 </li>
-<li class="dropdown">
-
-    <a href="/GlobalcachingPage.aspx?p=SocialMedia">Forum</a> 
+<li class="dropdown current"><a href="/forum/">Forum</a>
                 <ul>
                     
-<li><a href="/forum/">Forum</a>
-</li>
-<li><a href="https://www.facebook.com/globalcaching.geocaching">Facebook</a>
+<li class="current"><a href="/forum/">Forum</a>
 </li>
                 </ul>
 </li>
-<li class="dropdown"><a href="/Geocaches">Geocaches</a>
+<li class="dropdown"><a href="/GlobalcachingPage.aspx?p=Geocaches">Geocaches</a>
                 <ul>
                     
-<li><a href="/GlobalcachingPage.aspx?p=GeocacheKaart">Kaart</a>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=LiveAPIDownload">Downloaden</a> 
 </li>
 <li>
 
-    <a href="/GlobalcachingPage.aspx?p=SnelGeocachesZoeken">Eenvoudig zoeken</a> 
-</li>
-<li>
-
-    <a href="/GlobalcachingPage.aspx?p=ZoekenOpEigenschappen">Uitgebreid zoeken</a> 
+    <a href="/GlobalcachingPage.aspx?p=Events">Events</a> 
 </li>
 <li>
 
@@ -129,32 +172,32 @@
 </li>
 <li>
 
-    <a href="/GlobalcachingPage.aspx?p=LogFotoStats">Logfoto statistieken</a> 
-</li>
-<li>
-
     <a href="/GlobalcachingPage.aspx?p=GeocacheFilterMacro">Filter macro</a> 
 </li>
-<li>
+<li><a href="/GlobalcachingPage.aspx?p=GeocacheKaart">Kaart</a>
+</li>
+<li class="dropdown">
 
-    <a href="/GlobalcachingPage.aspx?p=GeocacheSeries">Series</a> 
-</li>
-<li>
-
-    <a href="/GlobalcachingPage.aspx?p=Events">Events</a> 
-</li>
-<li><a href="/GlobalcachingPage.aspx?p=Parels">Parels</a>
-</li>
-<li class="dropdown"><a href="/GlobalcachingPage.aspx?p=Geocaches">Land</a>
+    <a href="/GlobalcachingPage.aspx?p=Land">Land</a> 
                 <ul>
                     
-<li><a href="/GlobalcachingPage.aspx?p=RecenteCachesLand/141">Nederland</a>
-</li>
 <li><a href="/GlobalcachingPage.aspx?p=RecenteCachesLand/4">Belgie</a>
 </li>
 <li><a href="/GlobalcachingPage.aspx?p=RecenteCachesLand/8">Luxemburg</a>
 </li>
+<li><a href="/GlobalcachingPage.aspx?p=RecenteCachesLand/141">Nederland</a>
+</li>
                 </ul>
+</li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=LogFotoStats">Logfoto statistieken</a> 
+</li>
+<li><a href="/GlobalcachingPage.aspx?p=Parels">Parels</a>
+</li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=GeocacheSeries">Series</a> 
 </li>
 <li class="dropdown">
 
@@ -169,7 +212,11 @@
 </li>
 <li>
 
-    <a href="/GlobalcachingPage.aspx?p=LiveAPIDownload">Downloaden</a> 
+    <a href="/GlobalcachingPage.aspx?p=SnelGeocachesZoeken">Zoeken eenvoudig</a> 
+</li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=ZoekenOpEigenschappen">Zoeken uitgebreid</a> 
 </li>
                 </ul>
 </li>
@@ -178,11 +225,9 @@
     <a href="/GlobalcachingPage.aspx?p=Geocachers">Geocachers</a> 
                 <ul>
                     
-<li><a href="/GlobalcachingPage.aspx?p=ZoekGeocacher">Zoek Geocacher</a>
-</li>
 <li>
 
-    <a href="/GlobalcachingPage.aspx?p=ZoekLogsVanGeocacher">Zoek logs</a> 
+    <a href="/FavoriteGeocachers">Favorite statistieken</a> 
 </li>
 <li>
 
@@ -192,9 +237,11 @@
 
     <a href="/GlobalcachingPage.aspx?p=LogFotos">Logfoto&#39;s</a> 
 </li>
+<li><a href="/GlobalcachingPage.aspx?p=ZoekGeocacher">Zoek Geocacher</a>
+</li>
 <li>
 
-    <a href="/GlobalcachingPage.aspx?p=FavoriteGeocachers">Favorite Geocachers</a> 
+    <a href="/GlobalcachingPage.aspx?p=GlobalcachingPage.aspx?p=ZoekLogsVanGeocacher">Zoek logs</a> 
 </li>
                 </ul>
 </li>
@@ -207,46 +254,60 @@
 </li>
 <li>
 
+    <a href="/GlobalcachingPage.aspx?p=CodeChecker">Code checker</a> 
+</li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=CoordinatenChecker">Co&#246;rdinaten Checker</a> 
+</li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=GAPP">GAPP</a> 
+</li>
+<li>
+
     <a href="/GlobalcachingPage.aspx?p=onlinetools">Online tools</a> 
 </li>
 <li>
 
     <a href="/GlobalcachingPage.aspx?p=TrackableBatchLog">Trackable batch log</a> 
 </li>
-<li><a href="http://gapp.globalcaching.eu">GAPP</a>
-</li>
                 </ul>
 </li>
-<li class="dropdown last"><a href="/info">Info</a>
+<li class="dropdown"><a href="/GlobalcachingPage.aspx?p=info">Info</a>
                 <ul>
                     
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=financiele-status-en-donaties">Financi&#235;le status</a> 
+</li>
 <li>
 
     <a href="/GlobalcachingPage.aspx?p=Gebiedsinformatie">Gebiedsinformatie</a> 
 </li>
 <li>
 
-    <a href="/GlobalcachingPage.aspx?p=financiele-status-en-donaties">Financi&#235;le status</a> 
+    <a href="/GlobalcachingPage.aspx?p=links">Links</a> 
+</li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=wiezijnwij">Wie zijn wij</a> 
+</li>
+                </ul>
+</li>
+<li class="dropdown last">
+
+    <a href="/GlobalcachingPage.aspx?p=Contactformulier">Contact</a> 
+                <ul>
+                    
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=Contactformulier">Contact</a> 
 </li>
                 </ul>
 </li>
     </ul>
-</nav>
-	</div>
-</article>
-
-    </div>
-</div></div>
-				</div>
-			</div>
-			<div class="col-sm-3">
-				<div class="navbar-collapse collapse-search collapse">
-					<div id="Search"></div>
-				</div>
-			</div>
-		</div>
-	</nav>
-	
+</nav>	
 	<div class="bt-slider"></div>
 
 
@@ -407,11 +468,9 @@
 	        //$("#MenuV .menu").BindMENU({ MenuStyle: "DefaultMenu", Orientation: "Vertical" });
 	    })(jQuery);
 	</script>
-	<!-- powered by BIND TUNING 2014 // http://www.bindtuning.com -->
 
 
 <script type="text/javascript" src="/Themes/wepro1/js/script.js"></script>
-
 
 </body>
 </html>
