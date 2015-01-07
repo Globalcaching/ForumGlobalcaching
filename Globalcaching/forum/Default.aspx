@@ -197,6 +197,10 @@
 </li>
 <li>
 
+    <a href="/GlobalcachingPage.aspx?p=Selectiebewerker">Selectiebewerker</a> 
+</li>
+<li>
+
     <a href="/GlobalcachingPage.aspx?p=GeocacheSeries">Series</a> 
 </li>
 <li class="dropdown">
@@ -307,7 +311,16 @@
                 </ul>
 </li>
     </ul>
-</nav>	
+</nav>
+</div>
+</article>
+
+    </div>
+</div></div>
+				</div>
+			</div>
+		</div>
+	</nav>
 	<div class="bt-slider"></div>
 
 
@@ -468,9 +481,6 @@
 	        //$("#MenuV .menu").BindMENU({ MenuStyle: "DefaultMenu", Orientation: "Vertical" });
 	    })(jQuery);
 	</script>
-
-
-<script type="text/javascript" src="/Themes/wepro1/js/script.js"></script>
 
 </body>
 </html>
