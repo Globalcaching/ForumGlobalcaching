@@ -90,16 +90,6 @@
 <li class="dropdown first"><a href="/GlobalcachingPage.aspx?p=">Home</a>
                 <ul>
                     
-<li><a href="/GlobalcachingPage.aspx?p=AfstandToekenning">Afstand Admin</a>
-</li>
-<li><a href="/GlobalcachingPage.aspx?p=IngediendeContactFormulieren">Contactform.</a>
-</li>
-<li><a href="/GlobalcachingPage.aspx?p=Admin">Dashboard</a>
-</li>
-<li><a href="/GlobalcachingPage.aspx?p=FTFToekenning">FTF Admin</a>
-</li>
-<li><a href="/GlobalcachingPage.aspx?p=globalcaching/admin">Site Admin</a>
-</li>
 <li><a href="/GlobalcachingPage.aspx?p=">Home</a>
 </li>
                 </ul>
@@ -320,7 +310,8 @@
 				</div>
 			</div>
 		</div>
-	</nav>
+	</nav>
+
 	<div class="bt-slider"></div>
 
 
