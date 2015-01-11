@@ -110,6 +110,7 @@
     <Content Include="forum\Default.aspx" />
     <Content Include="forum\digest.aspx" />
     <Content Include="forum\error.aspx" />
+    <Content Include="forum\forumrss.aspx" />
     <Content Include="forum\popup.aspx" />
     <Content Include="forum\rss.xsl" />
     <Content Include="forum\YafAjax.asmx" />
@@ -127,6 +128,7 @@
     <Content Include="Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\CachedData.cs" />
     <Compile Include="Core\DBCon.cs" />
     <Compile Include="Core\UserAccountInfo.cs" />
     <Compile Include="Core\UsersOnline.cs" />
@@ -137,6 +139,13 @@
     </Compile>
     <Compile Include="forum\Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forum\forumrss.aspx.cs">
+      <DependentUpon>forumrss.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forum\forumrss.aspx.designer.cs">
+      <DependentUpon>forumrss.aspx</DependentUpon>
     </Compile>
     <Compile Include="GlobalcachingPage.aspx.cs">
       <DependentUpon>GlobalcachingPage.aspx</DependentUpon>
