@@ -239,7 +239,7 @@
 </li>
 <li>
 
-    <a href="/GlobalcachingPage.aspx?p=GlobalcachingPage.aspx?p=ZoekLogsVanGeocacher">Zoek logs</a> 
+    <a href="/GlobalcachingPage.aspx?p=ZoekLogsVanGeocacher">Zoek logs</a> 
 </li>
                 </ul>
 </li>
