@@ -10,6 +10,7 @@
 <link href="/Themes/wepro1/styles/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="/Themes/wepro1/Styles/site.css" rel="stylesheet" type="text/css" />
 <link href="/Themes/wepro1/Content/Images/Imfuscator.ashx?i=4101edcc-6de5-4f40-b863-43776f0f2264-a322bb28-eca8-417f-a97f-2be54b66e85e" rel="stylesheet" type="text/css" />
+<link href="/Themes/wepro1/Content/Images/Imfuscator.ashx?i=4101edcc-6de5-4f40-b863-43776f0f2264-a322bb28-eca8-417f-a97f-2be54b66e85e" rel="stylesheet" type="text/css" />
 <link href="/gcicon.ico" rel="shortcut icon" type="image/x-icon" />
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -234,6 +235,9 @@
 <li>
 
     <a href="/GlobalcachingPage.aspx?p=LogFotos">Logfoto&#39;s</a> 
+</li>
+<li>
+    <a href="/GlobalcachingPage.aspx?p=RanglijstPerLand">Ranglijst per land</a> 
 </li>
 <li><a href="/GlobalcachingPage.aspx?p=ZoekGeocacher">Zoek Geocacher</a>
 </li>
