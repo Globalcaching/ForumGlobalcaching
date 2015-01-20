@@ -223,7 +223,10 @@
 
     <a href="/GlobalcachingPage.aspx?p=Geocachers">Geocachers</a> 
                 <ul>
-                    
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=CombiRanglijst">Combi Ranglijst</a> 
+</li>                    
 <li>
 
     <a href="/FavoriteGeocachers">Favorite statistieken</a> 
