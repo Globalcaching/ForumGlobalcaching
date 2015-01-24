@@ -107,6 +107,10 @@
 
     <a href="/GlobalcachingPage.aspx?p=FTFBanner">FTF Banner</a> 
 </li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=GevondenPerLandBanner">Gevonden Per Land Banner</a> 
+</li>
                 </ul>
 </li>
 <li>
@@ -279,6 +283,10 @@
 <li>
 
     <a href="/GlobalcachingPage.aspx?p=GAPP">GAPP</a> 
+</li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=GeocacheBatchLog">Geocache Batch Log</a> 
 </li>
 <li>
 
