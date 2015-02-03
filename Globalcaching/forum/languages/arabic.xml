@@ -57,6 +57,7 @@
     <Resource tag="ADMIN_SMILIES">عرض رموز الابتسامات</Resource>
     <Resource tag="ADMIN_SMILIES_EDIT">تعديل  الابتسامات</Resource>
     <Resource tag="ADMIN_SMILIES_IMPORT">إدخال  إبتسامات </Resource>
+    <Resource tag="ADMIN_SPAMLOG">Views/edits the spam log</Resource>
     <Resource tag="ADMIN_SPAMWORDS">Views spam words list</Resource>
     <Resource tag="ADMIN_SPAMWORDS_EDIT">Edits spam words list</Resource>
     <Resource tag="ADMIN_SPAMWORDS_IMPORT">Imports spam words</Resource>
@@ -177,6 +178,7 @@
     <Resource tag="ADMIN_JOINED">Joined</Resource>
     <Resource tag="ADMIN_LOCATION">Board Location</Resource>
     <Resource tag="ADMIN_NAME">Name</Resource>
+    <Resource tag="ADMIN_RESEND_EMAIL">Resend Email Verification</Resource>
     <Resource tag="ADMIN_UPGRADE"> and update your database.</Resource>
     <Resource tag="Administration">Administration</Resource>
     <Resource tag="ALL_BOARDS"> - All Boards - </Resource>
@@ -193,6 +195,7 @@
     <Resource tag="HEADER1">Who is Online</Resource>
     <Resource tag="HEADER2">Unverified Users</Resource>
     <Resource tag="HEADER3">Statistics for</Resource>
+    <Resource tag="MSG_MESSAGE_SEND">Verification Mail was send again to the User.</Resource>
     <Resource tag="MSG_VALID_DAYS">You should enter a valid integer value for days.</Resource>
     <Resource tag="NUM_POSTS">Number of posts:</Resource>
     <Resource tag="NUM_TOPICS">Number of topics:</Resource>
@@ -230,17 +233,17 @@
     <Resource tag="IMPORT">Import List</Resource>
     <Resource tag="IMPORT_FAILED">Failed to import! Invalid upload format specified: {0} </Resource>
     <Resource tag="IMPORT_FILE">Select Import File:</Resource>
-    <Resource tag="IMPORT_FILE_HELP">Must be *.txt file containing an Email Adress on each line</Resource>
+    <Resource tag="IMPORT_FILE_HELP">Must be *.txt file containing an Email Address on each line</Resource>
     <Resource tag="IMPORT_NOTHING">Nothing imported: no new email address was found in the upload.</Resource>
-    <Resource tag="IMPORT_SUCESS">{0} new email adress(es) imported successfully.</Resource>
+    <Resource tag="IMPORT_SUCESS">{0} new email address(es) imported successfully.</Resource>
     <Resource tag="NOTE">You can find a list of Spam Bot Email Addresses on StopForumSpam.com &lt;a href="http://www.stopforumspam.com/downloads/"&gt;http://www.stopforumspam.com/downloads/&lt;/a&gt;, that can be imported here.</Resource>
     <Resource tag="TITLE">Import Email Addresses</Resource>
   </page>
   <page name="ADMIN_BANNEDIP">
-    <Resource tag="ADD_IP">Add New Adress</Resource>
+    <Resource tag="ADD_IP">Add New Address</Resource>
     <Resource tag="BAN_BY">Banned By</Resource>
     <Resource tag="EXPORT">Export to Text File</Resource>
-    <Resource tag="IMPORT_IPS">Import Adress(es)</Resource>
+    <Resource tag="IMPORT_IPS">Import Address(es)</Resource>
     <Resource tag="MASK">Mask</Resource>
     <Resource tag="REASON">Reason</Resource>
     <Resource tag="SINCE">Since</Resource>
@@ -252,7 +255,7 @@
     <Resource tag="INVALID_SECTION">"{0}" is not a valid IP section value.</Resource>
     <Resource tag="INVALID_VALUE">One of the IP section does not have a value. Valid values are 0-255 or "*" for a wildcard.</Resource>
     <Resource tag="MASK">Mask:</Resource>
-    <Resource tag="MASK_HELP">The ip address to ban. You can use wildcards (127.0.0.*).</Resource>
+    <Resource tag="MASK_HELP">The ip address to ban. You can use wild cards (127.0.0.*).</Resource>
     <Resource tag="REASON">Reason:</Resource>
     <Resource tag="REASON_HELP">The reason why the ip was banned.</Resource>
     <Resource tag="TITLE">Add/Edit Banned IP Address</Resource>
@@ -262,9 +265,9 @@
     <Resource tag="IMPORT">Import List</Resource>
     <Resource tag="IMPORT_FAILED">Failed to import! Invalid upload format specified: {0} </Resource>
     <Resource tag="IMPORT_FILE">Select Import File:</Resource>
-    <Resource tag="IMPORT_FILE_HELP">Must be *.txt file containting Ip Adresses on each line</Resource>
+    <Resource tag="IMPORT_FILE_HELP">Must be *.txt file containing an Ip Address on each line</Resource>
     <Resource tag="IMPORT_NOTHING">Nothing imported: no new ip address was found in the upload.</Resource>
-    <Resource tag="IMPORT_SUCESS">{0} new ip adress(es) imported successfully.</Resource>
+    <Resource tag="IMPORT_SUCESS">{0} new ip address(es) imported successfully.</Resource>
     <Resource tag="NOTE">You can find a list of Spam Bot Ips on StopForumSpam.com &lt;a href="http://www.stopforumspam.com/downloads/"&gt;http://www.stopforumspam.com/downloads/&lt;/a&gt;, that can be imported here.</Resource>
     <Resource tag="TITLE">Import IP Addresses</Resource>
   </page>
@@ -280,8 +283,8 @@
     <Resource tag="MASK">Mask:</Resource>
     <Resource tag="MASK_HELP">The User Name to ban. You can use Regular Expressions.</Resource>
     <Resource tag="REASON">Reason:</Resource>
-    <Resource tag="REASON_HELP">The reason why the email address was banned.</Resource>
-    <Resource tag="TITLE">Add/Edit Banned Email Address</Resource>
+    <Resource tag="REASON_HELP">The reason why the user name was banned.</Resource>
+    <Resource tag="TITLE">Add/Edit Banned Name</Resource>
   </page>
   <page name="ADMIN_BANNEDNAME_IMPORT">
     <Resource tag="HEADER">Import Names List</Resource>
@@ -871,6 +874,7 @@
     <Resource tag="LT_DEBUG">Debug</Resource>
     <Resource tag="LT_ERROR">Errors</Resource>
     <Resource tag="LT_INFORMATION">Information</Resource>
+    <Resource tag="LT_IPBANDETECTED">Detected a Banned IP</Resource>
     <Resource tag="LT_IPBANLIFTED">Canceling IP ban</Resource>
     <Resource tag="LT_IPBANSET">Setting IP ban</Resource>
     <Resource tag="LT_SpamBotDetected">Spam Bot Detected</Resource>
@@ -1016,6 +1020,8 @@
     <Resource tag="ALLOW_USERS_POLLIMAGES_HELP">If enabled Users can add images as poll options.</Resource>
     <Resource tag="ALLOW_USERTEXTEDITOR">Allow users to pick text editor</Resource>
     <Resource tag="ALLOW_USERTEXTEDITOR_HELP">Allow users to pick text editor in their profiles.</Resource>
+    <Resource tag="AMOUNT_OF_SUBFORUMS">Sub Forums In Forums List:</Resource>
+    <Resource tag="AMOUNT_OF_SUBFORUMS_HELP">The amount of Sub Forums In Forums List.</Resource>
     <Resource tag="APP_CORES">Processor Cores:</Resource>
     <Resource tag="APP_CORES_HELP">Number of Processor cores.</Resource>
     <Resource tag="APP_MEMORY">Application memory:</Resource>
@@ -1057,6 +1063,12 @@
     <Resource tag="CAPTCHA_SIZE_HELP">Size (length) of the CAPTCHA random alphanumeric string.</Resource>
     <Resource tag="CAT_CACHE_TIMEOUT">Board Categories Cache Timeout:</Resource>
     <Resource tag="CAT_CACHE_TIMEOUT_HELP">In minutes</Resource>
+    <Resource tag="CDN_JQUERY">Use Google Hosted CDN jQuery Script File?</Resource>
+    <Resource tag="CDN_JQUERY_HELP">You can use the Google Hosted Script File, or instead use internal.</Resource>
+    <Resource tag="CDN_JQUERY_UI">Use Google Hosted CDN jQuery-UI Script File?</Resource>
+    <Resource tag="CDN_JQUERY_UI_HELP">You can use the Google Hosted Script File, or instead use internal.</Resource>
+    <Resource tag="CDN_SCRIPTMANAGER">Use CDN Hosted Script Manager JS Files?</Resource>
+    <Resource tag="CDN_SCRIPTMANAGER_HELP">You can use the CDN Hosted Script Files, or instead use internal.</Resource>
     <Resource tag="CHECK_FOR_BOTSPAM">Choose a Service for Automatically User Bot Checking:</Resource>
     <Resource tag="CHECK_FOR_BOTSPAM_HELP">Enables/disables automatically Bot SPAM Checking via the &lt;a href="http://stopforumspam.com/"&gt;StopForumSpam.com API&lt;/a&gt; , BotScout.com API, or both together.</Resource>
     <Resource tag="CHECK_FOR_SPAM">Choose a SPAM Service for Automatically SPAM Checking:</Resource>
@@ -1143,6 +1155,7 @@
     <Resource tag="HEADER_BOTSPAM">Bot Spam Settings (User Checking)</Resource>
     <Resource tag="HEADER_CACHE">Cache Settings</Resource>
     <Resource tag="HEADER_CAPTCHA">CAPTCHA Settings</Resource>
+    <Resource tag="HEADER_CDN">Scripts CDN Settings</Resource>
     <Resource tag="HEADER_DISPLAY">Display Settings</Resource>
     <Resource tag="HEADER_EDITORS">Editing/Formatting Settings</Resource>
     <Resource tag="HEADER_FEATURES">Feature Settings</Resource>
@@ -1177,6 +1190,8 @@
     <Resource tag="HOST_TEMPLATES">Templates</Resource>
     <Resource tag="HOVERCARD_DELAY">Hover Card opening Delay (Milliseconds):</Resource>
     <Resource tag="HOVERCARD_DELAY_HELP">The Delay before opening the Hover Card when a user hovers over a user name.</Resource>
+    <Resource tag="IGNORE_SPAMCHECK_COUNT">User Post Count to be ignored from Spam Check:</Resource>
+    <Resource tag="IGNORE_SPAMCHECK_COUNT_HELP">The amount of posts a user has to have to be ignored by the spam checking.</Resource>
     <Resource tag="IMAGE_ATTACH_RESIZE">Enable Image Attachment Resize:</Resource>
     <Resource tag="IMAGE_ATTACH_RESIZE_HELP">Attached images will be resized to thumbnails if they are too large.</Resource>
     <Resource tag="IMAGE_RESIZE_HEIGHT">Image Resize Max Height:</Resource>
@@ -1295,12 +1310,10 @@
     <Resource tag="RANK_TEMPLATE_HELP">Template for rendering user's rank.</Resource>
     <Resource tag="RANKIMAGE_TEMPLATE">Rank image template:</Resource>
     <Resource tag="RANKIMAGE_TEMPLATE_HELP">Template for rendering rank image.</Resource>
-    <Resource tag="RECAPTCHA_MULTI_INSTANCE">Enable reCAPTCHA Multiple Instances:</Resource>
-    <Resource tag="RECAPTCHA_MULTI_INSTANCE_HELP">Enable reCAPTCHA Recapture Multiple Instances(shared keys).</Resource>
-    <Resource tag="RECAPTCHA_PRIVATE_KEY">reCAPTCHA Private Key:</Resource>
-    <Resource tag="RECAPTCHA_PRIVATE_KEY_HELP">Enter a reCAPTCHA Private Key</Resource>
-    <Resource tag="RECAPTCHA_PUBLIC_KEY">reCAPTCHA Public Key:</Resource>
-    <Resource tag="RECAPTCHA_PUBLIC_KEY_HELP">Enter a reCAPTCHA Public Key.</Resource>
+    <Resource tag="RECAPTCHA_PRIVATE_KEY">reCAPTCHA Secret Key:</Resource>
+    <Resource tag="RECAPTCHA_PRIVATE_KEY_HELP">Enter a reCAPTCHA Secret Key</Resource>
+    <Resource tag="RECAPTCHA_PUBLIC_KEY">reCAPTCHA Site Key:</Resource>
+    <Resource tag="RECAPTCHA_PUBLIC_KEY_HELP">Enter a reCAPTCHA Site Key.</Resource>
     <Resource tag="REFERRER_CHECK">Enable Url Referrer Security Check:</Resource>
     <Resource tag="REFERRER_CHECK_HELP">Validates all POSTs are from the same domain as the referring domain (No cross domain POSTs).</Resource>
     <Resource tag="REG_USERS">Registered Users</Resource>
@@ -1363,6 +1376,8 @@
     <Resource tag="SHOW_AVATARS_TOPICLISTS_HELP">If this is checked, the topic pages will show avatar graphics.</Resource>
     <Resource tag="SHOW_BOTS_INACTIVE">Show Crawlers In Active Lists:</Resource>
     <Resource tag="SHOW_BOTS_INACTIVE_HELP">If checked, Crawlers will be displayed In Active Lists.</Resource>
+    <Resource tag="SHOW_CONNECT_MESSAGE">Show Connect Message after first Message:</Resource>
+    <Resource tag="SHOW_CONNECT_MESSAGE_HELP">Whether or not to show a Connect Message after the first Message in a topic for Guests, containing login and registration links.</Resource>
     <Resource tag="SHOW_DEL_MESSAGES">Show Deleted Messages:</Resource>
     <Resource tag="SHOW_DEL_MESSAGES_HELP">If this is checked, messages that are deleted will leave with some notes</Resource>
     <Resource tag="SHOW_DEL_MESSAGES_TOALL">Show Deleted Messages to All:</Resource>
@@ -1403,6 +1418,8 @@
     <Resource tag="SHOW_SHOUTBOX_HELP">Enable or disable display of the Shoutbox (Chat Module) in the forum page.</Resource>
     <Resource tag="SHOW_SHOUTBOX_SMILIES">Show Shoutbox Smiles:</Resource>
     <Resource tag="SHOW_SHOUTBOX_SMILIES_HELP">Enable or disable display of the Shoutbox (Chat Module) smiles.</Resource>
+    <Resource tag="SHOW_SIMILARTOPICS">Show Similar Topics:</Resource>
+    <Resource tag="SHOW_SIMILARTOPICS_HELP">Should similar topics to be displayed at the bottom of a topic.</Resource>
     <Resource tag="SHOW_THANK_DATE">Show The Date on Which Users Have Thanked Posts:</Resource>
     <Resource tag="SHOW_THANK_DATE_HELP">If checked users can see on which date posts have been thanked. (Thanks Mod must be enabled first.)</Resource>
     <Resource tag="SHOW_TODAYS_BIRTHDAYS">Show Todays Birthdays in Forum Info:</Resource>
@@ -1424,6 +1441,7 @@
     <Resource tag="SPAM_MESSAGE_0">Do nothing</Resource>
     <Resource tag="SPAM_MESSAGE_1">Flag Message as Unapproved</Resource>
     <Resource tag="SPAM_MESSAGE_2">Reject Message</Resource>
+    <Resource tag="SPAM_MESSAGE_3">Delete &amp; Ban user</Resource>
     <Resource tag="SPAM_MESSAGE_HANDLING">Handling of as SPAM Detected Messages</Resource>
     <Resource tag="SPAM_MESSAGE_HANDLING_HELP">Choose what to do when a Message was detected a SPAM, You can choose between Do Nothing, Flag Message as Unapproved, or reject the Message.</Resource>
     <Resource tag="SPAM_SERVICE_TYP_1">BlogSpam.NET API</Resource>
@@ -1480,6 +1498,11 @@
     <Resource tag="VIEWPROFILE_PERMISSION_HELP">Allow viewing of other users' profiles to:</Resource>
     <Resource tag="VIEWSHOUTBOX_PERMISSION">Shout Box View Permission:</Resource>
     <Resource tag="VIEWSHOUTBOX_PERMISSION_HELP">View Permission for the Shout Box to allow for all Users (Including Guests) or only registered users.</Resource>
+    <Resource tag="WELCOME_NOTIFICATION">Send User Welcome Notification:</Resource>
+    <Resource tag="WELCOME_NOTIFICATION_0">Send No Message</Resource>
+    <Resource tag="WELCOME_NOTIFICATION_1">Send as e-mail</Resource>
+    <Resource tag="WELCOME_NOTIFICATION_2">Send as private message</Resource>
+    <Resource tag="WELCOME_NOTIFICATION_HELP">If enabled you it sends a user a Welcome Mail/Private Message after successfully registration.</Resource>
     <Resource tag="WSERVICE_TOKEN">Web Service Token:</Resource>
     <Resource tag="WSERVICE_TOKEN_HELP">Token used to make secure web service calls. Constantly changing until you save your host settings.</Resource>
   </page>
@@ -1682,6 +1705,8 @@
     <Resource tag="COMANDS">Emotion</Resource>
     <Resource tag="EMOTION">Emotion</Resource>
     <Resource tag="IMPORT">Import Smiley Pack</Resource>
+    <Resource tag="MOVE_DOWN">Move Down</Resource>
+    <Resource tag="MOVE_UP">Move Up</Resource>
     <Resource tag="MSG_DELETE">Delete this smiley?</Resource>
     <Resource tag="ORDER">Order</Resource>
     <Resource tag="SMILEY">Smiley</Resource>
@@ -1712,6 +1737,9 @@
     <Resource tag="IMPORT">Import</Resource>
     <Resource tag="SELECT_FILE">Select File (*.pak)</Resource>
     <Resource tag="TITLE">Smilies Import</Resource>
+  </page>
+  <page name="ADMIN_SPAMLOG">
+    <Resource tag="TITLE">Spam Event Log</Resource>
   </page>
   <page name="ADMIN_SPAMWORDS">
     <Resource tag="ADD">Add</Resource>
@@ -1857,6 +1885,7 @@
     <Resource tag="admin_restartapp">Restart App</Resource>
     <Resource tag="admin_runsql">Run SQL Query</Resource>
     <Resource tag="admin_smilies">Smilies</Resource>
+    <Resource tag="ADMIN_SPAMLOG">Spam Event Log</Resource>
     <Resource tag="admin_spamwords">Spam Check Words</Resource>
     <Resource tag="admin_taskmanager">Task Manager</Resource>
     <Resource tag="admin_test_data">Create Test Data</Resource>
@@ -1893,17 +1922,22 @@
     <Resource tag="VALIDATE">التحقق من صحة</Resource>
   </page>
   <page name="ATTACHMENTS">
+    <Resource tag="ADD_FILES">Add file(s)...</Resource>
     <Resource tag="ALLOWED_EXTENSIONS">أنواع ملف مسموح</Resource>
     <Resource tag="ASK_DELETE">ازالة الملف المرفق؟</Resource>
+    <Resource tag="CURRENT_UPLOADS">Current Attachment Uploads:</Resource>
     <Resource tag="DELETE">ازالة</Resource>
     <Resource tag="DISALLOWED_EXTENSIONS">أنواع ملفات غير مسموح بها</Resource>
+    <Resource tag="DROP_HERE">Drop file(s) here</Resource>
     <Resource tag="ERROR_TOOBIG">لا تستطيع ارفاق ملف كبير</Resource>
     <Resource tag="FILEERROR">'{0}' نوع ملف غير مسموح برفعه</Resource>
     <Resource tag="FILENAME">اسم الملف</Resource>
     <Resource tag="SELECT_FILE">اختار الملف الذي تريد رفعه</Resource>
     <Resource tag="SIZE">الحجم</Resource>
+    <Resource tag="START_UPLOADS">Start upload(s)</Resource>
     <Resource tag="TITLE">المرفقات</Resource>
     <Resource tag="UPLOAD">رفع</Resource>
+    <Resource tag="UPLOAD_NEW">Upload New File(s)</Resource>
     <Resource tag="UPLOAD_NOTE">Note: Max. File Size of an Attachment is {0} KB.</Resource>
     <Resource tag="UPLOAD_TITLE">رفع ملف</Resource>
     <Resource tag="UPLOAD_TOOBIG">You cannot attach files that are bigger than {1} KB. Your File size is {0} KB.</Resource>
@@ -1916,6 +1950,7 @@
   </page>
   <page name="BBCODEMODULE">
     <Resource tag="ALBUMIMG_DESCRIPTION">Enter a Album Image Number</Resource>
+    <Resource tag="ATTACH_DESCRIPTION">Enter a Attachment ID</Resource>
     <Resource tag="DAILYMOTION_DESCRIPTION">Enter Dailymotion Url (http://www.dailymotion.com/video/xxxx)</Resource>
     <Resource tag="GOOGLEMAPS_DESCRIPTION">Enter Google Maps Url</Resource>
     <Resource tag="HIDDENMOD_DESC">The content of this post is hidden. After you THANK the poster, refresh the page to see the hidden content. You need to thank the Current Post</Resource>
@@ -2012,8 +2047,10 @@
   <page name="COMMON">
     <Resource tag="ALBUMIMG_BBCODE">Insert Album Image...</Resource>
     <Resource tag="ALLOWED">Allowed</Resource>
+    <Resource tag="ATTACH_BBCODE">Insert an existing Attachment or upload a new File...</Resource>
     <Resource tag="BACK">عودة</Resource>
     <Resource tag="BAD_CAPTCHA">النص الذي تم ادخاله لا يتوافق مع الصورة</Resource>
+    <Resource tag="BAD_RECAPTCHA">Please re-enter the reCAPTCHA.</Resource>
     <Resource tag="BAD_USERNAME">اسم المستخدم لا  يقبل احتواء اشارة الفاصلة المنقوطة أو بعض الرموز الخاصة</Resource>
     <Resource tag="BBCODE_CODE">: الكود</Resource>
     <Resource tag="BBCODE_QUOTE">إقتباس</Resource>
@@ -2070,7 +2107,7 @@
     <Resource tag="HTMLTAG_FORBIDDEN">البيانات المدخلة  يجب  ان لا تحتوي على( HTML tags). </Resource>
     <Resource tag="HTMLTAG_WRONG">لقد ادخلت   بيانات  خاطئا يرجى التاكد من  (html code) {0} .</Resource>
     <Resource tag="LOADING">... تحميل   </Resource>
-    <Resource tag="MAX_ONLINE">أكبر عدد تواجد كان {0}, {1}.</Resource>
+    <Resource tag="MAX_ONLINE">أكبر عدد تواجد كان {0:N0} on {1}.</Resource>
     <Resource tag="MESSAGE">Message</Resource>
     <Resource tag="MOBILE_FULLSITE">View Full Site</Resource>
     <Resource tag="MOBILE_VIEWSITE">View Mobile Site</Resource>
@@ -2086,6 +2123,7 @@
     <Resource tag="NOTIFICATION_ON_MODERATOR_SPAMMESSAGE_APPROVAL">New SPAM Message on {0} Forum needs to be checked</Resource>
     <Resource tag="NOTIFICATION_ON_NEW_FACEBOOK_USER_SUBJECT">Registration on {0} Forum successfully</Resource>
     <Resource tag="NOTIFICATION_ON_USER_REGISTER_EMAIL_SUBJECT">تم  تسجيل  عضو  جديد في {0} المنتدى </Resource>
+    <Resource tag="NOTIFICATION_ON_WELCOME_USER_SUBJECT">Welcome to the {0} Forum</Resource>
     <Resource tag="OK">أجل</Resource>
     <Resource tag="OR">or</Resource>
     <Resource tag="PAGES">صفحات</Resource>
@@ -2098,6 +2136,36 @@
     <Resource tag="REGMAIL_WILL_BE_SEND">وسوف يتم إرسال رسالة عند التسجيل. من أجل الدخول يجب أن التحقق من البريد الوارد وانقر على الرابط في الرسالة.</Resource>
     <Resource tag="REPLY">Reply</Resource>
     <Resource tag="SAVE">حفظ</Resource>
+    <Resource tag="SELECT_LOCALE_JS">
+      language:  {
+              errorLoading: function() {
+                    return "The results could not be loaded."
+                },
+                inputTooLong: function(e) {
+                    var t = e.input.length - e.maximum,
+                        n = "Please delete " + t + " character";
+                    return t != 1 &amp;&amp; (n += "s"), n
+                },
+                inputTooShort: function(e) {
+                    var t = e.minimum - e.input.length,
+                        n = "Please enter " + t + " or more characters";
+                    return n
+                },
+                loadingMore: function() {
+                    return "Loading more results…"
+                },
+                maximumSelected: function(e) {
+                    var t = "You can only select " + e.maximum + " item";
+                    return e.maximum != 1 &amp;&amp; (t += "s"), t
+                },
+                noResults: function() {
+                    return "No results found"
+                },
+                searching: function() {
+                    return "Searching…"
+                }
+          }
+  </Resource>
     <Resource tag="SHOWHIDE">Show/Hide</Resource>
     <Resource tag="SUBMIT">تقدم</Resource>
     <Resource tag="TIMEAGO_JS">
@@ -2148,6 +2216,7 @@
     <Resource tag="VIEW_FORUM">View forum</Resource>
     <Resource tag="VIEW_FULLINFO">View full info</Resource>
     <Resource tag="VIEW_TOPIC">View topic</Resource>
+    <Resource tag="VIEW_TOPIC_STARTED_BY">View topic started by {0}</Resource>
     <Resource tag="VIEW_USRPROFILE">View profile</Resource>
     <Resource tag="VOTE">Vote</Resource>
     <Resource tag="YES">Yes</Resource>
@@ -2437,7 +2506,7 @@
     <Resource tag="OURAVATAR_SELECT">انقر هنا لاختيار الصورة الشخصية</Resource>
     <Resource tag="TITLE">تعديل الصورة الشخصية</Resource>
     <Resource tag="WARN_BIGFILE">لا يمكن أن يكون حجم الصورة أكبر من {0} بايت.</Resource>
-    <Resource tag="WARN_File size">حجم الصورة {0} بايت.</Resource>
+    <Resource tag="WARN_FILESIZE">حجم الصورة {0} بايت.</Resource>
     <Resource tag="WARN_RESIZED">تم تغيير حجم الصورة بشكل مناسب.</Resource>
     <Resource tag="WARN_SIZE">حجم الصورة {0}x{1} بكسل</Resource>
     <Resource tag="WARN_TOOBIG">لا يمكن أن تكون أبعاد الصورة أكبر من {0}x{1} بكسل.</Resource>
@@ -2639,9 +2708,9 @@
     <Resource tag="FORUM">المنتدى</Resource>
     <Resource tag="GO_LAST_POST">الذهاب الى  آخر مشاركة</Resource>
     <Resource tag="GO_LASTUNREAD_POST">Go to first unread</Resource>
-    <Resource tag="IN">في {0}</Resource>
+    <Resource tag="IN">in {0}</Resource>
     <Resource tag="INFORMATION">معلومات </Resource>
-    <Resource tag="LAST_VISIT">آخر زيارة : {0}.</Resource>
+    <Resource tag="LAST_VISIT">Your last visit: {0}.</Resource>
     <Resource tag="LASTPOST">آخر مشاركة</Resource>
     <Resource tag="LATEST_POSTS">آخر مشاركات </Resource>
     <Resource tag="LOADING_FB_HOVERCARD">Loading Facebook Info ...</Resource>
@@ -2720,7 +2789,15 @@
     <Resource tag="ANOUNCECONTENT">&lt;p&gt;الاعلانات هي رسائل خاصة مرفقة من قبل المدير والمشرفين . They are a simple one-way communication with the users and you can't reply. اذا اردت مناقشة الاعلانات, يتوجب عليك انشاء موضوع جديد في المنتدى .&lt;/p&gt;
     		&lt;p&gt;موضوعات الاعلانات ظهرت في أعلى صفحات المنتدى, above regular and sticky threads.&lt;/p&gt;</Resource>
     <Resource tag="ANOUNCETITLE">اعلانات</Resource>
-    <Resource tag="ATTACHMENTSCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="ATTACHMENTSCONTENT">&lt;p&gt;To attach a file to a post, you need to be using the main 'Post Reply' or 'New Topic' page and not 'Quick Reply', or Click the 'Attach' button to on an existing Message.&lt;/p&gt;
+&lt;p&gt;On this page, below the message box, you will find a Check box 'Attach files to this post?'. When you Click on the 'Post' button you are redirected to the Attachments Page where you can Upload and Attach Files.&lt;/p&gt;
+&lt;p&gt;To upload a file from your computer, click the 'Browse' button and locate the file. Once you have selected a file, click 'Upload'.&lt;/p&gt;
+&lt;p&gt;Once the upload is completed the file name will appear over the Upload Section. You can click 'Back' to return to the Topic.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What files types can be used? How large can attachments be?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In the attachment window you will find a list of the allowed file types you can use. There may also be an overall quota limit to the number of attachments you can post to the board.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How to add an image to a post?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you have uploaded an image as an attachment, they will be automatically generated a thumbnail that will displayed in your message, with an Link to the Full Size Image&lt;/p&gt;
+&lt;p&gt;To include an image that is not uploaded as an attachment and is located on another website, you can do so by copying the full URL to the image, (not the page on which the image is located), and either pressing the 'Insert Image' icon or by typing [img] before the URL and [/img] after it, ensuring that you do not have any spaces before or after the URL of the image.&lt;/p&gt;</Resource>
     <Resource tag="ATTACHMENTSTITLE">المرفقات والصور</Resource>
     <Resource tag="BBCODESCONTENT">&lt;p&gt;On this Page you find a list  of the BB code tags you can use to format your messages.&lt;/p&gt;
 &lt;table class="content" width="90%"&gt;
@@ -3462,7 +3539,7 @@ public class Hello1
     &lt;/td&gt;
     &lt;td&gt;
     &lt;p&gt;If you don't have the right to view the content, you see an Info Message that Informs you way you don't see the Content&lt;/p&gt;
-    &lt;img src="{0}resources/images/HiddenWarnDescription.png" alt="The content of this post is hidden. After you THANK the poster, refresh the page to see the hidden content. You need to thank the Current Post" title="The content of this post is hidden. After you THANK the poster, refresh the page to see the hidden content. You need to thank the Current Post" /&gt;   
+    &lt;img src="{0}Content/images/HiddenWarnDescription.png" alt="The content of this post is hidden. After you THANK the poster, refresh the page to see the hidden content. You need to thank the Current Post" title="The content of this post is hidden. After you THANK the poster, refresh the page to see the hidden content. You need to thank the Current Post" /&gt;   
     &lt;p&gt;Otherwise as Guest you see a Info Message&lt;/p&gt;
     &lt;div class="ui-widget"&gt;&lt;div class="ui-state-error ui-corner-all" style="padding: 0 .7em;"&gt;&lt;p&gt;&lt;span class="ui-icon ui-icon-alert" style="float: left; padding: 0 0 3px 2px;"&gt;&lt;/span&gt;This board requires you to be registered and logged-in before you can view hidden messages.&lt;/div&gt;&lt;/div&gt;
     &lt;p&gt;If you do have access to see the Content you simply see the Hidden Content&lt;/p&gt;&lt;br /&gt;
@@ -3701,7 +3778,7 @@ Spoiler Content
       &lt;strong&gt;Output&lt;/strong&gt;
     &lt;/td&gt;
     &lt;td&gt;
-    &lt;style type="text/css"&gt;.yafnet .userLinkContainer{{background: url({0}resources/icons/user.png) #fff no-repeat 4px 50%;border: 1px solid #eee;padding: 4px 2px 4px 25px;margin: 3px;font-size: 80%;font-weight: bold;    background-color: #fff;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}}.yafnet .userLinkContainer:hover{{border: 1px solid #ddd;background-color: #eee;}}
+    &lt;style type="text/css"&gt;.yafnet .userLinkContainer{{background: url({0}Content/icons/user.png) #fff no-repeat 4px 50%;border: 1px solid #eee;padding: 4px 2px 4px 25px;margin: 3px;font-size: 80%;font-weight: bold;    background-color: #fff;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;}}.yafnet .userLinkContainer:hover{{border: 1px solid #ddd;background-color: #eee;}}
 	&lt;/style&gt;
     &lt;span class="userLinkContainer"&gt;
 &lt;a href="{0}yaf_profile1234.aspx" rel="nofollow" title="View profile" target="_blank" id="UserLinkBBCodeFor12224" class="UserLinkBBCode"&gt;Username&lt;/a&gt;
@@ -3755,12 +3832,22 @@ Spoiler Content
 &lt;p&gt;To remove a Friend from Your List go to your 'My Friends' page. On the Tab 'Friend List' Click on the Button 'Remove Friend' of the User you want to remove&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Your Requests&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;The Third Tab of the 'My Friends' Page shows your the Pending Request you have made.&lt;/p&gt;</Resource>
-    <Resource tag="BUDDIESECONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
     <Resource tag="BUDDIESETITLE">إصدقاء</Resource>
     <Resource tag="BUDDIESTITLE">Friends</Resource>
-    <Resource tag="DISPLAYCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="DISPLAYCONTENT">&lt;p&gt;You have a choice over how you view topics. When you're in a thread, look at the top bar. On the right hand side you'll see 'View'. Click on this and it lets you change how posts are ordered.&lt;/p&gt;
+&lt;p&gt;You have two choices:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Normal&lt;/strong&gt; - Posts are displayed chronologically, usually from oldest to newest. Posts are shown in a flat mode so that many posts can be viewed simultaneously. &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Threaded&lt;/strong&gt; - A tree is shown along with every post. This shows you the relationship each post has to the others. It's easy to see who responded to whom. Only one post is shown at a time. By clicking on a single post in the post tree, the page will show that post and all posts made in response to it.&lt;/li&gt;
+&lt;/ul&gt;
+</Resource>
     <Resource tag="DISPLAYTITLE">خيارات عرض الموضوع</Resource>
-    <Resource tag="EDITDELETECONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="EDITDELETECONTENT">&lt;p&gt;If you are currently registered and logged in, you may be able to edit and delete your messages (if the administrator doesn’t turned off this option). &lt;/p&gt;
+&lt;p&gt;To edit or delete your posts, click the 'Edit' button by the particular post. If your post was the first in the thread, then deleting it may remove the entire thread.&lt;/p&gt;
+&lt;p&gt;Once you've made your modifications, a note, on the bottom of the post, appear to inform other users that you have edited your post.&lt;/p&gt;
+&lt;p&gt;Please also enter in The Field 'Reason for edit' a reason why you edited this Message.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Can others edit my posts?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Administrators and moderators may also edit your messages. If they do, a note at the bottom appear telling other users that the post was modified.&lt;/p&gt;</Resource>
     <Resource tag="EDITDELETETITLE">تحرير وحذف مشاركاتك</Resource>
     <Resource tag="EDITPROFILECONTENT">&lt;p&gt;You can change your account information using Personal Profile -&amp;gt; 'Edit Profile' option from within the &lt;strong&gt;User Control Panel&lt;/strong&gt;. If you want to change your Password there is an extra Page (Change Password) for that in the &lt;strong&gt;User Control Panel&lt;/strong&gt;, where you can set a new Password.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Edit Profile&lt;/strong&gt; Page&lt;/p&gt;
@@ -3781,7 +3868,27 @@ Spoiler Content
 
 </Resource>
     <Resource tag="EDITPROFILETITLE">Editing User Profile &amp; Forum Settings</Resource>
-    <Resource tag="FORUMSCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="FORUMSCONTENT">&lt;p&gt;&lt;strong&gt;What is YAF?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;YetAnotherForum.NET (YAF) is The Open Source Discussion Forum for sites running ASP.NET. 100% written in C#, YAF (pronounced like &amp;quot;laugh&amp;quot;) is a unique combination of Open Source, Microsoft's .NET platform and an international collaboration of the .NET developer community. Growing and changing daily, the YAF project is led by Ingo Herbote. YAF runs on any web server that supports ASP.NET v4.0 (and above) and SQL Server. YAF is licensed under Apache 2.0.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How is all of this structured?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A Forum contains various areas, which themselves contain forums (more specific subject areas) which contain topics  which are made up of individual messages (where a user writes something).&lt;/p&gt;
+&lt;p&gt;The Forums home page has a list of categories and forums, with basic statistics for each, including the number of topics and messages, and which member posted the most recent message.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How do I find my way around?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When you click on a forum's name, you are taken to the list of topics it contains. A topic is a conversation between members or guests. Each topic starts out as a single message and grows as more individual messages are added by different users. &lt;/p&gt;
+&lt;p&gt;To start a new Topic simply click on the 'New Topic' button  (If you have access to it).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Paging&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When there are more topics to display than will fit on a single page, you may see the Pager, which contains page numbers. This indicates that the list of topics has been split over two or more pages.&lt;/p&gt;
+&lt;p&gt;This method of splitting lists of items over many pages is used throughout the board.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What are sticky topics?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;'Sticky' Topics can be created by moderators or administrators, and remain 'stuck' to the top of the listing, even if they haven't had any messages recently. Their purpose is to keep important information visible and accessible at all times.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How do I read a topic?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To read a topic, click on its title. Each message in a topic is created by a member or a guest. You'll see some brief information about the member who created the topic on the left side of the message.&lt;/p&gt;
+&lt;p&gt;To message a reply to an existing topic, click on the 'Post Reply'  button. If the 'Post Reply' button does not appear, it could mean that you are not logged in as a member, or that you do not have permission to reply, or that the topic has been closed for new replies.&lt;/p&gt;
+&lt;p&gt;If enabled, there will also be a 'Quick Reply' box where you can quickly enter a reply without having to go to the 'Post Reply' page. You need to click the 'Quick Reply' button  in a message to activate the quick reply box before you can type into it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How do I find out more about members?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To view information about a particular member, click on the user name. This will take you to their public profile page.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is the Header?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Header on top of every page has links to help you move around. With one click you can reach areas such as: My Profile, Help (which you are reading now), Search and other  useful features..&lt;/p&gt;</Resource>
     <Resource tag="FORUMSTITLE">المنتديات, المواضيع والمشاركات</Resource>
     <Resource tag="GENERALTOPICS">الاستخدام العام للمنتدى</Resource>
     <Resource tag="INDEX">Index</Resource>
@@ -3793,7 +3900,10 @@ Spoiler Content
 &lt;p&gt;&lt;strong&gt;Receive an email notification when you get a new private message? &lt;/strong&gt; - You can also turn on/off Email Notifications when you receive a private message.&lt;/p&gt;
 </Resource>
     <Resource tag="MAILSETTINGSTITLE">Email Notification Preferences</Resource>
-    <Resource tag="MEMBERSLISTCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="MEMBERSLISTCONTENT">&lt;p&gt;The members list shows the registered members of the board. You can view the member list ordered alphabetically by user name, &amp;quot;Joined“ Date , or „last visit“,&lt;/p&gt;
+&lt;p&gt;There is also a Search Box where you can search for an specific user.&lt;/p&gt;
+&lt;p&gt;To view the members list, click on 'Members' on main Header at the top of the page (If you don't see the link you didn't have access to that page).&lt;/p&gt;
+</Resource>
     <Resource tag="MEMBERSLISTTITLE">قائمة الأعضاء</Resource>
     <Resource tag="MESSENGERCONTENT">
         &lt;p&gt;Registered members may be able to send messages to other members of this forum using the private messaging system (If enabled by the Administrator).
@@ -3819,13 +3929,50 @@ Spoiler Content
         &lt;p&gt;Depending  on how many Messages you are allowed to have you should delete some of them from  time (You can export them before you delete them to keep them on your local computer). Otherwise when your Mailbox is full you are not able to receive new  messages. On the Bottom you will be informed how many Messages you have and how  many you can Maximal have.&lt;/p&gt;
       </Resource>
     <Resource tag="MESSENGERTITLE">Private Messages (Messenger)</Resource>
-    <Resource tag="MODSADMINSCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="MODSADMINSCONTENT">&lt;p&gt;Moderators oversee specific forums. They generally have the ability to edit and delete posts, move topics, and perform other actions. Becoming a moderator for a specific forum is usually rewarded to users who are particularly helpful and knowledgeable in the subject of the forum they are moderating.&lt;/p&gt;
+&lt;p&gt;Administrators are the people who have overall control of everything that happens on the board. They oversee how the board is styled, what forums to create and how to organize them, what information to require from members and who to appoint as moderators.&lt;/p&gt;</Resource>
     <Resource tag="MODSADMINSTITLE">المشرفين والإداريين</Resource>
-    <Resource tag="MYALBUMSCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="MYALBUMSCONTENT">&lt;p&gt;If the Administrator has enable the Album Feature and you are a member who has access to add Albums, you can create Albums of images that are linked to your public profile. Albums can be created by visiting the &lt;strong&gt;User Control Panel&lt;/strong&gt;, and clicking on the 'Edit Albums' link, and then clicking on 'Add New Album'. The Number of how many Albums and how many Images depends on what the Admin has Setup for your User Group which you are in.&lt;/p&gt;
+&lt;p&gt;Each album can have a title and you can set a Cover for it (Image from the Album) or use random, you can also add a caption for every Image.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How do I upload pictures?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you are on the Add/Edit Album Page you select an Image on your Computer and Click Upload to add it to the Album.&lt;/p&gt;
+&lt;p&gt;You'll have the option to give each picture a caption, and to set one image as the Album cover, which will be displayed on the public profile. To delete an album or edit the title, add image(s) or delete(s) image, click on 'Edit'. To edit or add a caption of an image click on the text bellow the image. If you want to Set a Cover or Remove the Cover Click on the Button bellow the Cover.&lt;/p&gt;</Resource>
     <Resource tag="MYALBUMSTITLE">البومات</Resource>
-    <Resource tag="MYPICSCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="MYPICSCONTENT">&lt;p&gt;&lt;strong&gt;What are Avatars?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Avatars are small images that people use to identify or distinguish themselves to other forum members. These Avatars will be displayed as part of the user info in posts, as well as in the public profile.&lt;/p&gt;
+&lt;p&gt;You can modify your Avatar by clicking on 'Modify Avatar' under the 'Personal Profile' area of the navigation bar within the &lt;strong&gt;User Control Panel&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;There are three ways to add an Avatar (Maybe less if deactivated by the Administrator)...&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;If available in the forum you can choose from an existing collection of Avatars&lt;/li&gt;
+  &lt;li&gt;Enter an existing URL to an Image on a Remote Server&lt;/li&gt;
+  &lt;li&gt;Select an Image from Your Computer and Upload it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Be aware that the Administrator can set the Allowed Image File types, Image Size, and Image Dimensions (Max Width and Height of an Image).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What are signatures?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;'Signatures' contain information that you want to include at the bottom of all your posts. This might include pictures, links to your site(s), quotes, etc.&lt;/p&gt;
+&lt;p&gt;To modify signatures, click on 'Signature' under the 'Personal Profile' area of the navigation bar within the User CP. On this Page you will be Informed which BB Codes and which HTML Tags you can use, and how long the Signature can be.&lt;/p&gt;</Resource>
     <Resource tag="MYPICSTITLE">التواقيع, الصور الشخصية</Resource>
-    <Resource tag="MYSETTINGSCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="MYSETTINGSCONTENT">&lt;p&gt;The &lt;strong&gt;User Control Panel&lt;/strong&gt; is where you control your personal settings, options and preferences.&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt;Control Panel&lt;/strong&gt; main page will show your Account Summary including your User Name, Email Address, and Number of posts, Member of Groups you are in and since when you are member.&lt;/p&gt;
+&lt;p&gt;On the Left Side you will find Links to all Sub Pages and Forms that allow you to control..&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Messenger&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Inbox&lt;/li&gt;
+  &lt;li&gt;Sent Items&lt;/li&gt;
+  &lt;li&gt;Archive&lt;/li&gt;
+  &lt;li&gt;New Message&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Personal Profile&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;View Profile&lt;/li&gt;
+  &lt;li&gt;Edit Profile&lt;/li&gt;
+  &lt;li&gt;View Thanks&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Edit Albums&lt;/li&gt;
+  &lt;li&gt;Modify Avatar&lt;/li&gt;
+  &lt;li&gt;Signature&lt;/li&gt;
+  &lt;li&gt;Email Notification Preferences&lt;/li&gt;
+  &lt;li&gt;Change Password&lt;/li&gt;
+&lt;/ul&gt;</Resource>
     <Resource tag="MYSETTINGSTITLE">اعداداتي</Resource>
     <Resource tag="NAVIGATION">Navigation</Resource>
     <Resource tag="NEWPOSTSCONTENT">
@@ -3839,9 +3986,36 @@ Spoiler Content
     </Resource>
     <Resource tag="NEWPOSTSTITLE">عرض المشاركات الجديدة ومشاركات اليوم</Resource>
     <Resource tag="NORESULTS">لا يوجد نتيجة.</Resource>
-    <Resource tag="PMCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="PMCONTENT">&lt;p&gt;You can contact another by sending an E-Mail, you find them on the member list.&lt;/p&gt;
+&lt;p&gt;This will usually open a page that contains a form where you can enter your message. When you have finished typing your message, press the 'Send E-mail' button and your message will be sent instantly.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Can I see e-mail addresses?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For privacy reasons, the recipient's e-mail address is not revealed to you during this process, or at any other location in the forums.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Why can't I send an e-mail to someone?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you cannot find an e-mail button or link for a member, it means either that the administrator has disabled e-mail functions for this forum, or that the member has said that they do not wish to receive e-mail from other members.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is private messaging?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Registered members may also be able to send messages to other members of this forum using the private messaging system.&lt;/p&gt;</Resource>
     <Resource tag="PMTITLE">اتصال الأعضاء الآخرين</Resource>
-    <Resource tag="POLLSCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="POLLSCONTENT">&lt;p&gt;&lt;em&gt;Polls are an Option to vote on an issue or a question.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Create a new poll?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;When you post a new Topic, you have the option 'Add Poll?' to create a new poll. If you don't see that option you may not have access to that option.&lt;/p&gt;
+&lt;p&gt;You can also add new Polls to existing ones. A Topic can have as many Polls you want.&lt;/p&gt;
+&lt;p&gt;This allows you to ask a question and specify a number of possible responses (Max 10 or the Administrator has set up a higher number) - &lt;em&gt;An Administrator can attach Images (Remote Urls) as Responses&lt;/em&gt;. Other members will then be able to vote for the response they wish, and the results of the voting will be displayed in the thread.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;An example poll might be:&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;What is your favorite color?&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Blue&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Red&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Yellow&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Green&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You may also want to specify a time limit for the poll. For example: run the poll for 10 Days or you can also set it to never expire.&lt;/p&gt;
+&lt;p&gt;You can also decide if the user should be able to see the results without making a vote or if you enable the Check box 'You should vote in all polls to see results.&lt;em&gt;'&lt;/em&gt; you need to vote before seeing any results.&lt;/p&gt;
+&lt;p&gt;'Bound voting' Option don't show results, if the poll didn't expire.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Grouping Polls&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;All Polls attached to a Topic are automatically combined as a Group. You can display this Group with Polls on any other Topic you want.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How to vote?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To vote in a poll, simply click on the option you want to vote for.&lt;/p&gt;
+&lt;p&gt;Generally, once you have voted in a poll, you will not be able to change your vote later, so place your vote carefully!&lt;/p&gt;</Resource>
     <Resource tag="POLLSTITLE">إنشاء ومشاركة في الإستطلاعات</Resource>
     <Resource tag="POPUPSCONTENT">&lt;p&gt;When you have logged in and load the Page you may receive an Pop Up Notification on the center of your Browser Window.&lt;/p&gt;
 &lt;p&gt;This will inform you about several actions...&lt;/p&gt;
@@ -3854,10 +4028,35 @@ Spoiler Content
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;You may also receive a couple of Information and Error Messages in the same way.&lt;/em&gt;&lt;/p&gt;</Resource>
     <Resource tag="POPUPSTITLE">PopUp Notifications</Resource>
-    <Resource tag="POSTINGCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="POSTINGCONTENT">&lt;p&gt;When posting messages you may wish to include some formatting such as bold text, italic text and underlined text.&lt;/p&gt;
+&lt;p&gt;Adding formatting to your post can be done in two ways:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Using clickable controls similar to those found in most word processors&lt;/li&gt;
+  &lt;li&gt;Typing formatting commands in BB code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Clickable controls are available in the Standard and Enhanced WYSIWYG (What You See Is What You Get) editors. The difference between these is that the standard editor will show the BB code in your message and be processed when it is displayed. The enhanced WYSIWYG editor will show your message as it will be displayed while you are typing.&lt;/p&gt;
+&lt;p&gt;Currently it depends on the Administrator which Editor is enabled ether WYSIWYG or the BB Code Editor.&lt;/p&gt;
+&lt;p&gt;To use these, simply click the button, for example the B (bold) button and then type to get bold text. Click the button again to stop using that formatting. You can also highlight text that you have already typed then click the formatting button to format existing text.&lt;/p&gt;
+&lt;p&gt;BB code Tags are a special set of tags similar to HTML tags that can be used in posts to the board. To find out more about the BB codes and which are available go to the Help Topic &lt;a href="{0}"&gt;BB Codes List&lt;/a&gt;&lt;/p&gt;</Resource>
     <Resource tag="POSTINGTITLE">نشر المواضيع الجديدة والمشاركات</Resource>
     <Resource tag="PROFILETOPICS">الاعداد ومميزات الملف الشخصي</Resource>
-    <Resource tag="PUBLICPROFILECONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="PUBLICPROFILECONTENT">&lt;p&gt;As member you have a publicly viewable profile page. This page includes information provided by the member, either during the registration process or later on via the User Control Panel.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;There are a multiple ways to view a members profile...&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;When you see an username click on the name and you will see a dropdown menu which contains an Link 'User Profile' to view the Profile..&lt;/li&gt;
+  &lt;li&gt;The members list allows you to browse all registered members, and quickly click through to public profiles.&lt;/li&gt;
+  &lt;li&gt;When logged in, you can also view your own public profile by logging into the forums and clicking on The 'My Profile' Link in the header at the top of the page, to open the User Control Panel.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Which Informations are shown on that Page?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The Public Profile Page is grouped into 5 Tabs.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;About&lt;/strong&gt; - Shows all Informations the user has provided on his Profile Page such as Real name, gender, Status if User is Online/Offline, Forum Rank, and other.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Statistics&lt;/strong&gt; - Shows statistical information such as Joined date, Last Visit, Number of thanks, Number of times this user was thanked                          and Number of posts for which this user was thanked.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Last 10 Post&lt;/strong&gt; - Shows if available the Last 10 Messages the User has written&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Friends - &lt;/strong&gt;Shows the Friends the User has in the Forum.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Albums - &lt;/strong&gt;Shows the Albums (if enabled) that the User has generated.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Personal information such as E-Mail Address or Passwords are &lt;strong&gt;NOT&lt;/strong&gt; shown.&lt;/p&gt;</Resource>
     <Resource tag="PUBLICPROFILETITLE">ملفي الشخصي العام</Resource>
     <Resource tag="READPOSTTOPICS">قراءة وإرسال الرسائل</Resource>
     <Resource tag="RECOVERCONTENT">اذا نسيت كلمة المرور, you can click on the "&lt;a href="{0}"&gt;Lost Password&lt;/a&gt;" 
@@ -3870,16 +4069,32 @@ p&gt;هذا الرابط يجلب لك صفحة التي تطلب منك ادخ�
   work. You may need to check your spam filters and folder if you do not see this 
   email in a few minutes. &lt;/p&gt;</Resource>
     <Resource tag="RECOVERTITLE">استعادة كلمة المرور</Resource>
-    <Resource tag="REGISTRATIONCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="REGISTRATIONCONTENT">&lt;p&gt;The administrator will probably require you to register in order to use all the features of the forum. Being registered gives you an identity on the board, a fixed username on all messages you post and an online public profile.&lt;/p&gt;
+&lt;p&gt;Registration is free (unless otherwise specified), and offers an extended range of features, including:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Posting new Topics&lt;/li&gt;
+  &lt;li&gt;Replying to other peoples' Topics&lt;/li&gt;
+  &lt;li&gt;Editing your messages&lt;/li&gt;
+  &lt;li&gt;Receiving email notification of replies to messages and topics you specify&lt;/li&gt;
+  &lt;li&gt;Sending private messages to other members&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;How do I register?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;You register by clicking on the 'Register' in the Header. First You have to agree to the Forum Rules and Policies. Then You will be asked to choose a user name, password, a Security Question/Answer, and enter a valid email address. And if the Administrator you need to enter the Shown Captcha code in order to proceed. On the next Page you can optional Provide some basic Profile Settings.&lt;/p&gt;
+</Resource>
     <Resource tag="REGISTRATIONTITLE">التسجيل</Resource>
-    <Resource tag="REPLYINGCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="REPLYINGCONTENT">&lt;p&gt;On some boards you might be able to post and reply as a guest user. But most communities require registration.&lt;/p&gt;
+&lt;p&gt;A registered user can go to a forum on a board where he has permission to view Topics and leave replies. To reply you have a few options. You can click on the 'Post Reply' button and add a new Message to the end of the Topic. Alternatively, you can leave a quick reply in a Quick Reply box listed below the posts in the Topic.&lt;/p&gt;
+&lt;p&gt;If you want to Reply to a Message hit the 'Quote' button and you can Reply to a Message with the Quoted Text.&lt;/p&gt;</Resource>
     <Resource tag="REPLYINGTITLE">رد على المشاركة</Resource>
-    <Resource tag="RSSCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="RSSCONTENT">&lt;p&gt;The feeds are currently provided in two formats, RSS and Atom.&lt;/p&gt;
+&lt;p&gt;If the administrator has enabled Feed syndication, you can get the Feeds for a forums, topics and active topics.&lt;/p&gt;
+&lt;p&gt;Most modern browsers have facilities for reading RSS feeds and will automatically detect the availability of feeds on YAF forum pages.&lt;/p&gt;</Resource>
     <Resource tag="RSSTITLE">ملخصات </Resource>
     <Resource tag="SEARCHFOR">أدخل كلمة للبحث عنها :</Resource>
     <Resource tag="SEARCHHELP">مساعدة البحث</Resource>
     <Resource tag="SEARCHHELPTITLE">البحث عن المواضيع المساعدة</Resource>
-    <Resource tag="SEARCHINGCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="SEARCHINGCONTENT">&lt;p&gt;To quickly find a thread or post of interest anywhere on the forums, click on the 'Search' link in the Header. Then, type in the keyword or phrase you wish to search for.&lt;/p&gt;
+&lt;p&gt;For more control over the search, you can restrict your search to individual forums, or find posts or topics written by a specified user. You can also select how many Results should be shown per page.&lt;/p&gt;</Resource>
     <Resource tag="SEARCHINGTITLE">بحث في المنتديات والمواضيع </Resource>
     <Resource tag="SEARCHLONGER">يجب ان يكون البحث على الاقل  3 احرف  </Resource>
     <Resource tag="SMILIESCONTENT">&lt;em&gt;Help مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
@@ -3904,9 +4119,15 @@ p&gt;هذا الرابط يجلب لك صفحة التي تطلب منك ادخ�
   &lt;li&gt;&lt;strong&gt;Your Name was thanked -&lt;/strong&gt; Shows the List your Messages where you received thanks.&lt;/li&gt;
 &lt;/ul&gt;</Resource>
     <Resource tag="THANKSTITLE">Thanks Feature</Resource>
-    <Resource tag="THREADOPTCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
+    <Resource tag="THREADOPTCONTENT">&lt;p&gt;At the top of each Topic, there is a link  'Options'. By clicking on this link, a menu will appear with a number of options:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Watch this topic&lt;/strong&gt; - by subscribing to a thread, you will receive periodic email updates on recent activity within it.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Print this topic&lt;/strong&gt; - This will show you a page with the thread post content in a reduced graphics format that is more 'printer friendly'.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Atom Feed&lt;/strong&gt; - This will show the Feed of this Topic with all Post as Feed Items.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Rss Feed&lt;/strong&gt; - This will show the Feed of this Topic with all Post as Feed Items.&lt;/li&gt;
+&lt;/ul&gt;
+</Resource>
     <Resource tag="THREADOPTTITLE">خيارات الموضوع</Resource>
-    <Resource tag="THREADSTATUSCONTENT">&lt;em&gt;مساعدة المحتوى قريبا...&lt;/em&gt;</Resource>
     <Resource tag="THREADSTATUSTITLE">ايقونات الرسالة وحالة الموضوع</Resource>
     <Resource tag="TITLE">YetAnotherForum.NET Help</Resource>
     <Resource tag="WELCOME">هنا تجد الأجوبة عن الأسئلة حول كيفية عمل المجلس . ستخدم الروابط في اليسار أو صندوق البحث في الأسفل لايجاد ما تبحث عنه. </Resource>
@@ -3999,6 +4220,7 @@ p&gt;هذا الرابط يجلب لك صفحة التي تطلب منك ادخ�
     <Resource tag="AUTH_NO_ACCESS_TOKEN">Could not get access_token!</Resource>
     <Resource tag="AUTO">تذكرني</Resource>
     <Resource tag="BOTH_USERNAME_EMAIL">يجب إدخال البريد الإلكتروني واسم المستخدم .</Resource>
+    <Resource tag="CONNECT_VIA">Or Connect via</Resource>
     <Resource tag="EMAIL">عنوان البريد الإلكتروني</Resource>
     <Resource tag="EMAIL_SENT_PASSWORD">تم ارسال  كلمة المرور الى  بريدك الإلكتروني</Resource>
     <Resource tag="FACEBOOK_LOGIN">Login with Facebook</Resource>
@@ -4049,14 +4271,27 @@ p&gt;هذا الرابط يجلب لك صفحة التي تطلب منك ادخ�
     <Resource tag="USERNAME">الاسم</Resource>
   </page>
   <page name="MESSAGEHISTORY">
+    <Resource tag="COMPARE_TITLE">Message Edit History Post Comparsion</Resource>
+    <Resource tag="COMPARE_VERSIONS">Compare versions</Resource>
+    <Resource tag="CONFIRM_RESTORE">Are you really want to restore that Message version?</Resource>
     <Resource tag="CURRENTMESSAGE">النسخة  الحالية </Resource>
     <Resource tag="EDITED">تعديل:</Resource>
     <Resource tag="EDITEDBY">تعديل بواسطة:</Resource>
+    <Resource tag="EDITEDBY_MOD">Edited By an Moderator</Resource>
     <Resource tag="EDITEREASON">سبب التعديل:</Resource>
     <Resource tag="GOMODERATE">الذهاب الى الاشراف </Resource>
     <Resource tag="HISTORYSTART">تاريخ الاصدارات </Resource>
+    <Resource tag="MESSAGE_EDITEDAT">Message Edited at </Resource>
+    <Resource tag="MESSAGE_RESTORED">Message was successfully restored!</Resource>
+    <Resource tag="NEW">New</Resource>
+    <Resource tag="NOTHING_SELECTED">Nothing selected</Resource>
+    <Resource tag="OLD">Old</Resource>
     <Resource tag="ORIGINALMESSAGE">النسخة اصلية</Resource>
     <Resource tag="POSTED">انشر:</Resource>
+    <Resource tag="RESTORE_MESSAGE">Restore Version</Resource>
+    <Resource tag="SELECT_BOTH">Please select one old and one new Message</Resource>
+    <Resource tag="SELECT_DIFFERENT">You must select two different versions to make a valid comparison.</Resource>
+    <Resource tag="TEXT_CHANGES">Text Changes</Resource>
     <Resource tag="TITLE">تاريخ الرسالة </Resource>
     <Resource tag="TOMESSAGE">الذهاب الى الرسائل </Resource>
   </page>
@@ -4158,7 +4393,7 @@ p&gt;هذا الرابط يجلب لك صفحة التي تطلب منك ادخ�
     <Resource tag="LAST_TWO_DAYS">قبل يومين</Resource>
     <Resource tag="LAST_TWO_HOURS">آخر ساعتين</Resource>
     <Resource tag="LAST_TWO_WEEKS">آخر  اسبوعين </Resource>
-    <Resource tag="LAST_VISIT">{آخر زيارة  {0</Resource>
+    <Resource tag="LAST_VISIT">last visit at {0}</Resource>
     <Resource tag="LAST_WEEK">آخر اسبوع </Resource>
     <Resource tag="LASTPOST">آخر مشاركة</Resource>
     <Resource tag="MEMBERTITLE">مواضيعي</Resource>
@@ -4186,7 +4421,7 @@ p&gt;هذا الرابط يجلب لك صفحة التي تطلب منك ادخ�
     <Resource tag="NEED_MORE_LETTERS">الرجاء  إدخال  على  الاقل  اول  حرفين  من  اسم  العضو  حتى يمكنت تحديد مكانه.</Resource>
     <Resource tag="NEED_SUBJECT">الرجاء ادخال  عنوان الرسالة  حتى تتمكن من المتابعة .</Resource>
     <Resource tag="NEED_TO">الرجاء تحدي الشخص /اشخاص  الذي تودي ارال  الرسالة لهم .</Resource>
-    <Resource tag="NO_SUCH_USER">نأسف و المستخدم  "{0}" غير مسجل  في المنتدى </Resource>
+    <Resource tag="NO_SUCH_USER">نأسف و المستخدم  {0}" غير مسجل  في المنتدى </Resource>
     <Resource tag="NOT_GUEST">لايمكن   ارسال  رسالة  خاصة   الى   زائر.</Resource>
     <Resource tag="OWN_PMBOX_FULL">الرسائل  الخاصة   ممتلئة {0}. الرجاء حذفمن الرسائل الخاصة .</Resource>
     <Resource tag="PMLIMIT_ALL">   لديك {0} رسائل خاصة: {1} في صندوق الوارد {2} و رسائل  في  المرسلات, {3} تم ارشفتة {4} مسموح به. يمتلىء صندوق الوارد  بـ {5}%.</Resource>
@@ -4390,6 +4625,7 @@ p&gt;هذا الرابط يجلب لك صفحة التي تطلب منك ادخ�
     <Resource tag="RSSTOPIC">ملخص المواضيع </Resource>
     <Resource tag="SHARE">Share</Resource>
     <Resource tag="SHARE_TOOLTIP">Share this Topic via Email, Twitter, Google+, Facebook, Digg, Reddit or Tumblr.</Resource>
+    <Resource tag="SIMILAR_TOPICS">Similar Topics</Resource>
     <Resource tag="SKYPE">(SKYPE)سكاي بي</Resource>
     <Resource tag="SKYPE_TITLE">Contact {0} via Skype</Resource>
     <Resource tag="STATISTICS">إحصاءات</Resource>
@@ -4734,11 +4970,13 @@ p&gt;هذا الرابط يجلب لك صفحة التي تطلب منك ادخ�
     <Resource tag="BTNSEARCH">البحث </Resource>
     <Resource tag="BTNSEARCH_EXTERNAL">البحث {0}</Resource>
     <Resource tag="BY">بواسطة </Resource>
+    <Resource tag="KEYWORDS">Keyword(s)</Resource>
     <Resource tag="LOADING_SEARCH"> يرجى إنتظار النتائج </Resource>
     <Resource tag="MATCH_ALL">تشابه في كل الكلمات </Resource>
     <Resource tag="MATCH_ANY">تشبه بكلمة واحده على لاقل </Resource>
     <Resource tag="MATCH_EXACT">تطابق كامل  بالبحث </Resource>
     <Resource tag="NO_SEARCH_RESULTS">[b]لايوجد نتائج للبحث .[/b]</Resource>
+    <Resource tag="POST_AND_TITLE">Search Entire Posts</Resource>
     <Resource tag="POSTED">تمت المشاركة:</Resource>
     <Resource tag="POSTEDBY">مشاركة بواسطة </Resource>
     <Resource tag="POSTS">مشاركات </Resource>
@@ -4749,7 +4987,12 @@ p&gt;هذا الرابط يجلب لك صفحة التي تطلب منك ادخ�
     <Resource tag="RESULTS">النتائج </Resource>
     <Resource tag="SEARCH_CRITERIA_ERROR_MAX">يجب ان يكون  احرف البحث عنها  على كحد اقصى   {0}  (see forum FAQ for more info).</Resource>
     <Resource tag="SEARCH_CRITERIA_ERROR_MIN">يجب  على لاقل  ان يكون  عدد الاحرف  {0}  ).</Resource>
+    <Resource tag="SEARCH_IN">Search in Forum(s)</Resource>
+    <Resource tag="SEARCH_OPTIONS">Search Options</Resource>
+    <Resource tag="SEARCH_RESULTS">Search Results per Page</Resource>
+    <Resource tag="SEARCH_TITLEORBOTH">Search entire Posts or Titles only</Resource>
     <Resource tag="TITLE">البحث</Resource>
+    <Resource tag="TITLE_ONLY">Search Titles Only</Resource>
     <Resource tag="TOPIC">مواضيع :</Resource>
   </page>
   <page name="SHOUTBOX">
@@ -4885,7 +5128,7 @@ The Message was posted in the {forumname} forum.
     <Resource tag="NOTIFICATION_ON_REGISTER">
       Hello {user}.
 
-      You have been successfully Registred on the {forumname} forum:
+      You have been successfully registered on the {forumname} forum:
 
       User Name: {user}
       Auto Generated Password: {pass}
@@ -4914,6 +5157,23 @@ The Message was posted in the {forumname} forum.
 
       Administration Link: {adminlink}
     </Resource>
+    <Resource tag="NOTIFICATION_ON_WELCOME_USER">
+    Hello {user},
+
+    You have been successfully registered on the {forumname} forum. You're all ready to go!
+
+    Before posting, consider other ways of finding information:
+
+    - Use the help pages to find out how the forum works
+    - Try the Forum Search, often times your questions are already been answered
+    - Do not post any abusive, vulgar, obscene, hateful, slanderous, threatening, sexually-oriented or any other material that may violate any applicable laws.
+    Doing so may lead to you being permanently banned from this forum. Note that all IP addresses are logged and may aid in enforcing these conditions.
+
+    Thanks!
+    The {forumname} Team
+    {forumurl}
+
+  </Resource>
     <Resource tag="PASSWORDRETRIEVAL_HTML">
       &lt;!DOCTYPE html&gt;
 
@@ -4991,36 +5251,40 @@ Visit {forumname} at {forumlink}
   </page>
   <page name="TIMEZONES">
     <Resource tag="NAME_UTC">(UTC)</Resource>
-    <Resource tag="UTC0">(UTC) Casablanca, Dublin, Edinburgh, London, Lisbon, Monrovia</Resource>
-    <Resource tag="UTC1">(UTC+1:00) Berlin, Brussels, Kristiansund, Madrid, Paris, Rome, Warsaw</Resource>
-    <Resource tag="UTC-1">(UTC-1:00) Azores, Cape Verde Islands</Resource>
-    <Resource tag="UTC10">(UTC+10:00) Melbourne, Papua New Guinea, Sydney, Vladivostok</Resource>
+    <Resource tag="UTC0">(UTC) Casablanca, Coordinated Universal Time, Greenwich Mean Time : Dublin, Edinburgh, Lisbon, London, Monrovia, Reykjavik</Resource>
+    <Resource tag="UTC1">(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna, Belgrade, Bratislava, Budapest, Ljubljana, Prague, Brussels, Copenhagen, Madrid, Paris, Sarajevo, Skopje, Warsaw, Zagreb</Resource>
+    <Resource tag="UTC-1">(UTC-1:00) Azores, Cape Verde Is.</Resource>
+    <Resource tag="UTC10">(UTC+10:00) Brisbane, Canberra, Melbourne, Sydney, Guam, Port Moresby, Hobart, Yakutsk</Resource>
     <Resource tag="UTC-10">(UTC-10:00) Hawaii</Resource>
-    <Resource tag="UTC11">(UTC+11:00) Magadan, New Caledonia, Solomon Islands</Resource>
-    <Resource tag="UTC-11">(UTC-11:00) Midway Island, Samoa</Resource>
-    <Resource tag="UTC12">(UTC+12:00) Auckland, Wellington, Fiji, Marshall Island</Resource>
-    <Resource tag="UTC-12">(UTC-12:00) Eniwetok, Kwajalein</Resource>
-    <Resource tag="UTC2">(UTC+2:00) Jerusalem, Kaliningrad, South Africa</Resource>
-    <Resource tag="UTC-2">(UTC-2:00) Ascension</Resource>
-    <Resource tag="UTC3">(UTC+3:00) Baghdad, Riyadh, Moscow, Nairobi</Resource>
-    <Resource tag="UTC-3">(UTC-3:00) Brazil, Buenos Aires, Georgetown, Falkland Is.</Resource>
-    <Resource tag="UTC3.5">(UTC+3:30) Tehran</Resource>
+    <Resource tag="UTC11">(UTC+11:00) Solomon Is., New Caledonia, Vladivostok</Resource>
+    <Resource tag="UTC-11">(UTC-11:00) Coordinated Universal Time-11</Resource>
+    <Resource tag="UTC12">(UTC+12:00) Auckland, Wellington, Coordinated Universal Time+12, Fiji, Magadan, Petropavlovsk-Kamchatsky - Old</Resource>
+    <Resource tag="UTC-12">(UTC-12:00) International Date Line West</Resource>
+    <Resource tag="UTC13">(UTC+13:00) Nuku'alofa, Samoa</Resource>
+    <Resource tag="UTC2">(UTC+02:00) Athens, Bucharest, Beirut, Cairo, Damascus, E. Europe, Harare, Pretoria, Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius, Istanbul, Jerusalem, Tripoli</Resource>
+    <Resource tag="UTC-2">(UTC-2:00) Coordinated Universal Time-2, Mid-Atlantic - Old</Resource>
+    <Resource tag="UTC3">(UTC+03:00) Amman, Baghdad, Kaliningrad, Minsk, Kuwait, Riyadh, Nairobi</Resource>
+    <Resource tag="UTC-3">(UTC-3:00) Brasilia, Buenos Aires, Cayenne, Fortaleza, Greenland, Montevideo, Salvador</Resource>
+    <Resource tag="UTC3.5">(UTC+03:30) Tehran</Resource>
     <Resource tag="UTC-3.5">(UTC-3:30) Newfoundland</Resource>
-    <Resource tag="UTC4">(UTC+4:00) Adu Dhabi, Baku, Muscat, Tbilisi</Resource>
-    <Resource tag="UTC-4">(UTC-4:00) Atlantic Time (Canada), Caracas, La Paz</Resource>
-    <Resource tag="UTC4.5">(UTC+4:30) Kabul</Resource>
-    <Resource tag="UTC5">(UTC+5:00) Ekaterinburg, Islamabad, Karachi, Tashkent</Resource>
-    <Resource tag="UTC-5">(UTC-5:00) Eastern Time (US &amp; Canada), Bogota, Lima, Quito</Resource>
-    <Resource tag="UTC5.5">(UTC+5:30) Bombay, Calcutta, Madras, New Delhi</Resource>
-    <Resource tag="UTC6">(UTC+6:00) Almaty, Colomba, Dhaka</Resource>
-    <Resource tag="UTC-6">(UTC-6:00) Central Time (US &amp; Canada), Mexico City</Resource>
-    <Resource tag="UTC7">(UTC+7:00) Bangkok, Hanoi, Jakarta</Resource>
-    <Resource tag="UTC-7">(UTC-7:00)Arizona, Mountain Time (US &amp; Canada)</Resource>
-    <Resource tag="UTC8">(UTC+8:00) Beijing, Hong Kong, Perth, Singapore, Taipei</Resource>
-    <Resource tag="UTC-8">(UTC-8:00) Pacific Time (US &amp; Canada)</Resource>
-    <Resource tag="UTC9">(UTC+9:00) Osaka, Sapporo, Seoul, Tokyo, Yakutsk</Resource>
+    <Resource tag="UTC4">(UTC+04:00) Abu Dhabi, Muscat, Baku, Caucasus Standard Time, Moscow, St. Petersburg, Volgograd,Port Louis, Tbilisi, Yerevan</Resource>
+    <Resource tag="UTC-4">(UTC-4:00) Asuncion, Atlantic Time (Canada), Cuiaba, Georgetown, La Paz, Manaus, San Juan, Santiago</Resource>
+    <Resource tag="UTC4.5">(UTC+04:30) Kabul</Resource>
+    <Resource tag="UTC-4.5">(UTC-4:30) Caracas</Resource>
+    <Resource tag="UTC5">(UTC+05:00) Ashgabat, Tashkent, Islamabad, Karachi</Resource>
+    <Resource tag="UTC-5">(UTC-5:00) Bogota, Lima, Quito, Eastern Time (US &amp; Canada), Indiana (East)</Resource>
+    <Resource tag="UTC5.5">(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi</Resource>
+    <Resource tag="UTC5.75">(UTC+05:45) Kathmandu</Resource>
+    <Resource tag="UTC6">(UTC+06:00) Astana, Dhaka, Ekaterinburg</Resource>
+    <Resource tag="UTC-6">(UTC-6:00) Central America, Central Time (US &amp; Canada), Guadalajara, Mexico City, Monterrey - New, Guadalajara, Mexico City, Monterrey - Old, Saskatchewan</Resource>
+    <Resource tag="UTC6.5">(UTC+06:30) Yangon (Rangoon)</Resource>
+    <Resource tag="UTC7">(UTC+07:00) Bangkok, Hanoi, Jakarta, Novosibirsk</Resource>
+    <Resource tag="UTC-7">(UTC-7:00) Arizona, Chihuahua, La Paz, Mazatlan - New, Chihuahua, La Paz, Mazatlan - Old, Mountain Time (US &amp; Canada)</Resource>
+    <Resource tag="UTC8">(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi, Krasnoyarsk, Kuala Lumpur, Singapore Perth, Taipei, Ulaanbaatar</Resource>
+    <Resource tag="UTC-8">(UTC-8:00) Baja California, Pacific Time (US &amp; Canada)</Resource>
+    <Resource tag="UTC9">(UTC+09:00) Irkutsk, Osaka, Sapporo, Tokyo, Seoul</Resource>
     <Resource tag="UTC-9">(UTC-9:00) Alaska</Resource>
-    <Resource tag="UTC9.5">(UTC+9:30) Adelaide, Darwin</Resource>
+    <Resource tag="UTC9.5">(UTC+09:30) Adelaide</Resource>
   </page>
   <page name="TOOLBAR">
     <Resource tag="ACTIVETOPICS">مواضيع فعالة </Resource>
@@ -5040,6 +5304,7 @@ Visit {forumname} at {forumlink}
     <Resource tag="INBOX_TITLE">Shows Private Messages Inbox.</Resource>
     <Resource tag="LOGGED_IN_AS">مرحبا بك يا: {0}</Resource>
     <Resource tag="LOGIN">تسجيل الدخول</Resource>
+    <Resource tag="LOGIN_CONNECT">Login to your {0} forum account</Resource>
     <Resource tag="LOGIN_TITLE">Shows the Login Control to the Forum.</Resource>
     <Resource tag="LOGOUT">تسجيل الخروج </Resource>
     <Resource tag="LOGOUT_QUESTION">هل  تريد تسجيل الخروج؟</Resource>
@@ -5056,6 +5321,7 @@ Visit {forumname} at {forumlink}
     <Resource tag="MYTOPICS_TITLE">Shows the Active and Favorite Topics.</Resource>
     <Resource tag="NEWPM">({0} غيرمقروء)</Resource>
     <Resource tag="REGISTER">تسجـيل</Resource>
+    <Resource tag="REGISTER_CONNECT">register a new account</Resource>
     <Resource tag="REGISTER_TITLE">Shows the Registration Form.</Resource>
     <Resource tag="SEARCH">البحـث</Resource>
     <Resource tag="SEARCH_TITLE">Use the Forum Search.</Resource>
@@ -5064,6 +5330,7 @@ Visit {forumname} at {forumlink}
     <Resource tag="TEAM_TITLE">Shows the Team Page which shows all Moderators and Admins..</Resource>
     <Resource tag="UNREADTOPICS">There are {0} Topic(s) with unread Messages</Resource>
     <Resource tag="WELCOME_GUEST">مرحبا بك ضيفاً.</Resource>
+    <Resource tag="WELCOME_GUEST_CONNECT">Wanna join the discussion?! </Resource>
     <Resource tag="WELCOME_GUEST_FULL">Welcome Guest! To enable all features please </Resource>
     <Resource tag="WELCOME_GUEST_NO">Welcome Guest! You can &lt;strong&gt;not&lt;/strong&gt; login or register.</Resource>
   </page>

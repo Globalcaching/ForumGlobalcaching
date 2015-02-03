@@ -34,7 +34,7 @@
                 
         <asp:Repeater ID="UserList" runat="server" OnItemCommand="UserList_ItemCommand">
             <HeaderTemplate>
-                <table style="width:100%"  cellspacing="1" cellpadding="0" class="sortable tablesorter">
+                <table style="width:100%"  cellspacing="1" cellpadding="0" class="tablesorter" id="UnverifiedUsers">
                 <thead>
                 <tr>
                     <th class="header2">
@@ -75,13 +75,19 @@
                         <%# this.Get<IDateTime>().FormatDateTime((DateTime)this.Eval("Joined")) %>
                     </td>
                     <td class="post">
-                        <asp:LinkButton OnLoad="Approve_Load" runat="server" CommandName="approve" CommandArgument='<%# Eval("UserID") %>'>
+                        <asp:LinkButton runat="server" CommandName="resendEmail" CommandArgument='<%# Eval("Email") + ";" + Eval("Name") %>' 
+                            CssClass="yaflittlebutton">
+                            <YAF:LocalizedLabel ID="LocalizedLabel20" runat="server" LocalizedTag="ADMIN_RESEND_EMAIL"
+                                LocalizedPage="ADMIN_ADMIN" />
+                        </asp:LinkButton>
+                        <asp:LinkButton OnLoad="Approve_Load" runat="server" CommandName="approve" CommandArgument='<%# Eval("UserID") %>'
+                            CssClass="yaflittlebutton">
                             <YAF:LocalizedLabel ID="LocalizedLabel8" runat="server" LocalizedTag="ADMIN_APPROVE"
                                 LocalizedPage="ADMIN_ADMIN">
                             </YAF:LocalizedLabel>
                         </asp:LinkButton>
-                        |
-                        <asp:LinkButton OnLoad="Delete_Load" runat="server" CommandName="delete" CommandArgument='<%# Eval("UserID") %>'>
+                        <asp:LinkButton OnLoad="Delete_Load" runat="server" CommandName="delete" CommandArgument='<%# Eval("UserID") %>' 
+                            CssClass="yaflittlebutton">
                             <YAF:LocalizedLabel ID="LocalizedLabel9" runat="server" LocalizedTag="ADMIN_DELETE"
                                 LocalizedPage="ADMIN_ADMIN" />
                         </asp:LinkButton>
@@ -91,13 +97,26 @@
             <FooterTemplate>
                 </tbody>
                 </table>
+                <div id="UnverifiedUsersPager" class=" tableSorterPager">
+                        <a href="#" class="first pagelink"><span>&lt;&lt;</span></a>
+                        <a href="#" class="prev pagelink"><span>&lt;</span></a>
+                        <input type="text" class="pagedisplay"/>
+                        <a href="#" class="next pagelink"><span>&gt;</span></a>
+                        <a href="#" class="last pagelink"><span>&gt;&gt;</span></a>
+                        <select class="standardSelectMenu pagesize">
+		                    <option selected="selected"  value="10">10</option>
+		                    <option value="20">20</option>
+                        	<option value="30">30</option>
+                        	<option  value="40">40</option>
+                        </select>
+                    </div>
                 </td>
                 <tr>
                     <td class="footer1">
                         <asp:Button OnLoad="ApproveAll_Load" CommandName="approveall" CssClass="pbutton"
                             runat="server" />
                         <asp:Button OnLoad="DeleteAll_Load" CommandName="deleteall" CssClass="pbutton" runat="server" />
-                        <asp:TextBox ID="DaysOld" runat="server" MaxLength="5" Text="14" CssClass="Numeric"></asp:TextBox>
+                        <asp:TextBox ID="DaysOld" runat="server" MaxLength="5" Text="14" CssClass="Numeric" type="number"></asp:TextBox>
                     </td>
                 </tr>
             </FooterTemplate>
@@ -111,7 +130,7 @@
                 <YAF:LocalizedLabel ID="LocalizedLabel1" runat="server" LocalizedTag="HEADER3" LocalizedPage="ADMIN_ADMIN" />
                 <span runat="server" id="boardSelector" visible='<%# this.PageContext.IsHostAdmin %>'>
                     <asp:DropDownList ID="BoardStatsSelect" runat="server" DataTextField="Name" DataValueField="BoardID"
-                        OnSelectedIndexChanged="BoardStatsSelect_Changed" AutoPostBack="true" />
+                        OnSelectedIndexChanged="BoardStatsSelect_Changed" AutoPostBack="true" CssClass="standardSelectMenu" />
                 </span>
             </td>
         </tr>
@@ -191,35 +210,41 @@
             LocalizedPage="ADMIN_ADMIN" />
     </p>
     &nbsp;<br />
-    <YAF:Pager runat="server" ID="Pager" OnPageChange="Pager_PageChange" />
     <table width="100%" cellspacing="1" cellpadding="0" class="content">
-        <asp:Repeater ID="ActiveList" runat="server">
-            <HeaderTemplate>
-                <tr>
-                    <td class="header1" colspan="4">
-                        <YAF:LocalizedLabel ID="LocalizedLabel1" runat="server" LocalizedTag="HEADER1" LocalizedPage="ADMIN_ADMIN" />
-                    </td>
-                </tr>
-                <tr>
-                    <td class="header2">
-                        <YAF:LocalizedLabel ID="LocalizedLabel2" runat="server" LocalizedTag="ADMIN_NAME"
-                            LocalizedPage="ADMIN_ADMIN" />
-                    </td>
-                    <td class="header2">
-                        <YAF:LocalizedLabel ID="LocalizedLabel3" runat="server" LocalizedTag="ADMIN_IPADRESS"
-                            LocalizedPage="ADMIN_ADMIN" />
-                    </td>
-                    <td class="header2">
-                        <YAF:LocalizedLabel ID="LocalizedLabel4" runat="server" LocalizedTag="LOCATION" />
-                    </td>
-                    <td class="header2">
-                        <YAF:LocalizedLabel ID="LocalizedLabel5" runat="server" LocalizedTag="BOARD_LOCATION"
-                            LocalizedPage="ADMIN_ADMIN" />
-                    </td>
-                </tr>
-            </HeaderTemplate>
-            <ItemTemplate>
-                <tr>
+        <tr>
+            <td class="header1" colspan="4">
+                <YAF:LocalizedLabel ID="LocalizedLabel21" runat="server" LocalizedTag="HEADER1" LocalizedPage="ADMIN_ADMIN" />
+            </td>
+        </tr>
+        <tr>
+            <td style="padding:0">
+                <asp:Repeater ID="ActiveList" runat="server">
+                    <HeaderTemplate>
+                        <table style="width:100%"  cellspacing="1" cellpadding="0" class="tablesorter" id="ActiveUsers">
+                            <thead>
+                            <tr>
+                                <th class="header2">
+                                    <YAF:LocalizedLabel ID="LocalizedLabel2" runat="server" 
+                                        LocalizedTag="ADMIN_NAME" LocalizedPage="ADMIN_ADMIN" />
+                                </th>
+                                <th class="header2">
+                                    <YAF:LocalizedLabel ID="LocalizedLabel3" runat="server" 
+                                        LocalizedTag="ADMIN_IPADRESS" LocalizedPage="ADMIN_ADMIN" />
+                                </th>
+                                <th class="header2">
+                                    <YAF:LocalizedLabel ID="LocalizedLabel4" runat="server" 
+                                        LocalizedTag="LOCATION" />
+                                </th>
+                                <th class="header2">
+                                    <YAF:LocalizedLabel ID="LocalizedLabel5" runat="server" 
+                                        LocalizedTag="BOARD_LOCATION" LocalizedPage="ADMIN_ADMIN" />
+                                </th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                    </HeaderTemplate>
+                    <ItemTemplate>
+                            <tr>
                     <td class="post">
                         <YAF:UserLink ID="ActiveUserLink" UserID='<%# Eval("UserID") %>' CrawlerName='<%# this.Eval("IsCrawler").ToType<int>() > 0 ? Eval("Browser").ToString() : String.Empty %>'
                             Style='<%# Eval("Style") %>' runat="server" />
@@ -239,12 +264,27 @@
                             TopicName='<%# Eval("TopicName") %>' LastLinkOnly="false" runat="server">
                         </YAF:ActiveLocation>
                     </td>
-                </tr>
-            </ItemTemplate>
-            <FooterTemplate>
-            </FooterTemplate>
-        </asp:Repeater>
+                            </tr>
+                    </ItemTemplate>
+                    <FooterTemplate>
+                            </tbody>
+                        </table>
+                        <div id="ActiveUsersPager" class=" tableSorterPager">
+                        <a href="#" class="first pagelink"><span>&lt;&lt;</span></a>
+                        <a href="#" class="prev pagelink"><span>&lt;</span></a>
+                        <input type="text" class="pagedisplay"/>
+                        <a href="#" class="next pagelink"><span>&gt;</span></a>
+                        <a href="#" class="last pagelink"><span>&gt;&gt;</span></a>
+                        <select class="standardSelectMenu pagesize">
+		                    <option selected="selected"  value="10">10</option>
+		                    <option value="20">20</option>
+                        	<option value="30">30</option>
+                        	<option  value="40">40</option>
+                        </select>
+                    </div>
+                    </td>
+                    </FooterTemplate>
+                </asp:Repeater>
     </table>
-    <YAF:Pager ID="Pager1" runat="server" LinkedPager="Pager" OnPageChange="Pager_PageChange" />
 </YAF:AdminMenu>
 <YAF:SmartScroller ID="SmartScroller1" runat="server" />

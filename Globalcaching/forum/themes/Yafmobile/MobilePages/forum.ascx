@@ -11,8 +11,8 @@
 <div class="DivTopSeparator">
 </div>
 <YAF:ShoutBox ID="ShoutBox1" Visible='<%# PageContext.BoardSettings.ShowShoutbox %>' runat="server" />
-<br />
 <YAF:ForumActiveDiscussion ID="ActiveDiscussions" runat="server" />
+<br />
 <YAF:PollList ID="PollList" runat="server"/>
 <YAF:ForumCategoryList ID="ForumCategoryList" runat="server"></YAF:ForumCategoryList>
 <br />
