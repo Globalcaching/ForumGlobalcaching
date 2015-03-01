@@ -1,9 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Actor);
-
 .yafnet,
 .yafnet td {
 	font-size:12px;
-	font-family: "Actor", Arial,Helvetica,sans-serif;
+	font-family: Arial,Helvetica,sans-serif;
 	color: black;
 }
 .yafnet input,
