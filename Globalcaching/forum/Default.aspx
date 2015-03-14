@@ -211,6 +211,11 @@
 
     <a href="/GlobalcachingPage.aspx?p=GepubliceerdeCachesPerJaar">Gepubliceerd per jaar</a> 
 </li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=GeocacheTypeStatistieken">Per geocache type</a> 
+</li>
+
                 </ul>
 </li>
 <li>
@@ -246,6 +251,22 @@
 <li>
     <a href="/GlobalcachingPage.aspx?p=RanglijstPerLand">Ranglijst per land</a> 
 </li>
+<li class="dropdown">
+
+    <a href="/GlobalcachingPage.aspx?p=GeocachersStatistieken">Statistieken</a> 
+                <ul>
+                    
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=LogStatistieken">Log statistieken</a> 
+</li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=GeocacheTypeStatistieken">Per geocache type</a> 
+</li>
+                </ul>
+</li>
+
 <li><a href="/GlobalcachingPage.aspx?p=ZoekGeocacher">Zoek Geocacher</a>
 </li>
 <li>
