@@ -1,6 +1,7 @@
 <%@ WebHandler Language="C#" Class="wepro1.Imfuscator.Handler" %>
 
 using System;
+using System.Collections;
 using System.Reflection;
 using System.Web.Caching;
 using System.IO;
@@ -9,52 +10,87 @@ namespace wepro1.Imfuscator
 {
     public class Handler : System.Web.IHttpHandler
     {
+        public static Hashtable ResourceCache = new Hashtable();
+
+        public class ResourceInfo
+        {
+            public string filename { get; set; }
+            public string ContentType { get; set; }
+            public byte[] data { get; set; }
+        }
+        
         public void ProcessRequest(System.Web.HttpContext context)
         {
             if (context.Request.QueryString["i"] != null)
             {
                 string value = context.Request.QueryString["i"].Trim();
-                string path = Path.GetDirectoryName(context.Request.PhysicalPath);
-                string fn = Path.Combine(path, value);
-                if (File.Exists(fn))
+
+                ResourceInfo cd = null;
+                lock (ResourceCache)
                 {
-                    context.Response.ContentType = GetContentType(fn);
-                    byte[] buffer = File.ReadAllBytes(fn);
-                    context.Response.OutputStream.Write(buffer, 0, buffer.Length);
-                    return;
+                    cd = ResourceCache[value] as ResourceInfo;
                 }
-                fn = Path.Combine(path, string.Format("{0}.png", value));
-                if (File.Exists(fn))
+                if (cd == null)
                 {
-                    context.Response.ContentType = GetContentType(fn);
-                    byte[] buffer = File.ReadAllBytes(fn);
-                    context.Response.OutputStream.Write(buffer, 0, buffer.Length);
-                    return;
+                    string path = Path.GetDirectoryName(context.Request.PhysicalPath);
+                    string fn = Path.Combine(path, value);
+                    if (File.Exists(fn))
+                    {
+                        cd = new ResourceInfo();
+                        cd.ContentType = GetContentType(fn);
+                        cd.filename = fn;
+                        cd.data = File.ReadAllBytes(fn);
+                    }
+                    fn = Path.Combine(path, string.Format("{0}.png", value));
+                    if (cd==null && File.Exists(fn))
+                    {
+                        cd = new ResourceInfo();
+                        cd.ContentType = GetContentType(fn);
+                        cd.filename = fn;
+                        cd.data = File.ReadAllBytes(fn);
+                    }
+                    fn = Path.Combine(path, string.Format("{0}.jpg", value));
+                    if (cd == null && File.Exists(fn))
+                    {
+                        cd = new ResourceInfo();
+                        cd.ContentType = GetContentType(fn);
+                        cd.filename = fn;
+                        cd.data = File.ReadAllBytes(fn);
+                    }
+                    fn = Path.Combine(path, string.Format("{0}.gif", value));
+                    if (cd == null && File.Exists(fn))
+                    {
+                        cd = new ResourceInfo();
+                        cd.ContentType = GetContentType(fn);
+                        cd.filename = fn;
+                        cd.data = File.ReadAllBytes(fn);
+                    }
+                    fn = Path.Combine(path, string.Format("{0}.css", value));
+                    if (cd == null && File.Exists(fn))
+                    {
+                        cd = new ResourceInfo();
+                        cd.ContentType = GetContentType(fn);
+                        cd.filename = fn;
+                        cd.data = File.ReadAllBytes(fn);
+                    }
+                    if (cd != null)
+                    {
+                        lock (ResourceCache)
+                        {
+                            ResourceCache[value] = cd;
+                        }                        
+                    }
                 }
-                fn = Path.Combine(path, string.Format("{0}.jpg", value));
-                if (File.Exists(fn))
+
+                if (cd != null)
                 {
-                    context.Response.ContentType = GetContentType(fn);
-                    byte[] buffer = File.ReadAllBytes(fn);
-                    context.Response.OutputStream.Write(buffer, 0, buffer.Length);
-                    return;
+                    context.Response.ContentType = cd.ContentType;
+                    context.Response.OutputStream.Write(cd.data, 0, cd.data.Length);
                 }
-                fn = Path.Combine(path, string.Format("{0}.gif", value));
-                if (File.Exists(fn))
+                else
                 {
-                    context.Response.ContentType = GetContentType(fn);
-                    byte[] buffer = File.ReadAllBytes(fn);
-                    context.Response.OutputStream.Write(buffer, 0, buffer.Length);
-                    return;
-                }
-                fn = Path.Combine(path, string.Format("{0}.css", value));
-                if (File.Exists(fn))
-                {
-                    context.Response.ContentType = GetContentType(fn);
-                    byte[] buffer = File.ReadAllBytes(fn);
-                    context.Response.OutputStream.Write(buffer, 0, buffer.Length);
-                    return;
-                }
+                    context.Response.StatusCode = 404;
+                }                
             }
 			/*
             Type streamerType = null;
