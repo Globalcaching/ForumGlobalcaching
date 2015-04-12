@@ -104,6 +104,10 @@
                     
 <li>
 
+    <a href="/GlobalcachingPage.aspx?p=CombiBanner">Combi Banner</a> 
+</li>
+<li>
+
     <a href="/GlobalcachingPage.aspx?p=FTFBanner">FTF Banner</a> 
 </li>
 <li>
