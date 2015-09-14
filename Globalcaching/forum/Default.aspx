@@ -176,6 +176,8 @@
 
     <a href="/GlobalcachingPage.aspx?p=GeocacheFilterMacro">Filter macro</a> 
 </li>
+<li><a href="/GlobalcachingPage.aspx?p=GeocacheOnderhoud">Geocache onderhoud</a>
+</li>
 <li><a href="/GlobalcachingPage.aspx?p=GeocacheKaart">Kaart</a>
 </li>
 <li class="dropdown">
