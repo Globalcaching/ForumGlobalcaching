@@ -11,16 +11,6 @@
 <link href="/Themes/wepro1/Styles/site.css" rel="stylesheet" type="text/css" />
 <link href="/Themes/wepro1/Content/Images/4101edcc-6de5-4f40-b863-43776f0f2264-a322bb28-eca8-417f-a97f-2be54b66e85e.css" rel="stylesheet" type="text/css" />
 <link href="/gcicon.ico" rel="shortcut icon" type="image/x-icon" />
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-19422045-3', 'auto');
-  ga('send', 'pageview');
-
-</script>
 </head> 
 <body>
 
@@ -145,6 +135,10 @@
     <a href="/GlobalcachingPage.aspx?p=LiveAPI">Live API</a> 
 </li>
 <li>
+    <a href="/GlobalcachingPage.aspx?p=LiveAPILogDownload">Log downloads</a> 
+</li>
+
+<li>
 
     <a href="/GlobalcachingPage.aspx?p=Logcorrectie">Logcorrectie</a> 
 </li>
@@ -160,6 +154,10 @@
 <li class="dropdown"><a href="/GlobalcachingPage.aspx?p=Geocaches">Geocaches</a>
                 <ul>
                     
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=Bookmarks">Bookmarks</a> 
+</li>
 <li>
 
     <a href="/GlobalcachingPage.aspx?p=LiveAPIDownload">Downloaden</a> 
@@ -278,6 +276,10 @@
 
     <a href="/GlobalcachingPage.aspx?p=ZoekLogsVanGeocacher">Zoek logs</a> 
 </li>
+<li>
+    <a href="/GlobalcachingPage.aspx?p=LiveAPILogDownload">Zoek logs uitgebreid</a> 
+</li>
+
                 </ul>
 </li>
 <li class="dropdown">
@@ -338,6 +340,9 @@
 <li>
 
     <a href="/GlobalcachingPage.aspx?p=links">Links</a> 
+</li>
+<li>
+    <a href="/GlobalcachingPage.aspx?p=LiveAPIUitleg">Live API uitleg</a> 
 </li>
 <li>
 
@@ -485,7 +490,7 @@
     
 <article class="widget-footer widget-html-widget widget">
 	<div>
-		<center><small><span style="color: #000000;">Official partner of Groundspeak and Geocaching Cache Icons Copyright 2015, Groundspeak Inc. Used with Permission</span><br /><span style="color: #000000;"> <a href="/forum/Default.aspx?g=register"><span style="color: #000000;">Registreer</span></a> en profiteer van een speciale aanbieding op <a href="http://www.geocachingshop.nl/actions.php" target="_blank"><span style="color: #000000;">geocachingshop.nl</span></a>,&nbsp;<a href="http://www.geocachingunited.nl/geocaching-info/globalcaching-eu.html" target="_blank"><span style="color: #000000;">geocachingunited</span></a> en op <a href="http://www.csillagos-hely.nl/geocaching.html" target="_blank"><span style="color: #000000;">Csillagos Hely</span></a></span></small></center>
+		<center><small><span style="color: #000000;">Official partner of Groundspeak and Geocaching Cache Icons Copyright 2016, Groundspeak Inc. Used with Permission</span><br /><span style="color: #000000;"> <a href="/forum/Default.aspx?g=register"><span style="color: #000000;">Registreer</span></a> en profiteer van een speciale aanbieding op <a href="http://www.geocachingshop.nl/actions.php" target="_blank"><span style="color: #000000;">geocachingshop.nl</span></a>,&nbsp;<a href="http://www.geocachingunited.nl/geocaching-info/globalcaching-eu.html" target="_blank"><span style="color: #000000;">geocachingunited</span></a> en op <a href="http://www.csillagos-hely.nl/geocaching.html" target="_blank"><span style="color: #000000;">Csillagos Hely</span></a></span></small></center>
 	</div>
 </article>
 
@@ -494,7 +499,7 @@
 			</div>
 		</div><!-- End Footer Widgets-->
 		<div id="FooterCopyright">
-			<span id="Copyright"><span class="Copyright">&copy; 2015 Globalcaching. All rights reserved.</span></span>
+			<span id="Copyright"><span class="Copyright">&copy; 2016 Globalcaching. All rights reserved.</span></span>
 			<span id="Sitemap"></span>
 			<span id="Privacy"></span>
 			<span id="Terms"></span>
