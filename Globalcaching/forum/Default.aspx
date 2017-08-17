@@ -5,7 +5,7 @@
 <html lang="nl-NL" class="static detail-page contents"> 
 <head runat="server"> 
     <meta charset="utf-8" />
-    <title>Globalcaching - Welkom op globalcaching!</title> 
+    <title>4Geocaching - Welkom op het geocaching!</title> 
     <link href="/Modules/Globalcaching/Styles/usersonline.css" rel="stylesheet" type="text/css" />
 <link href="/Themes/wepro1/styles/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <link href="/Themes/wepro1/Styles/site.css" rel="stylesheet" type="text/css" />
@@ -46,7 +46,7 @@
 
 <div class="container">
 	<header>
-        <div id="Logo"><table><tr><td><img src="/Themes/wepro1/content/images/globalcaching.png" width="48" height="48" /></td><td width="10"></td><td><h1><a href="/" title="Go to Home">Globalcaching</a></h1>Het geocaching portaal!</td><td width="10"><td><a href="http://www.geocaching.com/live/" target="_blank"><img src="/Themes/wepro1/content/images/Geocaching_LIVE_poweredby_48.png" width="48" height="48" /></a>&nbsp;<a href="http://www.geocaching.com/" target="_blank"><img src="/Themes/wepro1/content/images/geocaching.gif" width="48" height="48" /></a></td></tr></table></div>
+        <div id="Logo"><table><tr><td><img src="/Themes/wepro1/content/images/globalcaching.png" width="48" height="48" /></td><td width="10"></td><td><h1><a href="/" title="Go to Home">4Geocaching</a></h1>Het geocaching portaal!</td><td width="10"><td><a href="http://www.geocaching.com/live/" target="_blank"><img src="/Themes/wepro1/content/images/Geocaching_API_Logo_vCOMP2_090716_SM.png" height="48" /></a>&nbsp;<a href="http://www.geocaching.com/" target="_blank"><img src="/Themes/wepro1/content/images/geocaching.gif" width="48" height="48" /></a></td></tr></table></div>
 		<div class="navbar-collapse collapse-user collapse">
 			<div class="header-aux">
 				<span id="Language"></span>
