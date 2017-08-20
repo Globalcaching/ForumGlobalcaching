@@ -156,7 +156,7 @@ namespace Globalcaching.Core
                             string title = HttpContext.Current.Server.HtmlDecode(string.Format("{0}: {1}", dbr.GetString(0), dbr.GetString(1)));
                             string description = HttpContext.Current.Server.HtmlDecode(dbr.GetString(2));
                             if (description.Length > 700) description = description.Substring(0, 700);
-                            string link = string.Format("http://{1}/forum/Default.aspx?g=posts&m={0}#post{0}", dbr.GetInt32(3), svrName);
+                            string link = string.Format("https://{1}/forum/Default.aspx?g=posts&m={0}#post{0}", dbr.GetInt32(3), svrName);
                             DateTime dt = dbr.GetDateTime(4);
                             string pubDate = dt.AddHours(HourCorrection).ToString("R");
                             objX.WriteStartElement("item");
