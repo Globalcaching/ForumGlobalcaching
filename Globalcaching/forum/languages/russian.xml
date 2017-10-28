@@ -403,6 +403,7 @@
     <Resource tag="DISABLED">Отключено</Resource>
     <Resource tag="NO">Нет</Resource>
     <Resource tag="SAVE">Сохранить</Resource>
+    <Resource tag="TABLE_RESPONSIVE">Swipe Table to the left to Reveal More Data</Resource>
     <Resource tag="YES">Да</Resource>
   </page>
   <page name="ADMIN_DELETEFORUM">
@@ -953,7 +954,7 @@
     <Resource tag="ACTIVETOPIC_FEEDS_ACCESS">Доступ к ленте Активных тем:</Resource>
     <Resource tag="ACTIVETOPIC_FEEDS_ACCESS_HELP">Ограничить/запретить показ лент активных тем.</Resource>
     <Resource tag="AKISMET_KEY">Ключ Akismet API:</Resource>
-    <Resource tag="AKISMET_KEY_HELP">Чтобы использовать службу антиспама Akismet необходим ключ API Key &lt;a href="https://akismet.com/signup/"&gt;Подпишитесь здесь&lt;a&gt;</Resource>
+    <Resource tag="AKISMET_KEY_HELP">Чтобы использовать службу антиспама Akismet необходим ключ API Key &lt;a href="https://akismet.com/signup/"&gt;Подпишитесь здесь&lt;a&gt;.</Resource>
     <Resource tag="ALBUMS_PER_PAGE">Кол-во альбомов на странице:</Resource>
     <Resource tag="ALBUMS_PER_PAGE_HELP">Кол-во альбомов отображаемых на одной странице.</Resource>
     <Resource tag="ALL_USERS">Все пользователи</Resource>
@@ -1047,7 +1048,7 @@
     <Resource tag="BOT_MESSAGE_1">Approve User &amp; Log User &amp; Send Admin an Email</Resource>
     <Resource tag="BOT_MESSAGE_2">Block User</Resource>
     <Resource tag="BOTSCOUT_KEY">BotScout.com API Key:</Resource>
-    <Resource tag="BOTSCOUT_KEY_HELP">To Use the BotScout Bot Service you need an API Key &lt;a href="http://botscout.com/getkey.htm"&gt;Sign Up here&lt;a&gt;</Resource>
+    <Resource tag="BOTSCOUT_KEY_HELP">To Use the BotScout Bot Service you need an API Key &lt;a href="http://botscout.com/getkey.htm"&gt;Sign Up here&lt;a&gt;.</Resource>
     <Resource tag="CAPTCHA_FOR_REGISTER">Включить CAPTCHA/reCAPTCHA при регистрации:</Resource>
     <Resource tag="CAPTCHA_FOR_REGISTER_HELP">Требовать от пользователей ввести данные CAPTCHA при регистрации на форуме.</Resource>
     <Resource tag="CAPTCHA_GUEST_POSTING">Включить CAPTCHA при постах гостей:</Resource>
@@ -1058,8 +1059,6 @@
     <Resource tag="CAT_CACHE_TIMEOUT_HELP">В минутах</Resource>
     <Resource tag="CDN_JQUERY">Use Google Hosted CDN jQuery Script File?</Resource>
     <Resource tag="CDN_JQUERY_HELP">You can use the Google Hosted Script File, or instead use internal.</Resource>
-    <Resource tag="CDN_JQUERY_UI">Use Google Hosted CDN jQuery-UI Script File?</Resource>
-    <Resource tag="CDN_JQUERY_UI_HELP">You can use the Google Hosted Script File, or instead use internal.</Resource>
     <Resource tag="CDN_SCRIPTMANAGER">Use CDN Hosted Script Manager JS Files?</Resource>
     <Resource tag="CDN_SCRIPTMANAGER_HELP">You can use the CDN Hosted Script Files, or instead use internal.</Resource>
     <Resource tag="CHECK_FOR_BOTSPAM">Choose a Service for Automatically User Bot Checking:</Resource>
@@ -1375,6 +1374,8 @@
     <Resource tag="SHOW_DEL_MESSAGES_HELP">Удалённые сообщения(пустые) будут видны с уведомлением. Не включайте обе опции одновременно.</Resource>
     <Resource tag="SHOW_DEL_MESSAGES_TOALL">Показывать удалённые сообщения для всех:</Resource>
     <Resource tag="SHOW_DEL_MESSAGES_TOALL_HELP">Это покажет пустое сообщение с уведомлением всем пользователям.&lt;br /&gt; Если не выбрано, то администраторы, модераторы и автор будут видеть это сообщение.</Resource>
+    <Resource tag="SHOW_EDIT_MESSAGE">Show Edit Message:</Resource>
+    <Resource tag="SHOW_EDIT_MESSAGE_HELP">If enabled it shows a Note in the footer of the Message if the Message was edited (incl. the Reason and Time)</Resource>
     <Resource tag="SHOW_FORUM_JUMP">Показывать список быстрого перехода:</Resource>
     <Resource tag="SHOW_FORUM_JUMP_HELP">Показывать список быстрого перехода в разных местах форума.</Resource>
     <Resource tag="SHOW_FORUM_STATS">Показывать статистику конференции:</Resource>
@@ -1440,6 +1441,8 @@
     <Resource tag="SPAM_SERVICE_TYP_1">BlogSpam.NET API</Resource>
     <Resource tag="SPAM_SERVICE_TYP_2">Akismet API (Needs Registration)</Resource>
     <Resource tag="SPAM_SERVICE_TYP_3">Internal Spam Check Words</Resource>
+    <Resource tag="SPAMCHECK_ALLOWED_URLS">Allowed Number of URLs before flagged as SPAM:</Resource>
+    <Resource tag="SPAMCHECK_ALLOWED_URLS_HELP">If the user posts in one Message more then the allowed URLs the message is flagged as spam. This Check also depends how many user the posts have.</Resource>
     <Resource tag="SQL_FULLTEXT">Использовать полнотекстовой поиск SQL-сервера:</Resource>
     <Resource tag="SQL_FULLTEXT_HELP">Использовать полнотекстовой поиск сервера базы данных.</Resource>
     <Resource tag="SSL_LOGIN">Требовать SSL при входе на форум:</Resource>
@@ -1449,7 +1452,7 @@
     <Resource tag="STATS_CACHE_TIMEOUT">Таймаут кэша статистики форума:</Resource>
     <Resource tag="STATS_CACHE_TIMEOUT_HELP">В минутах</Resource>
     <Resource tag="STOPFORUMSPAM_KEY">StopForumSpam.com API Key:</Resource>
-    <Resource tag="STOPFORUMSPAM_KEY_HELP">In order to Report a User as Bot you need an StopForumSpam.com API Key &lt;a href="http://www.stopforumspam.com/signup"&gt;Sign Up here&lt;a&gt;</Resource>
+    <Resource tag="STOPFORUMSPAM_KEY_HELP">In order to Report a User as Bot you need an StopForumSpam.com API Key &lt;a href="http://www.stopforumspam.com/signup"&gt;Sign Up here&lt;a&gt;.</Resource>
     <Resource tag="STYLED_NICKS">Использовать стилизированные ники:</Resource>
     <Resource tag="STYLED_NICKS_HELP">Если включено, вы можете использовать цвета или иное форматирование для ников пользователей. Может быть индивидуальным для каждого скина.</Resource>
     <Resource tag="STYLED_TOPIC_TITLES">Использовать стилизированные названия тем:</Resource>
@@ -1632,6 +1635,8 @@
     <Resource tag="RECOVERY2">Простое (Простое восстановление позволяет восстановить копию последнего резервного бэкапа. Вы должны делать регулярные бэкапы.)</Resource>
     <Resource tag="RECOVERY3">Bulk-Logged (Восстановление в режиме Bulk-Logged выполняет такие операции.)</Resource>
     <Resource tag="REINDEX">При любых модификациях данных происходит фрагментация данных в таблицах. Эта команда может быть использована для воссоздания индексов во всех таблицах БД, чтобы увеличить скорость.</Resource>
+    <Resource tag="REINDEX_MSG">Please do not navigate away from this page...</Resource>
+    <Resource tag="REINDEX_TITLE">Updating Tables</Resource>
     <Resource tag="REINDEXTBL_BTN">Реиндексировать таблицы</Resource>
     <Resource tag="SETRECOVERY_BTN">Установить режим</Resource>
     <Resource tag="SHOW_STATS">Показать статистическую информацию об индексах таблиц YAF.</Resource>
@@ -1699,6 +1704,7 @@
     <Resource tag="MSG_CODE_BRACK">Пожалуйста, используйте код для использования с этой эмоцией в квадратных скобках.</Resource>
     <Resource tag="MSG_CODE_LONG">Код для использования с этой эмоцией не должен превышать 10 символов.</Resource>
     <Resource tag="MSG_CODE_MISSING">Пожалуйста, введите код для использования с этой эмоцией.</Resource>
+    <Resource tag="MSG_CODE_SAME">Please choose a different code, this one is already in use.</Resource>
     <Resource tag="MSG_NO_EMOTICON">Пожалуйста, введите эмоцию для этой иконки.</Resource>
     <Resource tag="MSG_NO_ICON">Пожалуйста, выберите иконку для использования с этой эмоцией.</Resource>
     <Resource tag="MSG_SORT_NMBR">Порядок сортировки должен быть числом от 0 до 255.</Resource>
@@ -1796,6 +1802,10 @@
     <Resource tag="EXPORT_XML">Экспортировать пользователя(лей) в формате CSV Xml</Resource>
     <Resource tag="FACEBOOK_USER">Пользователь Facebook</Resource>
     <Resource tag="FILTER">Фильтровать по дате регистрации с:</Resource>
+    <Resource tag="FILTER_BY_GROUP">Filter by Group...</Resource>
+    <Resource tag="FILTER_BY_RANK">Filter by Rank...</Resource>
+    <Resource tag="FILTER_DROPDOWN">Filter</Resource>
+    <Resource tag="FILTER_NO">[No Filter]</Resource>
     <Resource tag="HEADER">Поиск пользователей</Resource>
     <Resource tag="IMPORT">Импортировать пользователя(лей)</Resource>
     <Resource tag="LAST_VISIT">Последнее посещение</Resource>
@@ -1808,7 +1818,10 @@
     <Resource tag="RANK">Статус:</Resource>
     <Resource tag="ROLE">Роль:</Resource>
     <Resource tag="SEARCH">Поиск</Resource>
+    <Resource tag="SUSPENDED_ONLY">Show only suspended users?</Resource>
     <Resource tag="SYNC_ALL">Синхронизировать всех пользователей в Membership</Resource>
+    <Resource tag="SYNC_MSG">Please do not navigate away from this page while the sync is in progress...</Resource>
+    <Resource tag="SYNC_TITLE">Syncing Users</Resource>
     <Resource tag="TITLE">Пользователи</Resource>
     <Resource tag="TWITTER_USER">Пользователь Twitter</Resource>
     <Resource tag="USER_NAME">Ник пользователя</Resource>
@@ -1905,12 +1918,14 @@
     <Resource tag="ADD_FILES">Add file(s)...</Resource>
     <Resource tag="ALLOWED_EXTENSIONS">Разрешённые типы файлов</Resource>
     <Resource tag="ASK_DELETE">Удалить это вложение?</Resource>
+    <Resource tag="COMPLETE_WARNING">Please wait until all Upload(s) are completed and the Dialog closes itself!</Resource>
     <Resource tag="CURRENT_UPLOADS">Current Attachment Uploads:</Resource>
     <Resource tag="DELETE">Удалить</Resource>
     <Resource tag="DISALLOWED_EXTENSIONS">Запрещённые типы файлов</Resource>
     <Resource tag="DROP_HERE">Drop file(s) here</Resource>
     <Resource tag="FILEERROR">Файла типа '{0}' не разрешены для загрузки.</Resource>
     <Resource tag="FILENAME">Название файла</Resource>
+    <Resource tag="NO_ATTACHMENTS">You are not having any attachments yet, to add one click on the &lt;strong&gt;Upload New File(s)&lt;/strong&gt; button</Resource>
     <Resource tag="SELECT_FILE">Выберите файл для загрузки.</Resource>
     <Resource tag="SIZE">Размер</Resource>
     <Resource tag="START_UPLOADS">Start upload(s)</Resource>
@@ -1976,6 +1991,8 @@
     <Resource tag="BUTTON_DELETE">Удалить</Resource>
     <Resource tag="BUTTON_DELETE_TT">Удалить это сообщение</Resource>
     <Resource tag="BUTTON_DELETEALBUM">Удалить альбом</Resource>
+    <Resource tag="BUTTON_DELETEATTACHMENT">Delete Attachment(s)</Resource>
+    <Resource tag="BUTTON_DELETEATTACHMENT_TT">Delete selected attachment(s)s</Resource>
     <Resource tag="BUTTON_DELETETOPIC">Удалить Тему</Resource>
     <Resource tag="BUTTON_DELETETOPIC_TT">Удалить эту тему</Resource>
     <Resource tag="BUTTON_EDIT">Изменить</Resource>
@@ -2087,6 +2104,7 @@
     <Resource tag="HTMLTAG_WRONG">Введённые данные содержат запрещённый HTML тег {0}.</Resource>
     <Resource tag="LOADING">Загрузка...</Resource>
     <Resource tag="MAX_ONLINE">{1} было больше всего пользователей - {0}.</Resource>
+    <Resource tag="MENU">Menu</Resource>
     <Resource tag="MESSAGE">Сообщение</Resource>
     <Resource tag="MOBILE_FULLSITE">Просмотр всего сайта</Resource>
     <Resource tag="MOBILE_VIEWSITE">Мобильная версия</Resource>
@@ -2101,6 +2119,7 @@
     <Resource tag="NOTIFICATION_ON_MODERATOR_REPORTED_MESSAGE">Пожаловались на сообщение в форуме {0}</Resource>
     <Resource tag="NOTIFICATION_ON_MODERATOR_SPAMMESSAGE_APPROVAL">New SPAM Message on {0} Forum needs to be checked</Resource>
     <Resource tag="NOTIFICATION_ON_NEW_FACEBOOK_USER_SUBJECT">Успешная регистрация на форуме {0}</Resource>
+    <Resource tag="NOTIFICATION_ON_SUSPENDING_USER_SUBJECT">Suspension of your {0} Forum Account</Resource>
     <Resource tag="NOTIFICATION_ON_USER_REGISTER_EMAIL_SUBJECT">На форуме {0} зарегистрирован новый пользователь.</Resource>
     <Resource tag="NOTIFICATION_ON_WELCOME_USER_SUBJECT">Welcome to the {0} Forum</Resource>
     <Resource tag="OK">ОК</Resource>
@@ -2482,6 +2501,7 @@
     <Resource tag="ERROR_TOOBIG">Размер изображения слишком большой.</Resource>
     <Resource tag="IMAGES_COUNT_LIMIT">Предельное количество разрешённых изображений достигнуто. Вы можете добавить не более чем {0} изображений в каждый альбом.</Resource>
     <Resource tag="IMAGES_INFO">Примечание: В данный момент у Вас {0} изображений, Вам разрешены {1} изображений в каждом альбоме. Максимальный размер файла - {2} КБ</Resource>
+    <Resource tag="SELECT_FILE">Select an Image File ('.jpg', '.gif', '.png' or '.bmp') you want to upload.</Resource>
     <Resource tag="TITLE">Добавить/изменить альбом</Resource>
   </page>
   <page name="CP_EDITAVATAR">
@@ -4192,6 +4212,7 @@ Spoiler Content
     <Resource tag="MODERATED">Вы оставили сообщение в модерируемом форуме и поэтому модератор форума должен одобрить его перед тем как он станет видимым другим пользователям.</Resource>
     <Resource tag="REGISTRATION">Сообщение было послано на адрес электронной почты, который вы сообщили при регистрации. Пожалуйста, прочитайте инструкции в сообщении, чтобы войти на сайт.</Resource>
     <Resource tag="SUSPENDED">Ваша учётная запись временно отключена. Она будет вновь активирована {0}.</Resource>
+    <Resource tag="SUSPENDED_REASON">&lt;br /&gt;&lt;br /&gt;For the following Reason: "{0}".</Resource>
     <Resource tag="TITLE_ACCESSDENIED">Доступ запрещён</Resource>
     <Resource tag="TITLE_COOKIES">Включите куки</Resource>
     <Resource tag="TITLE_ECMAREQUIRED">Включите JavaScript</Resource>
@@ -4218,6 +4239,7 @@ Spoiler Content
     <Resource tag="AUTH_NO_ACCESS_TOKEN">Could not get access_token!</Resource>
     <Resource tag="AUTO">Запомните меня</Resource>
     <Resource tag="BOTH_USERNAME_EMAIL">Должны быть введены как адрес почты пользователя, так и его имя.</Resource>
+    <Resource tag="CAPS_LOCK">Caps Lock is on</Resource>
     <Resource tag="CONNECT_VIA">Or Connect via</Resource>
     <Resource tag="EMAIL">Адрес Email</Resource>
     <Resource tag="EMAIL_SENT_PASSWORD">Было послано сообщение по почте с вашим новым паролем.</Resource>
@@ -4234,12 +4256,16 @@ Spoiler Content
     <Resource tag="SSO_DEACTIVATED">Единая регистрация выключена администратором форума!</Resource>
     <Resource tag="SSO_DEACTIVATED_BYUSER">Единая регистрация отключена, Вам необходимо включить её в своём профиле.</Resource>
     <Resource tag="SSO_FACEBOOK_FAILED">The Facebook Login failed, User does not exists, or the account is not connected.</Resource>
+    <Resource tag="SSO_FACEBOOK_FAILED2">The Facebook Login failed, an user account with the same email address as the facebook account already exists, please try to connect you your forum account instead.</Resource>
+    <Resource tag="SSO_FACEBOOK_FAILED3">The Facebook Login failed, because the user does not provide a email address for the account.</Resource>
     <Resource tag="SSO_FACEBOOKNAME_NOTMATCH">The Facebook email address must match the Forum email adress!</Resource>
     <Resource tag="SSO_FAILED">New Registrations are disabled.</Resource>
     <Resource tag="SSO_GOOGLE_FAILED">The Google Login failed, User does not exists, or the account is not connected.</Resource>
+    <Resource tag="SSO_GOOGLE_FAILED2">The Google Login failed, an user account with the same email address as the Google account already exists, please try to connect you your forum account instead.</Resource>
     <Resource tag="SSO_GOOGLENAME_NOTMATCH">The Google email address must match the Forum email adress!</Resource>
     <Resource tag="SSO_ID_NOTMATCH">Неверный ID пользователя Facebook !</Resource>
     <Resource tag="SSO_TWITTER_FAILED">Вход через Twitter не удался, такой пользователь не существует.</Resource>
+    <Resource tag="SSO_TWITTER_FAILED2">The Twitter Login failed, an user account with the same user name as the Twitter account already exists, please try to connect you your forum account instead.</Resource>
     <Resource tag="SSO_TWITTERID_NOTMATCH"> Twitter ID и/или имя в Twitter неверны!</Resource>
     <Resource tag="SSO_TWITTERNAME_NOTMATCH">The Twitter User Name must match the Forum Username!</Resource>
     <Resource tag="TITLE">Вход</Resource>
@@ -4608,6 +4634,7 @@ Spoiler Content
     <Resource tag="QUICKREPLY">Быстрый ответ</Resource>
     <Resource tag="QUICKREPLY_HIDE">Скрыть форму быстрого ответа</Resource>
     <Resource tag="QUICKREPLY_SHOW">Показать форму быстрого ответа</Resource>
+    <Resource tag="QUOTE_SELECTED">Quote Selected Message</Resource>
     <Resource tag="RANK">Статус</Resource>
     <Resource tag="REDDIT_TOPIC">Поделиться в Reddit</Resource>
     <Resource tag="REP_VOTE_DOWN_MSG">Вы успешно понизили на -1 репутацию {0}.</Resource>
@@ -4724,6 +4751,11 @@ Spoiler Content
     <Resource tag="SKYPE">Skype(tm) ID:</Resource>
     <Resource tag="STATISTICS">Статистика</Resource>
     <Resource tag="SUSPEND">Поставить бан</Resource>
+    <Resource tag="SUSPEND_BY">Suspended By:</Resource>
+    <Resource tag="SUSPEND_CURRENT">Current Suspension</Resource>
+    <Resource tag="SUSPEND_INFO">&lt;strong&gt;NOTE&lt;/strong&gt; The Suspension is based on the Users current Date and Time which is Now: {0}.</Resource>
+    <Resource tag="SUSPEND_NEW">New Suspension</Resource>
+    <Resource tag="SUSPEND_REASON">Suspend Reason:</Resource>
     <Resource tag="SUSPEND_USER">Забанить пользователя:</Resource>
     <Resource tag="THANKSFROM">Количество «Спасибо»</Resource>
     <Resource tag="THANKSTOPOSTS">Количество сказанных «Спасибо» пользователя</Resource>
@@ -4884,8 +4916,13 @@ Spoiler Content
     <Resource tag="NEED_QUESTION">Контрольный вопрос обязателен.</Resource>
     <Resource tag="NEED_USERNAME">Имя пользователя обязательно.</Resource>
     <Resource tag="PASSWORD">Пароль</Resource>
+    <Resource tag="PASSWORD_GOOD">Good Password!</Resource>
+    <Resource tag="PASSWORD_MIN">Password must be {0} characters long.</Resource>
+    <Resource tag="PASSWORD_NOTMATCH">Password and Confirm Password do not match!</Resource>
     <Resource tag="PASSWORD_REQUIREMENTS_TITLE">Требования к паролю</Resource>
     <Resource tag="PASSWORD_REQUIREMENTS_WARN">мин. длина - {0}. Количество спецсимволов($#@!) - {1}.</Resource>
+    <Resource tag="PASSWORD_STRONGER">Make your password stronger with more capital letters, more numbers and special characters!</Resource>
+    <Resource tag="PASSWORD_WEAK">Weak Password, try using numbers and capital letters.</Resource>
     <Resource tag="PREFERENCES">Настройки форума</Resource>
     <Resource tag="PROFILE">Информация в профиле</Resource>
     <Resource tag="RECAPTCHA_BADSETTING">Настройки ReCAPTURE неверны. Сообщите это администрации форума.</Resource>
@@ -5129,6 +5166,30 @@ Spoiler Content
       Ваш Email: {email} (Пожалуйста не меняйте, иначе Вы не сможете войти через  Facebook)
 
     </Resource>
+    <Resource tag="NOTIFICATION_ON_SUSPENDING_ENDED_USER">
+    Hello {user},
+
+    The suspension of your forum account has ended or was lifted.
+
+    Thanks!
+    The {forumname} Team
+    {forumurl}
+
+  </Resource>
+    <Resource tag="NOTIFICATION_ON_SUSPENDING_USER">
+    Hello {user},
+
+    Your forum account on the {forumname} forum has been temporarily suspended.
+    
+    This suspension is due to end on {suspendedUntil}.
+
+    For the following Reason: '{suspendReason}'
+
+    Thanks!
+    The {forumname} Team
+    {forumurl}
+
+  </Resource>
     <Resource tag="NOTIFICATION_ON_TWITTER_REGISTER">
       Зравствуйте, {user}.
 
@@ -5223,6 +5284,10 @@ Password: {password}
       Для прочтения этого сообщения, перейдите по следующей ссылке в вашем браузере:
 
       {link}
+
+      You can manage your subscriptions here:
+      
+      {subscriptionlink}
     </Resource>
     <Resource tag="VERIFYEMAIL_HTML" />
     <Resource tag="VERIFYEMAIL_TEXT">
@@ -5311,7 +5376,7 @@ Password: {password}
     <Resource tag="MYTOPICS_TITLE">Активные и избранные темы</Resource>
     <Resource tag="NEWPM">({0} непрочитанных)</Resource>
     <Resource tag="REGISTER">Регистрация</Resource>
-    <Resource tag="REGISTER_CONNECT">register a new account</Resource>
+    <Resource tag="REGISTER_CONNECT">or Register a new forum account</Resource>
     <Resource tag="REGISTER_TITLE">На страницу регистрации</Resource>
     <Resource tag="SEARCH">Поиск</Resource>
     <Resource tag="SEARCH_TITLE">Использовать поиск</Resource>

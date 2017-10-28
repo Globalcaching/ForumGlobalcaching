@@ -1,8 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Globalcaching.forum.Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" ValidateRequest="false" CodeBehind="Default.aspx.cs" Inherits="Globalcaching.forum.Default" %>
 <%@ Register TagPrefix="YAF" Assembly="YAF" Namespace="YAF" %>
-
+<%@ Register TagPrefix="url" Namespace="Intelligencia.UrlRewriter" Assembly="Intelligencia.UrlRewriter" %>
 <!DOCTYPE html> 
-<html lang="nl-NL" class="static detail-page contents"> 
+<html lang="nl" class="static detail-page contents"> 
 <head runat="server"> 
     <meta charset="utf-8" />
     <title>4Geocaching - Welkom op het geocaching!</title> 
@@ -429,10 +429,10 @@
     <div class="widget-control">
     
 <article class="widget-content widget-html-widget widget">
-    <form id="form2" runat="server" enctype="multipart/form-data">
+    <url:Form id="form2" runat="server" enctype="multipart/form-data">
     <YAF:Forum runat="server" ID="forum1" BoardID="1">
     </YAF:Forum>
-    </form>
+    </url:Form>
 </article>
 
     </div>

@@ -37,7 +37,7 @@ namespace Globalcaching.forum {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form2;
+        protected global::Intelligencia.UrlRewriter.Form form2;
         
         /// <summary>
         /// forum1 control.

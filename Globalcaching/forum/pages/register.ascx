@@ -70,15 +70,12 @@
                             </td>
                         </tr>
 						<tr>
-							<td style="text-align:center" class="post" colspan="2">
-								<asp:CompareValidator ID="PasswordCompare" runat="server" ControlToCompare="Password"
-									ControlToValidate="ConfirmPassword" Display="Dynamic" ErrorMessage="The Password and Confirmation Password must match."
-									ValidationGroup="CreateUserWizard1"></asp:CompareValidator>
+							<td style="text-align: center;display: none" class="post" colspan="2">
+							        <span style="display: none"><asp:CompareValidator ID="PasswordCompare" runat="server" ControlToCompare="Password"
+									ControlToValidate="ConfirmPassword" ErrorMessage="The Password and Confirmation Password must match."
+									ValidationGroup="CreateUserWizard1"></asp:CompareValidator></span>
 									<div class="ui-widget">
-									    <div class="ui-state-highlight ui-corner-all">
-									        <p><span class="ui-icon ui-icon-info" style="float: left; margin-right: .3em;"></span>
-                                                <strong><YAF:LocalizedLabel ID="LocalizedLabelRequirementsTitle" runat="server" LocalizedTag="PASSWORD_REQUIREMENTS_TITLE"></YAF:LocalizedLabel>:</strong>
-									<YAF:LocalizedLabel ID="LocalizedLabelRequirementsText" runat="server" LocalizedTag="PASSWORD_REQUIREMENTS_WARN"></YAF:LocalizedLabel></p>
+									    <div id="passwordStrength">
 									    </div>
 									</div>
 							    <br />
@@ -214,7 +211,7 @@
 								<YAF:LocalizedLabel ID="LocalizedLabel18" runat="server" LocalizedTag="COUNTRY" />
 						    </td>
 							<td class="post">
-								<YAF:CountryListBox ID="Country" runat="server" DataTextField="Name" DataValueField="Value" CssClass="selectMenuWithIcons" /></td>
+								<YAF:ImageListBox ID="Country" runat="server" DataTextField="Name" DataValueField="Value" CssClass="selectMenuWithIcons" /></td>
 						</tr>
 						<tr>
 							<td align="right" class="postheader">

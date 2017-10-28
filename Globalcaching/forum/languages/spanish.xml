@@ -403,6 +403,7 @@
     <Resource tag="DISABLED">Desactivado</Resource>
     <Resource tag="NO">No</Resource>
     <Resource tag="SAVE">Guardar</Resource>
+    <Resource tag="TABLE_RESPONSIVE">Swipe Table to the left to Reveal More Data</Resource>
     <Resource tag="YES">Si</Resource>
   </page>
   <page name="ADMIN_DELETEFORUM">
@@ -954,7 +955,7 @@
     <Resource tag="ACTIVETOPIC_FEEDS_ACCESS">Acceso a los feeds de temas activos:</Resource>
     <Resource tag="ACTIVETOPIC_FEEDS_ACCESS_HELP">Restringe la visualización de feeds de temas activos.</Resource>
     <Resource tag="AKISMET_KEY">Llave API para Akismet:</Resource>
-    <Resource tag="AKISMET_KEY_HELP">Para usar el servicio de comentado de SPAM de Akismet necesitas una llave API &lt;a href="https://akismet.com/signup/"&gt;Regístrate aquí&lt;a&gt;</Resource>
+    <Resource tag="AKISMET_KEY_HELP">Para usar el servicio de comentado de SPAM de Akismet necesitas una llave API &lt;a href="https://akismet.com/signup/"&gt;Regístrate aquí&lt;a&gt;.</Resource>
     <Resource tag="ALBUMS_PER_PAGE">Álbumes por página:</Resource>
     <Resource tag="ALBUMS_PER_PAGE_HELP">Número de álbumes para mostrar por página.</Resource>
     <Resource tag="ALL_USERS">Todos los usuarios</Resource>
@@ -1048,7 +1049,7 @@
     <Resource tag="BOT_MESSAGE_1">Aprobar usuario, registrarlo y enviar un email al administrador.</Resource>
     <Resource tag="BOT_MESSAGE_2">Bloquear usuario.</Resource>
     <Resource tag="BOTSCOUT_KEY">Llave API para BotScout.com:</Resource>
-    <Resource tag="BOTSCOUT_KEY_HELP">Para usar el servicio de BotScout necesitas una llave API &lt;a href="http://botscout.com/getkey.htm"&gt;Regístrate aquí&lt;a&gt;</Resource>
+    <Resource tag="BOTSCOUT_KEY_HELP">Para usar el servicio de BotScout necesitas una llave API &lt;a href="http://botscout.com/getkey.htm"&gt;Regístrate aquí&lt;a&gt;.</Resource>
     <Resource tag="CAPTCHA_FOR_REGISTER">Activar CAPTCHA/reCAPTCHA en el registro:</Resource>
     <Resource tag="CAPTCHA_FOR_REGISTER_HELP">Obliga a los usuarios a introducir el CAPTCHA cuando se registran en el foro.</Resource>
     <Resource tag="CAPTCHA_GUEST_POSTING">Activar CAPTCHA para publicación como invitado:</Resource>
@@ -1059,8 +1060,6 @@
     <Resource tag="CAT_CACHE_TIMEOUT_HELP">En minutos</Resource>
     <Resource tag="CDN_JQUERY">Use Google Hosted CDN jQuery Script File?</Resource>
     <Resource tag="CDN_JQUERY_HELP">You can use the Google Hosted Script File, or instead use internal.</Resource>
-    <Resource tag="CDN_JQUERY_UI">Use Google Hosted CDN jQuery-UI Script File?</Resource>
-    <Resource tag="CDN_JQUERY_UI_HELP">You can use the Google Hosted Script File, or instead use internal.</Resource>
     <Resource tag="CDN_SCRIPTMANAGER">Use CDN Hosted Script Manager JS Files?</Resource>
     <Resource tag="CDN_SCRIPTMANAGER_HELP">You can use the CDN Hosted Script Files, or instead use internal.</Resource>
     <Resource tag="CHECK_FOR_BOTSPAM">Selecciona un servicio para comprobar usuarios bot automáticamente.</Resource>
@@ -1387,6 +1386,8 @@
     <Resource tag="SHOW_DEL_MESSAGES_HELP">Si está marcado, los mensajes eliminados se dejarán con algunas notas.</Resource>
     <Resource tag="SHOW_DEL_MESSAGES_TOALL">Mostrar mensajes eliminados a todos:</Resource>
     <Resource tag="SHOW_DEL_MESSAGES_TOALL_HELP">Si mostrar mensajes eliminados está marcado más arriba, marcando esta opción forzarán el mostrar los resguardos de los mensajes eliminados a todos los usuarios.&lt;br /&gt; Si se mantiene sin marcar, los resguardos de los mensajes eliminados solo se mostrarán a los administradores, moderadores y el creador del mensaje borrado.</Resource>
+    <Resource tag="SHOW_EDIT_MESSAGE">Show Edit Message:</Resource>
+    <Resource tag="SHOW_EDIT_MESSAGE_HELP">If enabled it shows a Note in the footer of the Message if the Message was edited (incl. the Reason and Time)</Resource>
     <Resource tag="SHOW_FORUM_JUMP">Mostrar Jump Box del foro:</Resource>
     <Resource tag="SHOW_FORUM_JUMP_HELP">Activar o desactivar el mostrar la Jump Box del foro a lo largo del foro.</Resource>
     <Resource tag="SHOW_FORUM_STATS">Mostrar estadísticas del foro:</Resource>
@@ -1452,6 +1453,8 @@
     <Resource tag="SPAM_SERVICE_TYP_1">BlogSpam.NET API</Resource>
     <Resource tag="SPAM_SERVICE_TYP_2">Akismet API (Needs Registration)</Resource>
     <Resource tag="SPAM_SERVICE_TYP_3">Internal Spam Check Words</Resource>
+    <Resource tag="SPAMCHECK_ALLOWED_URLS">Allowed Number of URLs before flagged as SPAM:</Resource>
+    <Resource tag="SPAMCHECK_ALLOWED_URLS_HELP">If the user posts in one Message more then the allowed URLs the message is flagged as spam. This Check also depends how many user the posts have.</Resource>
     <Resource tag="SQL_FULLTEXT">Usar búsqueda de texto completo SQL:</Resource>
     <Resource tag="SQL_FULLTEXT_HELP">Cambiar el si las búsquedas de texto completo SQL son soportadas en las búsquedas.</Resource>
     <Resource tag="SSL_LOGIN">Usar SSL mientras se está iniciando sesión:</Resource>
@@ -1461,7 +1464,7 @@
     <Resource tag="STATS_CACHE_TIMEOUT">Caducidad de la caché de las estadísticas del foro.</Resource>
     <Resource tag="STATS_CACHE_TIMEOUT_HELP">En minutos</Resource>
     <Resource tag="STOPFORUMSPAM_KEY">StopForumSpam.com API Key:</Resource>
-    <Resource tag="STOPFORUMSPAM_KEY_HELP">In order to Report a User as Bot you need an StopForumSpam.com API Key &lt;a href="http://www.stopforumspam.com/signup"&gt;Sign Up here&lt;a&gt;</Resource>
+    <Resource tag="STOPFORUMSPAM_KEY_HELP">In order to Report a User as Bot you need an StopForumSpam.com API Key &lt;a href="http://www.stopforumspam.com/signup"&gt;Sign Up here&lt;a&gt;.</Resource>
     <Resource tag="STYLED_NICKS">Usar nicks con estilo:</Resource>
     <Resource tag="STYLED_NICKS_HELP">Si está marcado, puedes usar colores, cambiar tamaño de fuentes, etc. para los nicks de los usuarios activos.</Resource>
     <Resource tag="STYLED_TOPIC_TITLES">Usar títulos de temas con estilo:</Resource>
@@ -1656,6 +1659,8 @@
     <Resource tag="RECOVERY2">Simple (La recuperación simple permite que la base de datos sea recuperada a la copia de seguridad más reciente. Necesitas hacer copias de tu BD regularmente.)</Resource>
     <Resource tag="RECOVERY3">Registro masivo (La recuperación de registro masivo permite las operaciones de registro masivo.)</Resource>
     <Resource tag="REINDEX">Con cualquier operación de modificación de datos puede ocurrir una fragmentación de tabla. Este comando puede ser usado para reconstruir todos los índices de las tables de la base de datos para mejorar el rendimiento.</Resource>
+    <Resource tag="REINDEX_MSG">Please do not navigate away from this page...</Resource>
+    <Resource tag="REINDEX_TITLE">Updating Tables</Resource>
     <Resource tag="REINDEXTBL_BTN">Reindexar tablas</Resource>
     <Resource tag="SETRECOVERY_BTN">Fijar el modo de recuperación</Resource>
     <Resource tag="SHOW_STATS">Muestra información estadísticas sobre los índices de las tablas YAF.</Resource>
@@ -1723,6 +1728,7 @@
     <Resource tag="MSG_CODE_BRACK">Por favor, introduce el código a usar en esta emoción entre corchetes.</Resource>
     <Resource tag="MSG_CODE_LONG">El código a usar para esta emoción no debe ser mayor de 10 símbolos.</Resource>
     <Resource tag="MSG_CODE_MISSING">Por favor, introduce el código a usar para esta emoción.</Resource>
+    <Resource tag="MSG_CODE_SAME">Please choose a different code, this one is already in use.</Resource>
     <Resource tag="MSG_NO_EMOTICON">Por favor, introduce una emoción para este icono.</Resource>
     <Resource tag="MSG_NO_ICON">Por favor, selecciona un icono a usar para esta emoción.</Resource>
     <Resource tag="MSG_SORT_NMBR">El orden de clasificación debe ser un número entre 0 y 255.</Resource>
@@ -1820,6 +1826,10 @@
     <Resource tag="EXPORT_XML">Exportar todos los usuarios como XML</Resource>
     <Resource tag="FACEBOOK_USER">Usuario de Facebook</Resource>
     <Resource tag="FILTER">Filtrar por fecha de ingreso desde:</Resource>
+    <Resource tag="FILTER_BY_GROUP">Filter by Group...</Resource>
+    <Resource tag="FILTER_BY_RANK">Filter by Rank...</Resource>
+    <Resource tag="FILTER_DROPDOWN">Filter</Resource>
+    <Resource tag="FILTER_NO">[No Filter]</Resource>
     <Resource tag="HEADER">Buscar usuarios</Resource>
     <Resource tag="IMPORT">Importar usuarios</Resource>
     <Resource tag="LAST_VISIT">Última visita</Resource>
@@ -1832,7 +1842,10 @@
     <Resource tag="RANK">Rango:</Resource>
     <Resource tag="ROLE">Rol:</Resource>
     <Resource tag="SEARCH">Buscar</Resource>
+    <Resource tag="SUSPENDED_ONLY">Show only suspended users?</Resource>
     <Resource tag="SYNC_ALL">Sincronizar todos los usuarios suscritos</Resource>
+    <Resource tag="SYNC_MSG">Please do not navigate away from this page while the sync is in progress...</Resource>
+    <Resource tag="SYNC_TITLE">Syncing Users</Resource>
     <Resource tag="TITLE">Usuarios</Resource>
     <Resource tag="TWITTER_USER">Usuario de Twitter</Resource>
     <Resource tag="USER_NAME">Nombre de usuario</Resource>
@@ -1929,12 +1942,14 @@
     <Resource tag="ADD_FILES">Add file(s)...</Resource>
     <Resource tag="ALLOWED_EXTENSIONS">Extensiones de archivo permitidas</Resource>
     <Resource tag="ASK_DELETE">¿Eliminar este adjunto?</Resource>
+    <Resource tag="COMPLETE_WARNING">Please wait until all Upload(s) are completed and the Dialog closes itself!</Resource>
     <Resource tag="CURRENT_UPLOADS">Current Attachment Uploads:</Resource>
     <Resource tag="DELETE">Eliminar</Resource>
     <Resource tag="DISALLOWED_EXTENSIONS">Extensiones de archivo no permitidas</Resource>
     <Resource tag="DROP_HERE">Drop file(s) here</Resource>
     <Resource tag="FILEERROR">'{0}' no es un archivo válido para cargar.</Resource>
     <Resource tag="FILENAME">Nombre del archivo</Resource>
+    <Resource tag="NO_ATTACHMENTS">You are not having any attachments yet, to add one click on the &lt;strong&gt;Upload New File(s)&lt;/strong&gt; button</Resource>
     <Resource tag="SELECT_FILE">Selecciona el archivo que quieres subir.</Resource>
     <Resource tag="SIZE">Tamaño</Resource>
     <Resource tag="START_UPLOADS">Start upload(s)</Resource>
@@ -2000,6 +2015,8 @@
     <Resource tag="BUTTON_DELETE">Eliminar</Resource>
     <Resource tag="BUTTON_DELETE_TT">Eliminar este mensaje</Resource>
     <Resource tag="BUTTON_DELETEALBUM">Eliminar álbum</Resource>
+    <Resource tag="BUTTON_DELETEATTACHMENT">Delete Attachment(s)</Resource>
+    <Resource tag="BUTTON_DELETEATTACHMENT_TT">Delete selected attachment(s)s</Resource>
     <Resource tag="BUTTON_DELETETOPIC">Eliminar tema</Resource>
     <Resource tag="BUTTON_DELETETOPIC_TT">Eliminar este tema</Resource>
     <Resource tag="BUTTON_EDIT">Editar</Resource>
@@ -2061,7 +2078,7 @@
     <Resource tag="BBCODE_QUOTEPOSTED_TT">Ir a la publicación citada</Resource>
     <Resource tag="BBCODE_QUOTEWROTE">{0} escribió:</Resource>
     <Resource tag="CAL_JQ_CULTURE">es</Resource>
-    <Resource tag="CAL_JQ_CULTURE_DFORMAT">dd/MM/yy</Resource>
+    <Resource tag="CAL_JQ_CULTURE_DFORMAT">dd/MM/YYYY</Resource>
     <Resource tag="CAL_JQ_TT">Haz click aquí para elegir fecha</Resource>
     <Resource tag="CAN_DELETE">[b]Puedes[/b] eliminar sus temas en este foro.</Resource>
     <Resource tag="CAN_EDIT">[b]Puedes[/b] editar sus temas en este foro.</Resource>
@@ -2111,6 +2128,7 @@
     <Resource tag="HTMLTAG_WRONG">Los datos que has introducido contienen {0} etiquetas HTML no permitidas.</Resource>
     <Resource tag="LOADING">Cargando...</Resource>
     <Resource tag="MAX_ONLINE">El número máximo de usuarios activos fue {0:N0} on {1}.</Resource>
+    <Resource tag="MENU">Menu</Resource>
     <Resource tag="MESSAGE">Mensaje</Resource>
     <Resource tag="MOBILE_FULLSITE">Ver el sitio completo</Resource>
     <Resource tag="MOBILE_VIEWSITE">Ver el sitio para móviles</Resource>
@@ -2125,6 +2143,7 @@
     <Resource tag="NOTIFICATION_ON_MODERATOR_REPORTED_MESSAGE">Un mensaje el el foro {0} ha sido denunciado</Resource>
     <Resource tag="NOTIFICATION_ON_MODERATOR_SPAMMESSAGE_APPROVAL">New SPAM Message on {0} Forum needs to be checked</Resource>
     <Resource tag="NOTIFICATION_ON_NEW_FACEBOOK_USER_SUBJECT">Se ha registrado con éxito en el foro {0}</Resource>
+    <Resource tag="NOTIFICATION_ON_SUSPENDING_USER_SUBJECT">Suspension of your {0} Forum Account</Resource>
     <Resource tag="NOTIFICATION_ON_USER_REGISTER_EMAIL_SUBJECT">Nuevo usuario registrado en el foro {0}</Resource>
     <Resource tag="NOTIFICATION_ON_WELCOME_USER_SUBJECT">Welcome to the {0} Forum</Resource>
     <Resource tag="OK">OK</Resource>
@@ -2490,6 +2509,7 @@
     <Resource tag="ERROR_TOOBIG">No puedes subir imágenes tan grandes.</Resource>
     <Resource tag="IMAGES_COUNT_LIMIT">Has llegado a tu límite de imágenes. No puedes subir más de {0} imágenes.</Resource>
     <Resource tag="IMAGES_INFO">Nota: Actualmente este álbum contiene {0} imagen(es). Tienes permisos para tener {1} imágenes en cada álbum. El tamaño máximo para una imagen es de {2} KB</Resource>
+    <Resource tag="SELECT_FILE">Select an Image File ('.jpg', '.gif', '.png' or '.bmp') you want to upload.</Resource>
     <Resource tag="TITLE">Añadir/editar álbum</Resource>
   </page>
   <page name="CP_EDITAVATAR">
@@ -4559,6 +4579,7 @@ public class Hello1
     <Resource tag="MODERATED">Cómo has puesto tu mensaje en un foro moderado, debes ser aprobado por un moderador antes de que se haga visible.</Resource>
     <Resource tag="REGISTRATION">Se ha enviado un e-mail a la dirección de correo que has suministrado. Por favor, sigue las instrucciones del correo para acceder al foro.</Resource>
     <Resource tag="SUSPENDED">Tu cuenta se ha suspendido temporalmente. La suspensión finalizara en {0}.</Resource>
+    <Resource tag="SUSPENDED_REASON">&lt;br /&gt;&lt;br /&gt;For the following Reason: "{0}".</Resource>
     <Resource tag="TITLE_ACCESSDENIED">Acceso Denegado</Resource>
     <Resource tag="TITLE_COOKIES">Requiere cookies</Resource>
     <Resource tag="TITLE_ECMAREQUIRED">Requiere JavaScript</Resource>
@@ -4585,6 +4606,7 @@ public class Hello1
     <Resource tag="AUTH_NO_ACCESS_TOKEN">No se ha podido autorizar la contraseña.</Resource>
     <Resource tag="AUTO">Iniciar sesión automaticamente:</Resource>
     <Resource tag="BOTH_USERNAME_EMAIL">Debe ingresar usuario y correo electrónico.</Resource>
+    <Resource tag="CAPS_LOCK">Caps Lock is on</Resource>
     <Resource tag="CONNECT_VIA">Or Connect via</Resource>
     <Resource tag="EMAIL">Correo electrónico</Resource>
     <Resource tag="EMAIL_SENT_PASSWORD">Se ha enviado un correo con la nueva contraseña.</Resource>
@@ -4601,12 +4623,16 @@ public class Hello1
     <Resource tag="SSO_DEACTIVATED">El inicio de sesión único no está disponible en estos momentos.</Resource>
     <Resource tag="SSO_DEACTIVATED_BYUSER">El inicio de sesión único no está disponible para este usuario, necesitas activarlo en tu configuración de cuenta para usarlo en el futuro.</Resource>
     <Resource tag="SSO_FACEBOOK_FAILED">El ingreso en Facebook ha fallado, el usuario no existe o la cuenta no está activada.</Resource>
+    <Resource tag="SSO_FACEBOOK_FAILED2">The Facebook Login failed, an user account with the same email address as the facebook account already exists, please try to connect you your forum account instead.</Resource>
+    <Resource tag="SSO_FACEBOOK_FAILED3">The Facebook Login failed, because the user does not provide a email address for the account.</Resource>
     <Resource tag="SSO_FACEBOOKNAME_NOTMATCH">La cuenta de email de Facebook debe coincidir con la cuenta de email del foro.</Resource>
     <Resource tag="SSO_FAILED">Nuevos registros están desactivados.</Resource>
     <Resource tag="SSO_GOOGLE_FAILED">El ingreso en Google ha fallado, el usuario no existe o la cuenta no está activada.</Resource>
+    <Resource tag="SSO_GOOGLE_FAILED2">The Google Login failed, an user account with the same email address as the Google account already exists, please try to connect you your forum account instead.</Resource>
     <Resource tag="SSO_GOOGLENAME_NOTMATCH">La dirección de email de Google debe coincidir con la dirección de email del foro.</Resource>
     <Resource tag="SSO_ID_NOTMATCH">La cuenta de usuario no está activa o no ha sido encontrada.</Resource>
     <Resource tag="SSO_TWITTER_FAILED">El ingreso en Twitter ha fallado, la cuenta de usuario no existe.</Resource>
+    <Resource tag="SSO_TWITTER_FAILED2">The Twitter Login failed, an user account with the same user name as the Twitter account already exists, please try to connect you your forum account instead.</Resource>
     <Resource tag="SSO_TWITTERNAME_NOTMATCH">El nombre de usuario de Twitter debe coincidir con el nombre de usuario del foro.</Resource>
     <Resource tag="TITLE">Iniciar sesión</Resource>
     <Resource tag="TWITTER_DM">Has recibido información adicional sobre tu cuenta como un mensaje privado en el foro.</Resource>
@@ -4973,6 +4999,7 @@ public class Hello1
     <Resource tag="QUICKREPLY">Respuesta rápida</Resource>
     <Resource tag="QUICKREPLY_HIDE">Ocultar respuesta rápida</Resource>
     <Resource tag="QUICKREPLY_SHOW">Mostrar respuesta rápida</Resource>
+    <Resource tag="QUOTE_SELECTED">Quote Selected Message</Resource>
     <Resource tag="RANK">Posición</Resource>
     <Resource tag="REDDIT_TOPIC">Reddit este tema</Resource>
     <Resource tag="REP_VOTE_DOWN_MSG">Has quitado -1 a la reputación de {0}.</Resource>
@@ -5089,6 +5116,11 @@ public class Hello1
     <Resource tag="SKYPE">Skype(tm) ID:</Resource>
     <Resource tag="STATISTICS">Estadísticas</Resource>
     <Resource tag="SUSPEND">Suspender</Resource>
+    <Resource tag="SUSPEND_BY">Suspended By:</Resource>
+    <Resource tag="SUSPEND_CURRENT">Current Suspension</Resource>
+    <Resource tag="SUSPEND_INFO">&lt;strong&gt;NOTE&lt;/strong&gt; The Suspension is based on the Users current Date and Time which is Now: {0}.</Resource>
+    <Resource tag="SUSPEND_NEW">New Suspension</Resource>
+    <Resource tag="SUSPEND_REASON">Suspend Reason:</Resource>
     <Resource tag="SUSPEND_USER">Suspender usuario:</Resource>
     <Resource tag="THANKSFROM">Number of thanks</Resource>
     <Resource tag="THANKSTOPOSTS">Number of posts for which this user was thanked</Resource>
@@ -5249,8 +5281,13 @@ public class Hello1
     <Resource tag="NEED_QUESTION">Pregunta de seguridad requerida.</Resource>
     <Resource tag="NEED_USERNAME">Nombre de usuario requerido.</Resource>
     <Resource tag="PASSWORD">Clave</Resource>
+    <Resource tag="PASSWORD_GOOD">Good Password!</Resource>
+    <Resource tag="PASSWORD_MIN">Password must be {0} characters long.</Resource>
+    <Resource tag="PASSWORD_NOTMATCH">Password and Confirm Password do not match!</Resource>
     <Resource tag="PASSWORD_REQUIREMENTS_TITLE">Requerimientos de contraseña</Resource>
     <Resource tag="PASSWORD_REQUIREMENTS_WARN">{0} min length. {1} minimum non-alphanumeric characters ($#@!).</Resource>
+    <Resource tag="PASSWORD_STRONGER">Make your password stronger with more capital letters, more numbers and special characters!</Resource>
+    <Resource tag="PASSWORD_WEAK">Weak Password, try using numbers and capital letters.</Resource>
     <Resource tag="PREFERENCES">Preferencias del foro</Resource>
     <Resource tag="PROFILE">Informacion del perfil</Resource>
     <Resource tag="RECAPTCHA_BADSETTING">Las especificaciones del Recaptcha están mal. Por favor, informa al administrador.</Resource>
@@ -5494,6 +5531,30 @@ Respuesta de seguridad autogenerada: {answer}
 Email de usuario: {email}
 
     </Resource>
+    <Resource tag="NOTIFICATION_ON_SUSPENDING_ENDED_USER">
+    Hello {user},
+
+    The suspension of your forum account has ended or was lifted.
+
+    Thanks!
+    The {forumname} Team
+    {forumurl}
+
+  </Resource>
+    <Resource tag="NOTIFICATION_ON_SUSPENDING_USER">
+    Hello {user},
+
+    Your forum account on the {forumname} forum has been temporarily suspended.
+    
+    This suspension is due to end on {suspendedUntil}.
+
+    For the following Reason: '{suspendReason}'
+
+    Thanks!
+    The {forumname} Team
+    {forumurl}
+
+  </Resource>
     <Resource tag="NOTIFICATION_ON_TWITTER_REGISTER">
 Hola {user}.
 
@@ -5587,6 +5648,10 @@ Un nuevo mensaje ha sido publicado en el hilo {topic} en {forumname}.
 Para leer el mensaje, abre el siguiente enlace en tu navegador:
 
 {link}
+
+      You can manage your subscriptions here:
+      
+      {subscriptionlink}
 		</Resource>
     <Resource tag="VERIFYEMAIL_HTML" />
     <Resource tag="VERIFYEMAIL_TEXT">
@@ -5673,7 +5738,7 @@ Visita {forumname} en {forumlink}
     <Resource tag="MYTOPICS_TITLE">Muestra los temas activos y favoritos.</Resource>
     <Resource tag="NEWPM">({0} Sin leer)</Resource>
     <Resource tag="REGISTER">Registrarse</Resource>
-    <Resource tag="REGISTER_CONNECT">register a new account</Resource>
+    <Resource tag="REGISTER_CONNECT">or Register a new forum account</Resource>
     <Resource tag="REGISTER_TITLE">Muestra e formulario de registro.</Resource>
     <Resource tag="SEARCH">Buscar</Resource>
     <Resource tag="SEARCH_TITLE">Usa la búsqueda del foro.</Resource>

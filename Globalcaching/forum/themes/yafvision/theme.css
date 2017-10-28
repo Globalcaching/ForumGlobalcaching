@@ -383,12 +383,6 @@ padding-right: 5px !important;
 /* links inside content table*/
 .yafnet .content a		{ color: #222; text-decoration: none; }
 .yafnet .content a:hover	{ color: #3A4F6C; text-decoration: underline;  }
-.yafnet .content .message a		{ text-decoration: underline; }
-.yafnet .content .message
-{
-	font-size: 9pt;
-}
-
 /* used for quoting messages */
 .yafnet .quote {
 	margin-left: 16px;

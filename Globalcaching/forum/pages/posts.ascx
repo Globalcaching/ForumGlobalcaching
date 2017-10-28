@@ -1,7 +1,7 @@
 ﻿<%@ Control Language="c#" AutoEventWireup="True" Inherits="YAF.Pages.posts" Codebehind="posts.ascx.cs" %>
 <%@ Import Namespace="YAF.Core" %>
 <%@ Import Namespace="YAF.Types.Interfaces" %>
-<%@ Import Namespace="YAF.Utils" %>
+<%@ Import Namespace="YAF.Controls" %>
 <%@ Import Namespace="YAF.Types.Extensions" %>
 <%@ Register TagPrefix="YAF" TagName="DisplayPost" Src="../controls/DisplayPost.ascx" %>
 <%@ Register TagPrefix="YAF" TagName="DisplayConnect" Src="../controls/DisplayConnect.ascx" %>
@@ -131,7 +131,7 @@
 <asp:PlaceHolder ID="QuickReplyPlaceHolder" runat="server">
     <table class="content postQuickReply" width="100%">
         <tr>
-            <td colspan="3" class="post" style="padding: 0px;">
+            <td colspan="3" class="post" style="padding: 0">
                 <YAF:DataPanel runat="server" ID="DataPanel1" AllowTitleExpandCollapse="true" TitleStyle-CssClass="header2"
                     TitleStyle-Font-Bold="true" Collapsed="true">
                     <div class="post quickReplyLine" id="QuickReplyLine" runat="server">
@@ -157,6 +157,12 @@
                             </tr>
                         </table>
                         <br />
+                    </div>
+                    <div>
+                        <asp:PlaceHolder runat="server" ID="QuickReplyWatchTopic">
+                            <asp:CheckBox ID="TopicWatch" runat="server" />
+                            <YAF:LocalizedLabel ID="TopicWatchLabel" runat="server" LocalizedTag="TOPICWATCH" />
+                        </asp:PlaceHolder>
                     </div>
                     &nbsp;<div align="center" style="margin: 7px;">
                         <asp:Button ID="QuickReply" CssClass="pbutton" runat="server" />
@@ -195,7 +201,7 @@
                 OnClick="UnlockTopic_Click" TextLocalizedTag="BUTTON_UNLOCKTOPIC" TitleLocalizedTag="BUTTON_UNLOCKTOPIC_TT" />
             <YAF:ThemeButton ID="LockTopic2" runat="server" CssClass="yafcssbigbutton rightItem button-lock"
                 OnClick="LockTopic_Click" TextLocalizedTag="BUTTON_LOCKTOPIC" TitleLocalizedTag="BUTTON_LOCKTOPIC_TT" />
-            <YAF:ThemeButton ID="DeleteTopic2" runat="server" CssClass="yafcssbigbutton rightItem button*delete"
+            <YAF:ThemeButton ID="DeleteTopic2" runat="server" CssClass="yafcssbigbutton rightItem button-delete"
                 OnClick="DeleteTopic_Click" OnLoad="DeleteTopic_Load" TextLocalizedTag="BUTTON_DELETETOPIC"
                 TitleLocalizedTag="BUTTON_DELETETOPIC_TT" />
             <YAF:ThemeButton ID="NewTopic2" runat="server" CssClass="yafcssbigbutton rightItem button-newtopic"

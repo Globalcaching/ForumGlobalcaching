@@ -403,6 +403,7 @@
     <Resource tag="DISABLED">Uit</Resource>
     <Resource tag="NO">Nee</Resource>
     <Resource tag="SAVE">Bewaar</Resource>
+    <Resource tag="TABLE_RESPONSIVE">Swipe Table to the left to Reveal More Data</Resource>
     <Resource tag="YES">Ja</Resource>
   </page>
   <page name="ADMIN_DELETEFORUM">
@@ -1047,7 +1048,7 @@
     <Resource tag="BOT_MESSAGE_1">Approve User &amp; Log User &amp; Send Admin an Email</Resource>
     <Resource tag="BOT_MESSAGE_2">Block User</Resource>
     <Resource tag="BOTSCOUT_KEY">BotScout.com API Key:</Resource>
-    <Resource tag="BOTSCOUT_KEY_HELP">To Use the BotScout Bot Service you need an API Key &lt;a href="http://botscout.com/getkey.htm"&gt;Sign Up here&lt;a&gt;</Resource>
+    <Resource tag="BOTSCOUT_KEY_HELP">To Use the BotScout Bot Service you need an API Key &lt;a href="http://botscout.com/getkey.htm"&gt;Sign Up here&lt;a&gt;.</Resource>
     <Resource tag="CAPTCHA_FOR_REGISTER">Gebruik CAPTCHA/reCAPTCHA bij het Registratieproces:</Resource>
     <Resource tag="CAPTCHA_FOR_REGISTER_HELP">Eis dat gebruikers de CAPTCHA invullen wanneer ze het registratieproces doorlopen.</Resource>
     <Resource tag="CAPTCHA_GUEST_POSTING">Gebruik CAPTCHA voor berichten door Gasten:</Resource>
@@ -1058,8 +1059,6 @@
     <Resource tag="CAT_CACHE_TIMEOUT_HELP">In minuten</Resource>
     <Resource tag="CDN_JQUERY">Use Google Hosted CDN jQuery Script File?</Resource>
     <Resource tag="CDN_JQUERY_HELP">You can use the Google Hosted Script File, or instead use internal.</Resource>
-    <Resource tag="CDN_JQUERY_UI">Use Google Hosted CDN jQuery-UI Script File?</Resource>
-    <Resource tag="CDN_JQUERY_UI_HELP">You can use the Google Hosted Script File, or instead use internal.</Resource>
     <Resource tag="CDN_SCRIPTMANAGER">Use CDN Hosted Script Manager JS Files?</Resource>
     <Resource tag="CDN_SCRIPTMANAGER_HELP">You can use the CDN Hosted Script Files, or instead use internal.</Resource>
     <Resource tag="CHECK_FOR_BOTSPAM">Choose a Service for Automatically User Bot Checking:</Resource>
@@ -1376,6 +1375,8 @@
     <Resource tag="SHOW_DEL_MESSAGES_HELP">Als deze is aangevinkt, blijven verwijderde berichten staan met een notitie.</Resource>
     <Resource tag="SHOW_DEL_MESSAGES_TOALL">Laat verwijderde berichten zien aan Iedereen:</Resource>
     <Resource tag="SHOW_DEL_MESSAGES_TOALL_HELP">Als Verwijderde berichten blijven staan, zorgt deze optie ervoor, dat alle gebruikers de berichten blijven zien.&lt;br /&gt; Als deze is uitgevinkt, zijn de verwijderde berichten alleen zichtbaar voor Administrators, Moderators, en de gebruiker van het verwijderde bericht.</Resource>
+    <Resource tag="SHOW_EDIT_MESSAGE">Show Edit Message:</Resource>
+    <Resource tag="SHOW_EDIT_MESSAGE_HELP">If enabled it shows a Note in the footer of the Message if the Message was edited (incl. the Reason and Time)</Resource>
     <Resource tag="SHOW_FORUM_JUMP">Laat de 'Snel naar...' optie zien:</Resource>
     <Resource tag="SHOW_FORUM_JUMP_HELP">Zet de 'Snel naar...' keuzelijst aan of uit.</Resource>
     <Resource tag="SHOW_FORUM_STATS">Laat Forum Statistieken zien:</Resource>
@@ -1441,6 +1442,8 @@
     <Resource tag="SPAM_SERVICE_TYP_1">BlogSpam.NET API</Resource>
     <Resource tag="SPAM_SERVICE_TYP_2">Akismet API (Needs Registration)</Resource>
     <Resource tag="SPAM_SERVICE_TYP_3">Internal Spam Check Words</Resource>
+    <Resource tag="SPAMCHECK_ALLOWED_URLS">Allowed Number of URLs before flagged as SPAM:</Resource>
+    <Resource tag="SPAMCHECK_ALLOWED_URLS_HELP">If the user posts in one Message more then the allowed URLs the message is flagged as spam. This Check also depends how many user the posts have.</Resource>
     <Resource tag="SQL_FULLTEXT">Gebruik SQL Full Text Search:</Resource>
     <Resource tag="SQL_FULLTEXT_HELP">Zet het gebruik van FULLTEXT SQL Server support aan of uit bij zoekopdrachten.</Resource>
     <Resource tag="SSL_LOGIN">Gebruik SSL bij het inloggen:</Resource>
@@ -1450,7 +1453,7 @@
     <Resource tag="STATS_CACHE_TIMEOUT">Forum Statistieken Cache Timeout:</Resource>
     <Resource tag="STATS_CACHE_TIMEOUT_HELP">In minuten</Resource>
     <Resource tag="STOPFORUMSPAM_KEY">StopForumSpam.com API Key:</Resource>
-    <Resource tag="STOPFORUMSPAM_KEY_HELP">In order to Report a User as Bot you need an StopForumSpam.com API Key &lt;a href="http://www.stopforumspam.com/signup"&gt;Sign Up here&lt;a&gt;</Resource>
+    <Resource tag="STOPFORUMSPAM_KEY_HELP">In order to Report a User as Bot you need an StopForumSpam.com API Key &lt;a href="http://www.stopforumspam.com/signup"&gt;Sign Up here&lt;a&gt;.</Resource>
     <Resource tag="STYLED_NICKS">Gebruik opgemaakte aliassen:</Resource>
     <Resource tag="STYLED_NICKS_HELP">Als aangevinkt, kun je kleuren, lettergroottes, etc. gebruiken voor actieve gebruikers.</Resource>
     <Resource tag="STYLED_TOPIC_TITLES">Gebruik opgemaakte topictitels:</Resource>
@@ -1644,6 +1647,8 @@
     <Resource tag="RECOVERY2">Simple (met Simple Recovery kun je de DB terughalen tot het moment van de laatste backup. Je moet dus regelmatig backuppen.)</Resource>
     <Resource tag="RECOVERY3">Bulk-Logged (met Bulk-Logged Recovery kun je de DB terughalen tot het moment van een willekeurige backup.)</Resource>
     <Resource tag="REINDEX">Met elke data-wijziging kunnen de tabellen gefragmenteerd raken. Deze actie kan door het opnieuw indexeren van de tabellen een snelheidswinst opleveren.</Resource>
+    <Resource tag="REINDEX_MSG">Please do not navigate away from this page...</Resource>
+    <Resource tag="REINDEX_TITLE">Updating Tables</Resource>
     <Resource tag="REINDEXTBL_BTN">Tabellen herindexeren</Resource>
     <Resource tag="SETRECOVERY_BTN">Recovery mode instellen</Resource>
     <Resource tag="SHOW_STATS">Show statistiekenover de YAF tabel indexen.</Resource>
@@ -1711,6 +1716,7 @@
     <Resource tag="MSG_CODE_BRACK">Geef de code in voor deze smiley tussen blokhaken</Resource>
     <Resource tag="MSG_CODE_LONG">De code voor de smiley mag niet meer zijn dan 10 karakters</Resource>
     <Resource tag="MSG_CODE_MISSING">Geef hier de code die voor de smiley gebruikt wordt</Resource>
+    <Resource tag="MSG_CODE_SAME">Please choose a different code, this one is already in use.</Resource>
     <Resource tag="MSG_NO_EMOTICON">Geef een emotie voor deze smiley</Resource>
     <Resource tag="MSG_NO_ICON">Kies een icoon om te gebruiken voor deze emotie</Resource>
     <Resource tag="MSG_SORT_NMBR">Sorteervolgorde moet liggen tussen 0 en 255.</Resource>
@@ -1808,6 +1814,10 @@
     <Resource tag="EXPORT_XML">Exporteer Alle Gebruiker(s) als Xml</Resource>
     <Resource tag="FACEBOOK_USER">Facebook Gebruiker</Resource>
     <Resource tag="FILTER">Filter op datum aanmelding:</Resource>
+    <Resource tag="FILTER_BY_GROUP">Filter by Group...</Resource>
+    <Resource tag="FILTER_BY_RANK">Filter by Rank...</Resource>
+    <Resource tag="FILTER_DROPDOWN">Filter</Resource>
+    <Resource tag="FILTER_NO">[No Filter]</Resource>
     <Resource tag="HEADER">Zoek gebruikers</Resource>
     <Resource tag="IMPORT">Importeer Gebruiker(s)</Resource>
     <Resource tag="LAST_VISIT">Laatste bezoek</Resource>
@@ -1820,7 +1830,10 @@
     <Resource tag="RANK">Rang:</Resource>
     <Resource tag="ROLE">Rol:</Resource>
     <Resource tag="SEARCH">Zoeken</Resource>
+    <Resource tag="SUSPENDED_ONLY">Show only suspended users?</Resource>
     <Resource tag="SYNC_ALL">Synchroniseer alle Membership Gebruikers</Resource>
+    <Resource tag="SYNC_MSG">Please do not navigate away from this page while the sync is in progress...</Resource>
+    <Resource tag="SYNC_TITLE">Syncing Users</Resource>
     <Resource tag="TITLE">Gebruikers</Resource>
     <Resource tag="TWITTER_USER">Twitter Gebruiker</Resource>
     <Resource tag="USER_NAME">Gebruikersnaam</Resource>
@@ -1917,12 +1930,14 @@
     <Resource tag="ADD_FILES">Add file(s)...</Resource>
     <Resource tag="ALLOWED_EXTENSIONS">Toegestane bestandstypen</Resource>
     <Resource tag="ASK_DELETE">Bijlage verwijderen?</Resource>
+    <Resource tag="COMPLETE_WARNING">Please wait until all Upload(s) are completed and the Dialog closes itself!</Resource>
     <Resource tag="CURRENT_UPLOADS">Current Attachment Uploads:</Resource>
     <Resource tag="DELETE">Verwijderen</Resource>
     <Resource tag="DISALLOWED_EXTENSIONS">Verbonden bestandstypen</Resource>
     <Resource tag="DROP_HERE">Drop file(s) here</Resource>
     <Resource tag="FILEERROR">'{0}' is geen geldig bestand om te uploaden.</Resource>
     <Resource tag="FILENAME">Bestandsnaam</Resource>
+    <Resource tag="NO_ATTACHMENTS">You are not having any attachments yet, to add one click on the &lt;strong&gt;Upload New File(s)&lt;/strong&gt; button</Resource>
     <Resource tag="SELECT_FILE">Selecteer het bestand dat je wilt uploaden:</Resource>
     <Resource tag="SIZE">Grootte</Resource>
     <Resource tag="START_UPLOADS">Start upload(s)</Resource>
@@ -1988,6 +2003,8 @@
     <Resource tag="BUTTON_DELETE">Verwijder</Resource>
     <Resource tag="BUTTON_DELETE_TT">Verwijder dit bericht</Resource>
     <Resource tag="BUTTON_DELETEALBUM">Album verwijderen</Resource>
+    <Resource tag="BUTTON_DELETEATTACHMENT">Delete Attachment(s)</Resource>
+    <Resource tag="BUTTON_DELETEATTACHMENT_TT">Delete selected attachment(s)s</Resource>
     <Resource tag="BUTTON_DELETETOPIC">Verwijder topic</Resource>
     <Resource tag="BUTTON_DELETETOPIC_TT">Verwijder dit topic</Resource>
     <Resource tag="BUTTON_EDIT">Bewerk</Resource>
@@ -2049,7 +2066,7 @@
     <Resource tag="BBCODE_QUOTEPOSTED_TT">Ga naar gequote bericht</Resource>
     <Resource tag="BBCODE_QUOTEWROTE">{0} schreef:</Resource>
     <Resource tag="CAL_JQ_CULTURE">nl</Resource>
-    <Resource tag="CAL_JQ_CULTURE_DFORMAT">MM/dd/YY</Resource>
+    <Resource tag="CAL_JQ_CULTURE_DFORMAT">MM/dd/YYYY</Resource>
     <Resource tag="CAL_JQ_TT">Klik hier om een datum te kiezen</Resource>
     <Resource tag="CAN_DELETE">Je [b]kunt[/b] hier je eigen berichten verwijderen.</Resource>
     <Resource tag="CAN_EDIT">Je [b]kunt[/b] hier je eigen berichten bewerken.</Resource>
@@ -2099,6 +2116,7 @@
     <Resource tag="HTMLTAG_WRONG">Je tekst bevat een verboden {0} HTML tag.</Resource>
     <Resource tag="LOADING">Bezig met laden...</Resource>
     <Resource tag="MAX_ONLINE">Grootste aantal gebruikers ooit online was {0:N0} on {1}.</Resource>
+    <Resource tag="MENU">Menu</Resource>
     <Resource tag="MESSAGE">Bericht</Resource>
     <Resource tag="MOBILE_FULLSITE">Bekijk volledige site</Resource>
     <Resource tag="MOBILE_VIEWSITE">Bekijk mobiele site</Resource>
@@ -2113,6 +2131,7 @@
     <Resource tag="NOTIFICATION_ON_MODERATOR_REPORTED_MESSAGE">Er is een Bericht gerapporteerd op {0} Forum.</Resource>
     <Resource tag="NOTIFICATION_ON_MODERATOR_SPAMMESSAGE_APPROVAL">New SPAM Message on {0} Forum needs to be checked</Resource>
     <Resource tag="NOTIFICATION_ON_NEW_FACEBOOK_USER_SUBJECT">Registratie op {0} Forum gelukt</Resource>
+    <Resource tag="NOTIFICATION_ON_SUSPENDING_USER_SUBJECT">Suspension of your {0} Forum Account</Resource>
     <Resource tag="NOTIFICATION_ON_USER_REGISTER_EMAIL_SUBJECT">Nieuwe gebruiker geregistreerd op {0} Forum</Resource>
     <Resource tag="NOTIFICATION_ON_WELCOME_USER_SUBJECT">Welcome to the {0} Forum</Resource>
     <Resource tag="OK">OK</Resource>
@@ -2475,6 +2494,7 @@
     <Resource tag="ERROR_TOOBIG">Je kunt geen plaatjes uploaden met deze grootte.</Resource>
     <Resource tag="IMAGES_COUNT_LIMIT">Het maxmimum van {0} plaatjes is bereikt.</Resource>
     <Resource tag="IMAGES_INFO">Let op: Dit Album bevat {0} Plaatje(s). Je mag {1} plaatjes in elk album hebben. The max. filesize for an Image is {2} kb</Resource>
+    <Resource tag="SELECT_FILE">Select an Image File ('.jpg', '.gif', '.png' or '.bmp') you want to upload.</Resource>
     <Resource tag="TITLE">Album toevoegen/bewerken</Resource>
   </page>
   <page name="CP_EDITAVATAR">
@@ -4166,6 +4186,7 @@ Spoiler Inhoud
     <Resource tag="MODERATED">Omdat je in een gemodereerd forum gepost hebt, zal je bericht pas verschijnen na goedkeuring door een moderator.</Resource>
     <Resource tag="REGISTRATION">Er is een e-mail naar het adres verzonden dat je hebt opgegeven. Lees a.u.b. de instructies in de e-mail om in te loggen.</Resource>
     <Resource tag="SUSPENDED">Je account is tijdelijk geblokkeerd en zal weer actief worden op {0}.</Resource>
+    <Resource tag="SUSPENDED_REASON">&lt;br /&gt;&lt;br /&gt;For the following Reason: "{0}".</Resource>
     <Resource tag="TITLE_ACCESSDENIED">Toegang geweigerd</Resource>
     <Resource tag="TITLE_COOKIES">cookies verplicht</Resource>
     <Resource tag="TITLE_ECMAREQUIRED">JavaScript verplicht</Resource>
@@ -4192,6 +4213,7 @@ Spoiler Inhoud
     <Resource tag="AUTH_NO_ACCESS_TOKEN">Could not get access_token!</Resource>
     <Resource tag="AUTO">Automatisch inloggen</Resource>
     <Resource tag="BOTH_USERNAME_EMAIL">Graag zowel je gebruikersnaam als je e-mail adres in te vullen.</Resource>
+    <Resource tag="CAPS_LOCK">Caps Lock is on</Resource>
     <Resource tag="CONNECT_VIA">Or Connect via</Resource>
     <Resource tag="EMAIL">E-mail adres</Resource>
     <Resource tag="EMAIL_SENT_PASSWORD">Er is een e-mail verzonden met je nieuwe wachtwoord.</Resource>
@@ -4208,12 +4230,16 @@ Spoiler Inhoud
     <Resource tag="SSO_DEACTIVATED">Single Sign On is momenteel uitgeschakeld door de Beheerder!</Resource>
     <Resource tag="SSO_DEACTIVATED_BYUSER">Single Sign On is uitgeschakeld voor die gebruiker, je moet het in je profiel activeren..</Resource>
     <Resource tag="SSO_FACEBOOK_FAILED">The Facebook Login failed, User does not exists, or the account is not connected.</Resource>
+    <Resource tag="SSO_FACEBOOK_FAILED2">The Facebook Login failed, an user account with the same email address as the facebook account already exists, please try to connect you your forum account instead.</Resource>
+    <Resource tag="SSO_FACEBOOK_FAILED3">The Facebook Login failed, because the user does not provide a email address for the account.</Resource>
     <Resource tag="SSO_FACEBOOKNAME_NOTMATCH">The Facebook email address must match the Forum email adress!</Resource>
     <Resource tag="SSO_FAILED">New Registrations are disabled.</Resource>
     <Resource tag="SSO_GOOGLE_FAILED">The Google Login failed, User does not exists, or the account is not connected.</Resource>
+    <Resource tag="SSO_GOOGLE_FAILED2">The Google Login failed, an user account with the same email address as the Google account already exists, please try to connect you your forum account instead.</Resource>
     <Resource tag="SSO_GOOGLENAME_NOTMATCH">The Google email address must match the Forum email adress!</Resource>
     <Resource tag="SSO_ID_NOTMATCH">Het Facebook ID komt niet overeen!</Resource>
     <Resource tag="SSO_TWITTER_FAILED">Twitter Login is niet gelukt, de gebruiker bestaat niet.</Resource>
+    <Resource tag="SSO_TWITTER_FAILED2">The Twitter Login failed, an user account with the same user name as the Twitter account already exists, please try to connect you your forum account instead.</Resource>
     <Resource tag="SSO_TWITTERNAME_NOTMATCH">The Twitter User Name must match the Forum Username!</Resource>
     <Resource tag="TITLE">Inloggen</Resource>
     <Resource tag="TWITTER_DM">Je hebt nieuwe informatie over je account gekregen per PM.</Resource>
@@ -4580,6 +4606,7 @@ Spoiler Inhoud
     <Resource tag="QUICKREPLY">Snel antwoorden</Resource>
     <Resource tag="QUICKREPLY_HIDE">Verberg Snel antwoorden</Resource>
     <Resource tag="QUICKREPLY_SHOW">Toon Snel antwoorden</Resource>
+    <Resource tag="QUOTE_SELECTED">Quote Selected Message</Resource>
     <Resource tag="RANK">Rang</Resource>
     <Resource tag="REDDIT_TOPIC">Reddit ditTopic</Resource>
     <Resource tag="REP_VOTE_DOWN_MSG">Je hebt {0} een -1 gegeven.</Resource>
@@ -4696,6 +4723,11 @@ Spoiler Inhoud
     <Resource tag="SKYPE">Skype(tm) ID:</Resource>
     <Resource tag="STATISTICS">Statistieken</Resource>
     <Resource tag="SUSPEND">Blokkeren</Resource>
+    <Resource tag="SUSPEND_BY">Suspended By:</Resource>
+    <Resource tag="SUSPEND_CURRENT">Current Suspension</Resource>
+    <Resource tag="SUSPEND_INFO">&lt;strong&gt;NOTE&lt;/strong&gt; The Suspension is based on the Users current Date and Time which is Now: {0}.</Resource>
+    <Resource tag="SUSPEND_NEW">New Suspension</Resource>
+    <Resource tag="SUSPEND_REASON">Suspend Reason:</Resource>
     <Resource tag="SUSPEND_USER">Geef een ban:</Resource>
     <Resource tag="SUSPENDLABEL">Beheer ban</Resource>
     <Resource tag="THANKSFROM">Aantal bedankjes</Resource>
@@ -4871,8 +4903,13 @@ Spoiler Inhoud
     <Resource tag="NEED_QUESTION">Beveiligings-vraag is verplicht.</Resource>
     <Resource tag="NEED_USERNAME">Gebruikersnaam is verplicht.</Resource>
     <Resource tag="PASSWORD">Wachtwoord</Resource>
+    <Resource tag="PASSWORD_GOOD">Good Password!</Resource>
+    <Resource tag="PASSWORD_MIN">Password must be {0} characters long.</Resource>
+    <Resource tag="PASSWORD_NOTMATCH">Password and Confirm Password do not match!</Resource>
     <Resource tag="PASSWORD_REQUIREMENTS_TITLE">Wachtwoord vereisten</Resource>
     <Resource tag="PASSWORD_REQUIREMENTS_WARN">minimale lengte {0}. minimaal {1} niet-alphanumerieke tekens ($#@!).</Resource>
+    <Resource tag="PASSWORD_STRONGER">Make your password stronger with more capital letters, more numbers and special characters!</Resource>
+    <Resource tag="PASSWORD_WEAK">Weak Password, try using numbers and capital letters.</Resource>
     <Resource tag="PREFERENCES">Forum voorkeuren</Resource>
     <Resource tag="PROFILE">Profielinformatie</Resource>
     <Resource tag="RECAPTCHA_BADSETTING">Captcha configuratie is fout. meld het aan de beheerder.</Resource>
@@ -5109,6 +5146,30 @@ Het bericht was gepost op het  {forumname} forum.
       E-mail: {email} (Aub niet wijzigen, anders kun je niet meer inloggen met Facebook)
 	  
     </Resource>
+    <Resource tag="NOTIFICATION_ON_SUSPENDING_ENDED_USER">
+    Hello {user},
+
+    The suspension of your forum account has ended or was lifted.
+
+    Thanks!
+    The {forumname} Team
+    {forumurl}
+
+  </Resource>
+    <Resource tag="NOTIFICATION_ON_SUSPENDING_USER">
+    Hello {user},
+
+    Your forum account on the {forumname} forum has been temporarily suspended.
+    
+    This suspension is due to end on {suspendedUntil}.
+
+    For the following Reason: '{suspendReason}'
+
+    Thanks!
+    The {forumname} Team
+    {forumurl}
+
+  </Resource>
     <Resource tag="NOTIFICATION_ON_TWITTER_REGISTER">      Je bent met succes geregistreerd op het {forumname} forum via Twitter:
 
       Gebruikersnaam: {user}
@@ -5190,12 +5251,17 @@ Om dit bericht te lezen, gebruik de volgende link:
 {link}
 </Resource>
     <Resource tag="TOPICPOST_HTML" />
-    <Resource tag="TOPICPOST_TEXT">Er is een nieuw bericht geplaatst in het {topic} topic op {forumname}.
+    <Resource tag="TOPICPOST_TEXT">
+      Er is een nieuw bericht geplaatst in het {topic} topic op {forumname}.
 
-Om dit topic te lezen, gebruik de volgende link:
+      Om dit topic te lezen, gebruik de volgende link:
 
-{link}
-</Resource>
+      {link}
+
+      You can manage your subscriptions here:
+      
+      {subscriptionlink}
+    </Resource>
     <Resource tag="VERIFYEMAIL_HTML" />
     <Resource tag="VERIFYEMAIL_TEXT">Om je te registreren op {forumname}, moet je e-mailadres gecontroleerd worden.
 
@@ -5282,7 +5348,7 @@ Bezoek {forumname} op {forumlink}
     <Resource tag="MYTOPICS_TITLE">Laat de actieve en favoriete topics zien.</Resource>
     <Resource tag="NEWPM">(&lt;b&gt;{0} Ongelezen&lt;/b&gt;)</Resource>
     <Resource tag="REGISTER">Registreren</Resource>
-    <Resource tag="REGISTER_CONNECT">register a new account</Resource>
+    <Resource tag="REGISTER_CONNECT">or Register a new forum account</Resource>
     <Resource tag="REGISTER_TITLE">Laat het registratieformulier zien.</Resource>
     <Resource tag="SEARCH">Zoeken</Resource>
     <Resource tag="SEARCH_TITLE">Gebruik de zoekfunctie.</Resource>
