@@ -46,7 +46,7 @@
 
 <div class="container">
 	<header>
-        <div id="Logo"><table><tr><td><img src="/Themes/wepro1/content/images/globalcaching.png" width="48" height="48" /></td><td width="10"></td><td><h1><a href="/" title="Go to Home">4Geocaching</a></h1>Het geocaching portaal!</td><td width="10"><td><a href="http://www.geocaching.com/live/" target="_blank"><img src="/Themes/wepro1/content/images/Geocaching_API_Logo_vCOMP2_090716_SM.png" height="48" /></a>&nbsp;<a href="http://www.geocaching.com/" target="_blank"><img src="/Themes/wepro1/content/images/geocaching.gif" width="48" height="48" /></a></td></tr></table></div>
+        <div id="Logo"><table><tr><td><img src="/Themes/wepro1/content/images/globalcaching.png" width="48" height="48" /></td><td width="10"></td><td><h1><a href="/" title="Go to Home">4Geocaching</a></h1>Alles voor geocaching!</td><td width="10"><td><a href="http://www.geocaching.com/live/" target="_blank"><img src="/Themes/wepro1/content/images/Geocaching_API_Logo_vCOMP2_090716_SM.png" height="48" /></a>&nbsp;<a href="http://www.geocaching.com/" target="_blank"><img src="/Themes/wepro1/content/images/geocaching.gif" width="48" height="48" /></a>&nbsp;<a href="https://shop.4geocaching.eu/" title="4Geocaching webshop" target="_blank"><img src="/Themes/wepro1/content/images/shop.png" height="48" /></a></td></tr></table></div>
 		<div class="navbar-collapse collapse-user collapse">
 			<div class="header-aux">
 				<span id="Language"></span>
@@ -141,6 +141,10 @@
 <li>
 
     <a href="/GlobalcachingPage.aspx?p=Logcorrectie">Logcorrectie</a> 
+</li>
+<li>
+
+    <a href="/GlobalcachingPage.aspx?p=TweedeKans">Tweede Kans</a> 
 </li>
                 </ul>
 </li>
@@ -335,7 +339,7 @@
                     
 <li>
 
-    <a href="/GlobalcachingPage.aspx?p=financiele-status-en-donaties">Financi&#235;le status</a> 
+    <a href="/GlobalcachingPage.aspx?p=financiele-status-en-donaties">Financi&#235;le bijdrages</a> 
 </li>
 <li>
 
@@ -354,7 +358,7 @@
 </li>
                 </ul>
 </li>
-<li class="dropdown last">
+<li class="dropdown">
 
     <a href="/GlobalcachingPage.aspx?p=Contactformulier">Contact</a> 
                 <ul>
@@ -362,6 +366,17 @@
 <li>
 
     <a href="/GlobalcachingPage.aspx?p=Contactformulier">Contact</a> 
+</li>
+                </ul>
+</li>
+<li class="dropdown last">
+
+    <a href="https://shop.4geocaching.eu" target="_blank">Shop</a> 
+                <ul>
+                    
+<li>
+
+    <a href="https://shop.4geocaching.eu" target="_blank">Shop</a> 
 </li>
                 </ul>
 </li>
@@ -494,7 +509,7 @@
     
 <article class="widget-footer widget-html-widget widget">
 	<div>
-		<center><small><span style="color: #000000;">Official partner of Groundspeak and Geocaching Cache Icons Copyright 2016, Groundspeak Inc. Used with Permission</span><br /><span style="color: #000000;"> <a href="/forum/Default.aspx?g=register"><span style="color: #000000;">Registreer</span></a> en profiteer van een speciale aanbieding op <a href="http://www.geocachingshop.nl/actions.php" target="_blank"><span style="color: #000000;">geocachingshop.nl</span></a>,&nbsp;<a href="http://www.geocachingunited.nl/geocaching-info/globalcaching-eu.html" target="_blank"><span style="color: #000000;">geocachingunited</span></a> en op <a href="http://www.csillagos-hely.nl/geocaching.html" target="_blank"><span style="color: #000000;">Csillagos Hely</span></a></span></small></center>
+		<center><small><span style="color: #000000;">Official partner of Groundspeak and Geocaching Cache Icons Copyright 2016, Groundspeak Inc. Used with Permission</span></small></center>
 	</div>
 </article>
 
@@ -538,5 +553,18 @@
 	    })(jQuery);
 	</script>
 
+	<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/59eb8beac28eca75e46275c8/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 </body>
 </html>
